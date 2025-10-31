@@ -11,9 +11,9 @@
       "id": "desemediaserver-1.20.1",
       "name": "Des e Media Land (Minecraft 1.20.1)",
       "description": "El servidor de des e media",
-      "icon": "https://cdn.discordapp.com/attachments/852918689786495016/1433805079793766481/Loading.png?ex=69060689&is=6904b509&hm=a236bc246f3e0bc3694b41f17b2d673c163d2b1acffae524c24e86f75fea559c&.png",
+      "icon": "https://media.discordapp.net/attachments/852918689786495016/1433805079793766481/Loading.png?ex=69060689&is=6904b509&hm=a236bc246f3e0bc3694b41f17b2d673c163d2b1acffae524c24e86f75fea559c&=&format=webp&quality=lossless&width=320&height=320.png",
       "version": "2.2.1",
-      "address": "localhostt:25565",
+      "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -1088,7 +1088,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 758123,
-            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/forgemods/required/Dungeon%20Crawl-1.20.1-2.3.15.jar",
+            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/forgemods/required/Dungeon-Crawl-1.20.1-2.3.15.jar",
             "MD5": "f53b840d17a5805630ec199087babe4b"
           }
         },
