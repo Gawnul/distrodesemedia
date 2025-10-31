@@ -1,0 +1,20 @@
+{
+	id: "3A7B4B7E016047DE"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 3, item: "industrialforegoing:iron_gear" }
+		{ item: "industrialforegoing:gold_gear" }
+		{ item: "industrialforegoing:machine_frame_pity" }
+		{ item: "minecraft:redstone_block" }
+		{ count: 2, item: "industrialforegoing:plastic" }
+		{ item: "industrialforegoing:mob_imprisonment_tool" }
+		{ count: 9, item: "minecraft:raw_iron" }
+		{ count: 8, item: "industrialforegoing:fertilizer" }
+		{ item: "industrialforegoing:latex_bucket" }
+		{ item: "industrialforegoing:machine_frame_simple" }
+		{ item: "industrialforegoing:diamond_gear" }
+		{ count: 6, item: "industrialforegoing:dryrubber" }
+	]
+	title: "Industrial Foregoing"
+}

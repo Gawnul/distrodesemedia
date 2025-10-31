@@ -1,0 +1,3065 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "getting_started"
+	group: "629B3D65CB3CA8AF"
+	icon: "artifacts:anglers_hat"
+	id: "6671157048454F91"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/cobblestone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/glass"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -11.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -11.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -12.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -12.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependency: "58EBFBFFE9DCE3C9"
+			height: 1.0d
+			image: "minecraft:block/poppy"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.1d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/oak_planks"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			alpha: 100
+			dependency: "1D97EB1353F35646"
+			height: 1.0d
+			image: "minecraft:block/furnace_front_on"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/ladder"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			alpha: 100
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/crafting_table_front"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/glass"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/glass"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			alpha: 50
+			dependency: "5F6CCF1A0C89B569"
+			height: 1.0d
+			image: "minecraft:block/glass"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependency: "77B3CAB2AE46F295"
+			height: 1.0d
+			image: "beyondmines:block/flowering_azalea_leaves/4"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependency: "77B3CAB2AE46F295"
+			height: 1.0d
+			image: "beyondmines:block/azalea_leaves"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependency: "77B3CAB2AE46F295"
+			height: 1.0d
+			image: "beyondmines:block/azalea_leaves"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependency: "77B3CAB2AE46F295"
+			height: 1.0d
+			image: "beyondmines:block/azalea_leaves"
+			order: 2
+			rotation: 90.0d
+			width: 1.0d
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/sand"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			color: 5592575
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.6d
+			image: "minecraft:block/cactus_side"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.5d
+			y: 1.3d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.6d
+			image: "minecraft:block/cactus_side"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/sugar_cane"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 0.2d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/sand"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/sand"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/sand"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/sand"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/sand"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/sand"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			color: 5592575
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			color: 5592575
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			color: 5592575
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			color: 5592575
+			dependency: "020857E010DC07A4"
+			height: 1.0d
+			image: "minecraft:block/water_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "revelations:textures/gui/getting_started_title.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependency: "5F6CCF1A0C89B569"
+			height: 2.0d
+			image: "revelations:textures/gui/getting_started_title_wood.png"
+			order: 1
+			rotation: 0.0d
+			width: 12.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependency: "7C195FB479BD0E5A"
+			height: 2.0d
+			image: "revelations:textures/gui/getting_started_title_finished.png"
+			order: 2
+			rotation: 0.0d
+			width: 12.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			alpha: 0
+			click: "."
+			height: 3.0d
+			hover: ["Welcome to Revelations II"]
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: 2
+			rotation: 0.0d
+			width: 13.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 500.0d
+			image: "revelations:textures/gui/backgrounds/colors/green_olive.png"
+			order: -10
+			rotation: 0.0d
+			width: 500.0d
+			x: -8.0d
+			y: -1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This Book will guide you through the overworld and other Dimensions!"
+				""
+				"Complete Tasks and get useful Rewards."
+				""
+				"Master each Chapter for unobtainable and stronger items."
+				"{@pagebreak}"
+				"&eAttention&r"
+				""
+				"This quest system is still work in progress."
+				""
+				"Please report any bugs and post suggestions on the official Discord."
+			]
+			icon: "simplefarming:candy"
+			id: "4B3B22E5E56E75B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58EF510DFC1F6DD0"
+				table_id: 2972118517222002424L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "&dWelcome to Revelations II&r"
+			tasks: [{
+				id: "138F939DE8286BD2"
+				title: "Begin quests"
+				type: "checkmark"
+			}]
+			title: "&eBegin Quests&r"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B3B22E5E56E75B9"]
+			description: [
+				"- Press \"&bP&r\" to toggle the advanced movement"
+				""
+				"- Hold \"&bCTRL&r\" while sprinting for fast run"
+				""
+				"- Press \"&bC&r\" for crawling and for sliding, when fast running"
+				""
+				"- Press \"&bR&r\" while fast running for a role"
+				""
+				""
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&eAdditional shortcuts in Air&r"
+				""
+				" - Hold \"&bW/S&r\" + \"&bR&r\" before landing, to &ddecrease Fall Damage&r"
+				""
+				" - Landing on Leaves, Lilypads and similar blocks grants &dno Fall Damage&r"
+				""
+				" - Press \"&bSHIFT&r\" to increase your fall Speed"
+				""
+				" - Repeat to increase it further"
+			]
+			icon: "artifacts:running_shoes"
+			id: "04D05F87CF9D52A0"
+			rewards: [
+				{
+					id: "5A5C31FC8E368403"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "parcool:parcool_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E6421D3A15CF013"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "&eMovement shortcuts&r"
+			tasks: [{
+				id: "207D844F15D59AB3"
+				title: "Movement"
+				type: "checkmark"
+			}]
+			title: "First of all: Movement"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B3B22E5E56E75B9"]
+			description: [
+				"&eInventory Shortcuts&r"
+				""
+				" - Press \"&bMiddle Mouse/Wheel&r\" to sort your Inventory"
+				""
+				"Hover over an Item and:"
+				""
+				" - Press \"&bR&r\" to see how it's crafted"
+				""
+				" - Press \"&bU&r\" to see what it's used for"
+				""
+				" - Search for an Item and it's Recipe in the Bottom Right Corner"
+				""
+				" - &bDouble-clicking&r that Search Bar will highlight that item in your Inventories"
+				""
+				"{@pagebreak}"
+				"&eInstant Multiplayer and Teams&r"
+				""
+				" - &bOpen to LAN&r generates an IP adress in Chat, allowing players to join your world &dwithout setting up a server or port forwarding!&r"
+				""
+				" - Open your Inventory and open the FTB Teams menu in the Top Left Corner"
+				""
+				" - Create a Party and progress together"
+				""
+				"{@pagebreak}"
+				"&eShaders&r"
+				""
+				" - Press \"&bK&r\" to activate the shader preset"
+				""
+				" - Press \"&bL&r\" to open the shaderpacks menu"
+			]
+			icon: "industrialforegoing:gold_gear"
+			id: "15769283034E40E3"
+			rewards: [{
+				count: 4
+				id: "5652BC935DCDED9E"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			subtitle: "&eCoop, inventory and shader Shortcuts&r"
+			tasks: [
+				{
+					id: "18CC0703610F579A"
+					title: "Controls"
+					type: "checkmark"
+				}
+				{
+					id: "74F3E28C4D0B5895"
+					title: "Coop"
+					type: "checkmark"
+				}
+				{
+					id: "17CE914F53421401"
+					title: "Shaders"
+					type: "checkmark"
+				}
+			]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15769283034E40E3"]
+			description: [
+				"Customizable backpacks that can be &2placed&r, &dcolored&r, &eupgraded&r for more space, and enhanced with functional features."
+				""
+				"{@pagebreak}"
+				""
+				"Press \"&bB&r\" to open your Backpack on the fly."
+				""
+				"Press \"&bMiddle Mouse/Wheel&r\" for Inventory sorting."
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "22D85AF1CFB83439"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5296013E2A0FAC56"
+				table_id: 2208814355784002689L
+				type: "random"
+			}]
+			subtitle: "Craft your first Backpack!"
+			tasks: [
+				{
+					count: 4L
+					id: "0B4667FC80427452"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1803C48F2AA4A62E"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "54EF2264D3C8ADA8"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "7FDA9CF531B6818F"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			title: "First Backpack"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04D05F87CF9D52A0"]
+			description: ["&dSimply Swords&r adds new weapons with special abilities to enhance your combat."]
+			id: "58EBFBFFE9DCE3C9"
+			rewards: [
+				{
+					id: "28C8A739683E2D16"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FBF71BFD31DEF4A"
+					item: "reliquary:zombie_heart"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "347705D7531CA8B3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Rookie Numbers"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22D85AF1CFB83439"]
+			id: "217AE3750AA92056"
+			rewards: [{
+				id: "211A817B2E391FF4"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "artifacts:item/villager_hat"
+					}
+				}
+				id: "43D79FEE7B297CB3"
+				structure: "#minecraft:village"
+				title: "find a Village"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58EBFBFFE9DCE3C9"]
+			description: ["Smelt &bRotten Flesh&r into &eLeather&r using a Furnace, or use a Smoker for &nfaster results&r."]
+			icon: "minecraft:leather"
+			id: "78EA6CFECECD333B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DD1304116012C6C"
+				table_id: 228129654905484368L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7B68F6AD120D6166"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "6E154C2B5876086F"
+					item: "minecraft:leather"
+					only_from_crafting: true
+					title: "Make Rotten Flesh to Leather"
+					type: "item"
+				}
+			]
+			title: "Cow approved!"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B3B22E5E56E75B9"]
+			icon: "minecraft:red_bed"
+			id: "2DB65B686F757B89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "minecraft:red_bed"
+					id: "4CFD93C7B04E0B7C"
+					table_id: 6309002686051038397L
+					title: "Colorful Bed"
+					type: "choice"
+				}
+				{
+					id: "5992AA582568BD1A"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+			]
+			subtitle: "&6Sleep is essential for life!&r"
+			tasks: [
+				{
+					id: "717939AAE4C7C07D"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "31A9C7EEEDED4B60"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "30DA297C4D975ADB"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			title: "First Base"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58EBFBFFE9DCE3C9"]
+			description: ["&dShields+&r revamps vanilla shield mechanics, adds &enew shield types&r, and introduces &eshield-specific enchantments&r."]
+			id: "1E4098D47CC86D94"
+			rewards: [{
+				id: "7E706FF8C3D8B4D8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "shieldsplus:lightweight"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1889AC8A099963D3"
+				item: {
+					Count: 1
+					id: "shieldsplus:wooden_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Better shields"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2DB65B686F757B89"]
+			description: ["\" &bRight-click&r \" a Vanilla Chest with a &eBasic Tier Upgrade&r to convert it into a &dSophisticated Storage&r chest, unlocking additional storage capacity and adding functionality."]
+			icon: "another_furniture:oak_chair"
+			id: "458DA72AEEDF9FC2"
+			rewards: [
+				{
+					id: "324CDA9E9941E8AD"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "32F82C16676E002D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "137C8AA0467EB3EC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:drawers"
+						}
+					}
+					title: "Craft a Drawer"
+					type: "item"
+				}
+				{
+					id: "4AEDFB86BEEDAAE5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "another_furniture:chairs"
+						}
+					}
+					title: "Craft a Chair"
+					type: "item"
+				}
+			]
+			title: "Settle Down"
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["458DA72AEEDF9FC2"]
+			icon: "minecraft:bookshelf"
+			id: "5F6CCF1A0C89B569"
+			rewards: [
+				{
+					id: "7A2CC4C7ED1BB8C5"
+					item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22E805A86D5AF760"
+					table_id: 6099455167914394981L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "&aUnlocks more quests&r"
+			tasks: [{
+				count: 2L
+				id: "3B9204988DF8A659"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			title: "Your Home"
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F6CCF1A0C89B569"]
+			hide_until_deps_complete: true
+			icon: "minecraft:blast_furnace"
+			id: "7BCCBB127E66B6B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22F34D9F8B8871F9"
+				table_id: 5656974405785949538L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7EFB7B5893C754A9"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "7E0B6E76389AE656"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+			]
+			title: "Blast' Smoke"
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BCCBB127E66B6B8"]
+			description: [
+				"The &dSimple Alloy Smelter&r can only make alloys and &ncannot&r be used as a vanilla furnace."
+				""
+				"&eDark Steel&r will be one of your first alloys for tech and more."
+			]
+			hide_until_deps_visible: false
+			id: "1D97EB1353F35646"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09A5B52C208B2A9D"
+				table_id: 6274276854012935638L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2C91D67C09DD09B8"
+					item: "enderio:primitive_alloy_smelter"
+					type: "item"
+				}
+				{
+					id: "1192742232C917C9"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+			]
+			title: "First Alloys"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["45293A94DBFCA7AC"]
+			description: [
+				"To use them place two or more elevators in the &bsame X and Z coordinates&r."
+				""
+				"To move between them simply &ejump&r to go to the elevator above,"
+				""
+				"or &esneak&r to go to the one below."
+			]
+			hide_until_deps_visible: true
+			icon: "elevatorid:elevator_white"
+			id: "11DFE77814AA18C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "176AA8F8998565EE"
+				table_id: 1581580464324821373L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0173671DF4D02EEA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+				title: "Craft an Elevator"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04D05F87CF9D52A0"]
+			description: [
+				" - Press \"&b+&r\" to zoom in."
+				""
+				" - Press \"&b-&r\" to zoom out."
+				""
+				" - Press \"&bJ&r\" to open full map."
+				""
+				" - Press \"&bSTRG + J&r\" to open full map."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/filled_map"
+				}
+			}
+			id: "3E9CD16AD47C22D0"
+			rewards: [{
+				id: "2FF2BC5BA69D2C82"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			subtitle: "&eMinimap shortcuts&r"
+			tasks: [{
+				id: "0EEA199AD73371FB"
+				title: "Minimap"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D97EB1353F35646"]
+			description: ["The ideal position of the &bbookshelves&r is a square of 15 placed in a 5x5-block outline, with the &benchantment table&r in the middle."]
+			icon: "minecraft:enchanting_table"
+			id: "063E980ED2A2A29B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50EA67D14BEE506A"
+				table_id: 5656974405785949538L
+				type: "random"
+			}]
+			subtitle: "&d15 bookshelves will max out your enchanting table.&r"
+			tasks: [
+				{
+					id: "3AC278C3A68EA666"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "256621EF750625A4"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["063E980ED2A2A29B"]
+			id: "45293A94DBFCA7AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "171D1FFCA80130A7"
+				table_id: 8274636759623401688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2674B227AF9E063E"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["45293A94DBFCA7AC"]
+			id: "0AADC41D96067038"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47D6C4E61591ABFF"
+				table_id: 7202778996188257829L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A75868C8DAA393A"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1D97EB1353F35646"]
+			id: "702C6604028744A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E5AEB5D1480C9BB"
+					table_id: 8390996531130722050L
+					type: "random"
+				}
+				{
+					id: "61DFE793DBC518A9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Shoot something with a bow and arrow to prove your accuracy!"
+			tasks: [{
+				advancement: "minecraft:adventure/shoot_arrow"
+				criterion: ""
+				id: "6FA29B619E838C29"
+				type: "advancement"
+			}]
+			title: "Take Aim"
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["702C6604028744A6"]
+			id: "77B3CAB2AE46F295"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EEF951A2C580D65"
+					table_id: 4270002818263563440L
+					type: "random"
+				}
+				{
+					id: "60A5E61CCE75EA20"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:cherry_grove"
+					icon: "ecologics:azalea_flower"
+					id: "0C67EC77AFDF2E4B"
+					title: "Visit Cherry Grove"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:lush_caves"
+					icon: "minecraft:glow_berries"
+					id: "0DCF0828F9A0EA49"
+					title: "Visit a Lush Cave"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:meadow"
+					icon: "minecraft:grass"
+					id: "3A307261AFC8E44C"
+					type: "biome"
+				}
+			]
+			title: "Biome Variety I"
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["77B3CAB2AE46F295"]
+			id: "020857E010DC07A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B62871872C0C5E9"
+					table_id: 278643888591955168L
+					type: "random"
+				}
+				{
+					id: "2C7151B26187E34F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:beach"
+					icon: "ecologics:sandcastle"
+					id: "1185BE1E245A2C1E"
+					title: "Visit Beach"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:lukewarm_ocean"
+					icon: "minecraft:water_bucket"
+					id: "593D538800E954F6"
+					title: "Visit Lukewarm Ocean"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:dripstone_caves"
+					icon: "minecraft:pointed_dripstone"
+					id: "1A21118B6CA23309"
+					title: "Visit a Dripstone Cave"
+					type: "biome"
+				}
+			]
+			title: "Biome Variety II"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["020857E010DC07A4"]
+			description: [
+				"To get the &dHero of the Village&r advancement in Minecraft, you need to successfully &bdefend a village during a Raid&r by defeating all waves of raiding mobs."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&eHeroes of the Village (Community)&r"
+				""
+				"Ever wondered about the unique &9purple role on Discord&r and special capes?"
+				""
+				"It’s assigned to those members who make &eexceptional contributions&r to the &dBeyond Mines community&r, such as assisting other players, sharing or writing articles on the official Forum, or supporting the project through donations."
+			]
+			id: "7C195FB479BD0E5A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4953B5CB938A90D3"
+					table_id: 6490254544786875224L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p {\"text\":\"Official Discord\",\"underlined\":true,\"color\":\"#8181FE\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/beyond-mines-1134586975286997083\"}}"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftblibrary:icons/globe"
+						}
+					}
+					id: "4486D3EEC964C834"
+					title: "Discord Link"
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				icon: "minecraft:emerald"
+				id: "45A7B6DC4B68C464"
+				title: "Become a Hero of the Village"
+				type: "advancement"
+			}]
+			title: "&eHero of the Village&r"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "04A89A84D965FC73"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					id: "2DE668A1A802ED3A"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					id: "4F2E0276C9DCAC36"
+					item: "beyond_mines_falling:rebis"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @p {\"text\":\"Conquer the Exosphere\",\"underlined\":true,\"color\":\"#f281fe\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.curseforge.com/minecraft/modpacks/bm-exosphere\"}}"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftblibrary:icons/globe"
+						}
+					}
+					id: "658E73CE6A64B8A4"
+					title: "Exosphere Link"
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "reliquary:item/angelic_feather"
+					}
+				}
+				id: "5D81DB6211C4382F"
+				stat: "minecraft:fall_one_cm"
+				type: "stat"
+				value: 128000
+			}]
+			title: "Call of the Exosphere"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77B3CAB2AE46F295"]
+			description: [
+				"The &dGlare&r lurks in the darkness, revealing dimly lit areas where monsters can spawn."
+				""
+				"Find one in &alush caves&r and befriend it with &bglow berries&r to make it your glowing guide!"
+			]
+			id: "67A988B11E4856BA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C9C7FDF5E932B6A"
+					table_id: 5237014306232006177L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "1CDDF04237459FAA"
+					item: "minecraft:glow_berries"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:azalea"
+				id: "45A93B548816CA6E"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Glare"
+				to_observe: "friendsandfoes:glare"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77B3CAB2AE46F295"]
+			id: "7D66266CF57566F5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63C4765011D812BD"
+					table_id: 228129654905484368L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "246227EBF47CCD42"
+					item: "powah:dry_ice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "3554EE5956B3D6F4"
+				structure: "friendsandfoes:iceologer_cabin"
+				title: "Find Iceologer Cabin"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D66266CF57566F5"]
+			id: "5D825F40681F18B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74137EDA626075FF"
+					table_id: 3826760090156739310L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "6601E1B0FAF2F51C"
+					item: "powah:dry_ice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "friendsandfoes:iceologer"
+				icon: {
+					Count: 1
+					id: "deeperdarker:resonarium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "18FAD3FFCA7DC74C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0AADC41D96067038"]
+			description: [
+				"&dCopper golems&r are created by first placing any waxed or unwaxed variant of &bcopper block&r as a bottom block, &6carved pumpkin&r or &6jack o'lantern&r as a middle block, and then placing a &blightning rod&r on top of the pumpkin block."
+				""
+				"It will eagerly press copper buttons, but over time, it will &3oxidize&r and freeze in place. Use an axe to restore its movement."
+			]
+			id: "684A244D57D98F94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21ACE4BC230136FD"
+				table_id: 7202778996188257829L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "friendsandfoes:adventure/summon_copper_golem"
+				criterion: ""
+				icon: "minecraft:lightning_rod"
+				id: "077FDF42150F30F1"
+				title: "Summon a Copper Golem"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["020857E010DC07A4"]
+			description: [
+				"The Rascal hides deep in &amineshafts&r, playing a game of hide-and-seek."
+				""
+				"Find it &bthree times&r, and it will reward you with a special item before vanishing again!"
+				""
+				"If damaged by a mob or a player, &crascal will disappear&r."
+			]
+			id: "1D08259CCF454982"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D93160C853E38E4"
+				table_id: 1512529279714846995L
+				type: "random"
+			}]
+			subtitle: "Rascals can spawn only underground in the mineshaft structure."
+			tasks: [{
+				advancement: "friendsandfoes:adventure/complete_hide_and_seek_game"
+				criterion: ""
+				id: "740AF7DB6ECF8E8A"
+				type: "advancement"
+			}]
+			title: "Rascal"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			id: "059D24604E73B11F"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "799066868E99217F"
+					table_id: 8087575863108958990L
+					type: "random"
+				}
+				{
+					id: "2CB44C0EF38DCA28"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:dandelion"
+				id: "632AA34296271170"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Moobloom"
+				to_observe: "friendsandfoes:moobloom"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["702C6604028744A6"]
+			description: [
+				"&dThe Fishing Rod&r is a simple tool for catching fish, but it can also pull up valuable treasures from the water.  "
+				""
+				"Fishing in a &blarge open water body&r increases the chances of getting the best loot, including rare &eMending Books&r and &eArtifacts&r!"
+				"{@pagebreak}"
+				"Fishing during &brain&r further improves bite rates."
+			]
+			id: "445BE2D5B10DBEE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074A92B6B5C07F77"
+				table_id: 3826760090156739310L
+				type: "random"
+			}]
+			subtitle: "Fishing for Artifacts"
+			tasks: [
+				{
+					id: "5DD962D48CA30C7F"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04B6C0FAA2822176"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["We all start somewhere, right?"]
+	title: "&2Getting Started&r"
+}

@@ -1,0 +1,21 @@
+{
+	id: "54A59E28AEF54565"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 32, item: "minecraft:oak_log" }
+		{ count: 32, item: "minecraft:spruce_log" }
+		{ count: 32, item: "minecraft:birch_log" }
+		{ count: 32, item: "minecraft:jungle_log" }
+		{ count: 32, item: "minecraft:acacia_log" }
+		{ count: 32, item: "minecraft:dark_oak_log" }
+		{ count: 32, item: "minecraft:mangrove_log" }
+		{ count: 32, item: "minecraft:cherry_log" }
+		{ count: 32, item: "minecraft:bamboo_block" }
+		{ count: 32, item: "ecologics:coconut_log" }
+		{ count: 32, item: "ecologics:walnut_log" }
+		{ count: 32, item: "ecologics:azalea_log" }
+		{ count: 32, item: "ecologics:flowering_azalea_log" }
+	]
+	title: "Wood Logs"
+}

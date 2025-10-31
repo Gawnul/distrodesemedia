@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/Gael/Documents/launcheroffline/nebula/Nebula-work/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "2.2.1",
+    "name": "Des e Media Land (Minecraft 1.20.1)",
+    "description": "El servidor de des e media",
+    "icon": "https://media.discordapp.net/attachments/852918689786495016/1433805079793766481/Loading.png?ex=69060689&is=6904b509&hm=a236bc246f3e0bc3694b41f17b2d673c163d2b1acffae524c24e86f75fea559c&=&format=webp&quality=lossless&width=320&height=320.png",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "47.4.0"
+  },
+  "untrackedFiles": []
+}

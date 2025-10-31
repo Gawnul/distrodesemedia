@@ -1,0 +1,21 @@
+{
+	id: "72D56A4ABEBE00D8"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ item: "reliquary:frozen_core" }
+		{ item: "reliquary:chelicerae" }
+		{ item: "reliquary:catalyzing_gland" }
+		{ item: "reliquary:squid_beak" }
+		{ item: "reliquary:nebulous_heart" }
+		{ item: "reliquary:guardian_spike" }
+		{ item: "reliquary:molten_core" }
+		{ item: "reliquary:slime_pearl" }
+		{ item: "reliquary:bat_wing" }
+		{ item: "reliquary:infernal_claw" }
+		{ item: "reliquary:eye_of_the_storm" }
+		{ item: "reliquary:kraken_shell_fragment" }
+		{ item: "reliquary:withered_rib" }
+	]
+	title: "Reliquary"
+}

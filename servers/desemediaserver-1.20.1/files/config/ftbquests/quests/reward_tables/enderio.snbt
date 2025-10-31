@@ -1,0 +1,41 @@
+{
+	id: "5712B58E61E57DD6"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ count: 32, item: "enderio:conduit_binder_composite" }
+		{ count: 16, item: "enderio:grains_of_infinity" }
+		{ count: 16, item: "enderio:fluid_conduit" }
+		{ count: 14, item: "enderio:energy_conduit" }
+		{ count: 12, item: "enderio:redstone_conduit" }
+		{ count: 8, item: "enderio:redstone_alloy_ingot" }
+		{ count: 8, item: "enderio:item_conduit" }
+		{ count: 6, item: "enderio:stone_gear" }
+		{ count: 6, item: "enderio:dark_steel_ingot" }
+		{ count: 5, item: "enderio:basic_capacitor" }
+		{ count: 4, item: "enderio:pulsating_alloy_ingot" }
+		{ count: 3, item: "enderio:fused_quartz_np" }
+		{ count: 3, item: "enderio:dark_steel_grinding_ball" }
+		{ count: 3, item: "enderio:iron_gear" }
+		{ count: 3, item: "enderio:double_layer_capacitor" }
+		{ item: "enderio:octadic_capacitor", weight: 0.5f }
+		{ item: "enderio:alloy_smelter" }
+		{ item: "enderio:end_steel_grinding_ball", weight: 0.8f }
+		{ item: "enderio:pulsating_crystal", weight: 0.2f }
+		{ item: "enderio:zombie_electrode", weight: 0.1f }
+		{ item: "enderio:sag_mill" }
+		{ item: "enderio:empty_soul_vial" }
+		{ item: "enderio:energetic_photovoltaic_module" }
+		{
+			item: {
+				Count: 1
+				id: "enderio:dark_steel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "enderio:energized_gear", weight: 0.3f }
+	]
+	title: "EnderIO"
+}

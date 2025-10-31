@@ -1,0 +1,13 @@
+{
+	id: "7472CEE33D94E702"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ item: "minecraft:gold_ingot" }
+		{ count: 2, item: "industrialforegoing:gold_gear" }
+		{ item: "minecraft:raw_gold_block" }
+		{ count: 2, item: "mekanism:dust_gold" }
+		{ count: 7, item: "minecraft:gold_nugget" }
+	]
+	title: "Gold"
+}

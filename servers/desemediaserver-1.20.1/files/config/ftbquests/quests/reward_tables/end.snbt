@@ -1,0 +1,18 @@
+{
+	id: "1833CF447519457A"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 12, item: "minecraft:obsidian" }
+		{ count: 5, item: "minecraft:ender_pearl" }
+		{ item: "enderio:ender_resonator" }
+		{ count: 6, item: "enderio:reinforced_obsidian_block" }
+		{ count: 8, item: "fluxnetworks:flux_dust" }
+		{ item: "enderio:enderios" }
+		{ item: "enderio:end_steel_ingot" }
+		{ count: 8, item: "minecraft:crying_obsidian" }
+		{ count: 2, item: "endercrop:ender_seeds" }
+		{ item: "artifacts:chorus_totem" }
+	]
+	title: "End"
+}

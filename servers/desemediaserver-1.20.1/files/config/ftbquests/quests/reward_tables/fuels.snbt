@@ -1,0 +1,19 @@
+{
+	id: "69C7527692645044"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 32, item: "powah:uraninite_raw" }
+		{ count: 28, item: "minecraft:coal" }
+		{ count: 24, item: "enderio:powdered_coal" }
+		{ count: 16, item: "powah:uraninite" }
+		{ count: 14, item: "minecraft:charcoal" }
+		{ count: 3, item: "denseores:dense_deepslate_coal_ore" }
+		{ count: 2, item: "powah:deepslate_uraninite_ore_dense" }
+		{ count: 2, item: "minecraft:coal_block" }
+		{ item: "powah:uraninite_block" }
+		{ item: "mekanism:block_charcoal" }
+		{ item: "minecraft:lava_bucket" }
+	]
+	title: "fuels"
+}

@@ -1,0 +1,262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "flux_networks"
+	group: "54552C0A7E9456F7"
+	icon: "fluxnetworks:flux_dust"
+	id: "2018D752DFB8EB7C"
+	images: [
+		{
+			height: 2.0d
+			image: "revelations:textures/gui/flux_title.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependency: "76858D70EB75C312"
+			height: 2.0d
+			image: "revelations:textures/gui/flux_title_finished.png"
+			order: 1
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			alpha: 120
+			height: 17.0d
+			image: "fluxnetworks:item/admin_configurator"
+			order: -1
+			rotation: -65.0d
+			width: 17.0d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			alpha: 120
+			height: 11.0d
+			image: "fluxnetworks:item/flux_core"
+			order: -1
+			rotation: 15.0d
+			width: 11.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			alpha: 120
+			height: 17.0d
+			image: "fluxnetworks:item/flux_core"
+			order: -1
+			rotation: 15.0d
+			width: 17.0d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 500.0d
+			image: "revelations:textures/gui/backgrounds/colors/blue_turquoise.png"
+			order: -10
+			rotation: 0.0d
+			width: 500.0d
+			x: -0.5d
+			y: -2.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5F67882DF224DCB3"]
+			id: "76858D70EB75C312"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FCCD545C5AE7F44"
+					table_id: 823180621238669431L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "51EC983DB4801922"
+					item: "draconicevolution:nether_draconium_ore"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C2A027E52F3250B"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F557D82F7221635"]
+			description: [
+				"Required to activate &dCross-dimensional&r &dinventory charging&r."
+				""
+				"Inventory charging can be configured in the Wireless Charging Tab."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&dOnly one controller&r can be connected to a network at one time."
+				""
+				"The controller's '&nOutput&r' refers to &cenergy outputted&r from the network via Wireless Charging."
+				""
+				"&eFlux Network's do not require a Flux Controller to operate&r."
+			]
+			id: "3AECFEDD0EFB9D9C"
+			rewards: [
+				{
+					count: 4
+					id: "4DDEBE22EE87586B"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51A201EBB2E28B96"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32E169C963FC23F6"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["103AA33AE9A749BD"]
+			description: [
+				"&e&lFlux Plug&r&r"
+				"Takes energy from your power source, and add it to your &dFlux Network&r."
+				""
+				"&e&lFlux Point&r&r"
+				"Provides Energy&r to connected Blocks."
+			]
+			id: "7F557D82F7221635"
+			rewards: [
+				{
+					id: "26389B5AEE25DE3F"
+					item: "reliquary:infernal_chalice"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7013192C8F4AAA6E"
+					table_id: 6122649026388511065L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "53F6E9B1AB7556FF"
+					item: "fluxnetworks:flux_plug"
+					only_from_crafting: true
+					title: "Craft a Flux Plug"
+					type: "item"
+				}
+				{
+					id: "749E4460AD9E76B3"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "Interdimensional Energy"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&eFlux Networks&r lets you create and manage &bWireless Energy Networks&r, eliminating the need for cables."
+				""
+				"A &dMaterial Stonework Factory&r for Obsidian production can be helpful."
+			]
+			id: "103AA33AE9A749BD"
+			rewards: [
+				{
+					count: 4
+					id: "21CB8B70D7B5BCEC"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DD983D9F303A17B"
+					table_id: 228129654905484368L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Smelt &bObsidian&r to &eFlux Dust&r."
+			tasks: [{
+				count: 4L
+				id: "4B75A253F0F6823B"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			title: "Flux, Flux, Flux!"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AF34FBFE7DFB406"]
+			id: "5F67882DF224DCB3"
+			rewards: [
+				{
+					count: 5
+					id: "255F6438572C4E58"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "455A617C481BC357"
+					item: "reliquary:rib_bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "633A5438450DA416"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AECFEDD0EFB9D9C"]
+			description: ["Stores &cenergy&r for your &eFlux Network&r."]
+			id: "7AF34FBFE7DFB406"
+			rewards: [
+				{
+					count: 2
+					id: "6F5517743417E38B"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09D27B72D20E35A0"
+					table_id: 8390996531130722050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "128E7249E8113196"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Transfer energy across dimensions, making energy management effortless."]
+	title: "&3Flux Networks&r"
+}

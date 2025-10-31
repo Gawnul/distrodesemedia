@@ -1,0 +1,33 @@
+{
+	id: "03DDF123EE5B64E0"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:golden_carrot" }
+		{ item: "golden_foods:golden_melon_slice" }
+		{ item: "golden_foods:golden_sweet_berries" }
+		{ item: "golden_foods:golden_glow_berries" }
+		{ item: "golden_foods:golden_baked_potato" }
+		{ item: "golden_foods:golden_beetroot" }
+		{ item: "golden_foods:golden_dried_kelp" }
+		{ item: "golden_foods:golden_bread" }
+		{ item: "golden_foods:golden_cookie" }
+		{ item: "golden_foods:golden_pumpkin_pie" }
+		{ item: "golden_foods:golden_cake" }
+		{ item: "golden_foods:golden_chorus_fruit" }
+		{ item: "golden_foods:golden_milk_bucket" }
+		{ item: "golden_foods:golden_honey_bottle" }
+		{ item: "golden_foods:golden_mushroom_stew" }
+		{ item: "golden_foods:golden_beetroot_soup" }
+		{ item: "golden_foods:golden_rabbit_stew" }
+		{ item: "golden_foods:golden_cooked_beef" }
+		{ item: "golden_foods:golden_cooked_porkchop" }
+		{ item: "golden_foods:golden_cooked_mutton" }
+		{ item: "golden_foods:golden_cooked_chicken" }
+		{ item: "golden_foods:golden_cooked_rabbit" }
+		{ item: "golden_foods:golden_cooked_cod" }
+		{ item: "golden_foods:golden_cooked_salmon" }
+	]
+	title: "Golden Food"
+}
