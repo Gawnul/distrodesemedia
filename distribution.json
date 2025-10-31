@@ -8803,17 +8803,6 @@
           }
         },
         {
-          "id": ".gitignore",
-          "name": ".gitignore",
-          "type": "File",
-          "artifact": {
-            "size": 5,
-            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/files/shaderpacks/C_Reimagined_r5.6.1%20+%20Euphoria/.gitignore",
-            "MD5": "ce15bb98ad750635e87174959a5d6b8a",
-            "path": "shaderpacks/C_Reimagined_r5.6.1 + Euphoria/.gitignore"
-          }
-        },
-        {
           "id": "addedMods.md",
           "name": "addedMods.md",
           "type": "File",
@@ -14454,17 +14443,6 @@
             "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/files/shaderpacks/C_Reimagined_r5.6.1%20+%20Euphoria.txt",
             "MD5": "9f6df2c555dce543f82d53223e33053c",
             "path": "shaderpacks/C_Reimagined_r5.6.1 + Euphoria.txt"
-          }
-        },
-        {
-          "id": ".gitignore",
-          "name": ".gitignore",
-          "type": "File",
-          "artifact": {
-            "size": 5,
-            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/files/shaderpacks/C_Unbound_r5.6.1%20+%20Euphoria/.gitignore",
-            "MD5": "ce15bb98ad750635e87174959a5d6b8a",
-            "path": "shaderpacks/C_Unbound_r5.6.1 + Euphoria/.gitignore"
           }
         },
         {
