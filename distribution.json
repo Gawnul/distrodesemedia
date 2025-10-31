@@ -13,7 +13,7 @@
       "description": "El servidor de des e media",
       "icon": "https://media.discordapp.net/attachments/852918689786495016/1433805079793766481/Loading.png?ex=69060689&is=6904b509&hm=a236bc246f3e0bc3694b41f17b2d673c163d2b1acffae524c24e86f75fea559c&=&format=webp&quality=lossless&width=320&height=320.png",
       "version": "2.2.1",
-      "address": "localhost:25565",
+      "address": "localhostt:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
