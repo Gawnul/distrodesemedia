@@ -443,6 +443,26 @@
           }
         },
         {
+          "id": "com.github.alexmodguy:alexscaves:2.0.2@jar",
+          "name": "Alex's Caves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 74871657,
+            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/forgemods/required/alexscaves-2.0.2.jar",
+            "MD5": "6c8793ee5e1aa852fdb430a9cdaccdc5"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26350793,
+            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
+          }
+        },
+        {
           "id": "net.mehvahdjukaar:amendments:1.20-2.2.3@jar",
           "name": "Amendments",
           "type": "ForgeMod",
