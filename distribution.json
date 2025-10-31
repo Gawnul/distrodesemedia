@@ -8363,17 +8363,6 @@
           }
         },
         {
-          "id": ".unpack_finished",
-          "name": ".unpack_finished",
-          "type": "File",
-          "artifact": {
-            "size": 0,
-            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/.unpack_finished",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "path": "config/worldedit/.archive-unpack/2e1dd752/.unpack_finished"
-          }
-        },
-        {
           "id": "strings.json",
           "name": "strings.json",
           "type": "File",
