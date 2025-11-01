@@ -2383,6 +2383,19 @@
           }
         },
         {
+          "id": "net.lionarius:skinrestorer:2.4.3+1.20-forge@jar",
+          "name": "SkinRestorer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 188270,
+            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/forgemods/optionalon/skinrestorer-2.4.3+1.20-forge.jar",
+            "MD5": "77455bad956d8fe33b83933303c14d6d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.smoothchunk:smoothchunk:1.20.1-4.1@jar",
           "name": "Smoothchunk mod",
           "type": "ForgeMod",
@@ -8742,17 +8755,6 @@
             "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/files/kubejs/startup_scripts/example.js",
             "MD5": "ac40b56827e466149303bb91778b90e4",
             "path": "kubejs/startup_scripts/example.js"
-          }
-        },
-        {
-          "id": "Beyond Mines Resources 1.2.1.zip",
-          "name": "Beyond Mines Resources 1.2.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3460663,
-            "url": "https://gawnul.github.io/distrodesemedia/servers/desemediaserver-1.20.1/files/resourcepacks/Beyond%20Mines%20Resources%201.2.1.zip",
-            "MD5": "40557e5772cd5d8acd5aef002fc0e19a",
-            "path": "resourcepacks/Beyond Mines Resources 1.2.1.zip"
           }
         },
         {
