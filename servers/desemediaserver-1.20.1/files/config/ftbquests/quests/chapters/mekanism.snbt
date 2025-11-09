@@ -1,0 +1,1853 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "mekanism"
+	group: "54552C0A7E9456F7"
+	icon: "mekanism:ultimate_control_circuit"
+	id: "44E0ECE565DD74DD"
+	images: [
+		{
+			color: 5635925
+			dependency: "61A5E04A14485FB7"
+			height: 1.0d
+			image: "ftbquests:textures/shapes/rsquare/shape.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			color: 16733525
+			dependency: "529DDF6E9ED0236C"
+			height: 1.0d
+			image: "ftbquests:textures/shapes/rsquare/shape.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			color: 5636095
+			dependency: "0AFB66C120DBF609"
+			height: 1.0d
+			image: "ftbquests:textures/shapes/rsquare/shape.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			color: 16733695
+			dependency: "134615C92D8F877E"
+			height: 1.0d
+			image: "ftbquests:textures/shapes/rsquare/shape.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "revelations:textures/gui/mekanism_title.png"
+			rotation: 0.0d
+			width: 12.4d
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependency: "61A5E04A14485FB7"
+			height: 3.0d
+			image: "revelations:textures/gui/mekanism_title_basic.png"
+			order: 1
+			rotation: 0.0d
+			width: 12.4d
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependency: "0AFB66C120DBF609"
+			height: 3.0d
+			image: "revelations:textures/gui/mekanism_title_elite.png"
+			order: 3
+			rotation: 0.0d
+			width: 12.4d
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependency: "529DDF6E9ED0236C"
+			height: 3.0d
+			image: "revelations:textures/gui/mekanism_title_advanced.png"
+			order: 2
+			rotation: 0.0d
+			width: 12.4d
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependency: "134615C92D8F877E"
+			height: 3.0d
+			image: "revelations:textures/gui/mekanism_title_ultimate.png"
+			order: 4
+			rotation: 0.0d
+			width: 12.4d
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependency: "6009C7353A483A76"
+			height: 3.0d
+			image: "revelations:textures/gui/mekanism_title_finished.png"
+			order: 5
+			rotation: 0.0d
+			width: 12.4d
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			alpha: 0
+			click: "https://bsky.app/profile/mastatokki.bsky.social"
+			height: 3.5d
+			hover: ["Quest line by MastaTokki"]
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: 2
+			rotation: 0.0d
+			width: 13.0d
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			height: 5.0d
+			image: "mekanism:block/thermal_evaporation_controller_on_led"
+			order: -1
+			rotation: -90.0d
+			width: 4.0d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 5.0d
+			image: "mekanism:block/thermal_evaporation_controller_on_led"
+			order: -1
+			rotation: 90.0d
+			width: 4.0d
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			alpha: 120
+			height: 13.0d
+			image: "mekanism:item/ultimate_control_circuit"
+			order: -1
+			rotation: 45.0d
+			width: 13.0d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			alpha: 120
+			height: 10.0d
+			image: "mekanism:item/elite_control_circuit"
+			rotation: 0.0d
+			width: 10.0d
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			alpha: 120
+			height: 10.0d
+			image: "mekanism:item/advanced_control_circuit"
+			order: -1
+			rotation: 20.0d
+			width: 10.0d
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			alpha: 120
+			height: 10.0d
+			image: "revelations:textures/gui/backgrounds/colors/grey_dark.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 500.0d
+			image: "revelations:textures/gui/backgrounds/colors/grey_dark.png"
+			order: -10
+			rotation: 0.0d
+			width: 500.0d
+			x: 5.5d
+			y: -1.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["To get started with Mekanism you will need to explore and mine until you get some &enew ores&r underground."]
+			icon_scale: 0.75d
+			id: "08CFEB85766F3417"
+			rewards: [{
+				count: 8
+				id: "6880C5D04C05D425"
+				item: "minecraft:redstone"
+				random_bonus: 6
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Shiny!"
+			tasks: [
+				{
+					id: "334F15C7D32C1E51"
+					item: "mekanism:raw_osmium"
+					type: "item"
+				}
+				{
+					id: "70F6ADB675A56E12"
+					item: "mekanism:raw_tin"
+					type: "item"
+				}
+				{
+					id: "31E07A8A6685292A"
+					item: "mekanism:raw_lead"
+					type: "item"
+				}
+			]
+			title: "&eNew ores&r"
+			x: -0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08CFEB85766F3417"]
+			description: [
+				"&bOsmium&r allows you to create your very first &amachine&r from the Mekanism mod."
+				""
+				"This machine, as the name implies, &binfuses&r a certain material into a second one to create &esomething new&r."
+			]
+			id: "086983573E686CA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AE8BA9DABF5BE80"
+				table_id: 4270002818263563440L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Getting started with heavy machinery."
+			tasks: [{
+				id: "3BE7E44F59EE6527"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Infusion"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54FE9A29E9BF7E42"]
+			description: ["&bSteel&r and &bOsmium&r are the key components to create &esteel casing&r, which acts as the base for most machines in Mekanism."]
+			id: "549570566D9F032B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CFA6E21863527C8"
+				table_id: 6122649026388511065L
+				type: "random"
+			}]
+			subtitle: "Strong foundation for strong machines."
+			tasks: [{
+				id: "0F573AE74B6B7C1F"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["086983573E686CA4"]
+			description: [
+				"Infusing &bredstone&r into &bosmium ingots&r allows you to create &ebasic control circuits&r, that can be used in a lot of different things."
+				""
+				"These circuits can later be &aimproved&r by combining them with other materials, so keep an eye out on that!"
+			]
+			icon: "mekanism:basic_control_circuit"
+			id: "61A5E04A14485FB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33FA4BE6BAD2BF76"
+				table_id: 6122649026388511065L
+				type: "random"
+			}]
+			subtitle: "Work smart, not hard."
+			tasks: [{
+				id: "3F1A4A1801362997"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "Control circuits"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61A5E04A14485FB7"
+				"549570566D9F032B"
+			]
+			description: ["Using your &bsteel casing&r and &bcontrol circuits&r, you can create a &emachine&r capable of using energy to transform materials."]
+			id: "43D786395B716DEB"
+			rewards: [
+				{
+					id: "6E40A0BA2B9335C3"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "019F1F3F76FCA1C5"
+					table_id: 228129654905484368L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "Power up!"
+			tasks: [{
+				id: "4AD8A667AEEBC07C"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Enrichment"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["086983573E686CA4"]
+			description: [
+				"Infusing &biron&r with &bredstone&r will give you &eInfused Alloys&r, which are used in a lot of stuff."
+				""
+				"At the same time, you can obtain even &ehigher alloys&r by infusing these last ones with &bother materials&r. Make sure to check out the related recipes."
+			]
+			id: "20BF5322E65ACF8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02AD342D40DD42F8"
+				table_id: 228129654905484368L
+				type: "random"
+			}]
+			subtitle: "Power is not included."
+			tasks: [{
+				id: "4F0008E82E845EF2"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "Infusing alloys"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20BF5322E65ACF8E"]
+			description: [
+				"Same as with other mods, machines from Mekanism can be &bupgraded&r to make them &ework faster&r, use &eless energy&r, reduce &enoise&r (because these ones can be quite noisy) or even&e keep the chunk loaded&r."
+				""
+				"This last upgrade can cause &cperformance issues&r if you overuse it, so be careful."
+			]
+			id: "7410FFA2015764ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EFC0457C84899A0"
+				table_id: 6122649026388511065L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "Going turbo"
+			tasks: [
+				{
+					id: "521B06718207E871"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					id: "711421F6EFF91816"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+				{
+					id: "2BE29596C946E801"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+			]
+			title: "Upgrades!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61A5E04A14485FB7"]
+			description: [
+				"A lot of machines from the mekanism mod can be upgraded into &efactories&r, allowing them to do &amultiple tasks at the same time&r. You can either use them as &bcrafting material&r or create a &btier installer&r to upgrade them without removing them from the ground."
+				""
+				"Have in mind that this also means they will &cuse more energy&r. Factories can also be upgraded to allow &aeven more&r tasks to be done at once (up to 9!)"
+			]
+			icon: "mekanism:basic_smelting_factory"
+			id: "60295EDF6D1534BC"
+			rewards: [
+				{
+					id: "043300D951D41649"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1183377249914840"
+					table_id: 8390996531130722050L
+					type: "random"
+				}
+			]
+			subtitle: "Better space management!"
+			tasks: [{
+				id: "4D424B843A2DAED2"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			title: "&aFactories&r"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D4B255785E8731F"]
+			description: [
+				"When &bpowered up&r, this machine will separate a liquid or gas into two gases."
+				""
+				"This is the easiest way to obtain &ehydrogen&r, that will be required for more &aadvanced recipes&r."
+			]
+			id: "62EDC0EFFB4FD808"
+			rewards: [
+				{
+					id: "180704986D03A9DC"
+					item: "mekanism:block_raw_lead"
+					type: "item"
+				}
+				{
+					id: "326E3C49EF0A411D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "From one you get two."
+			tasks: [{
+				id: "6A6C4599198F7588"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			title: "Gas Splitting"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["529DDF6E9ED0236C"]
+			description: [
+				"&bAdvanced circuits&r allow you to create new, stronger machines that can create better materials."
+				""
+				"One of those will let you transform &bobsidian&r and &bglowstone&r into much more &euseful resources&r."
+			]
+			id: "4F5DE6F127ED2C63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AD2498095CAA00C"
+					table_id: 4214044880896280542L
+					type: "random"
+				}
+				{
+					id: "0F59C98FBC411A8F"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+			]
+			subtitle: "Won't see obsidian the same way"
+			tasks: [
+				{
+					id: "4D958D0EBE32F2FF"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+				{
+					id: "3C76A05CFD48C514"
+					item: "mekanism:ingot_refined_glowstone"
+					type: "item"
+				}
+			]
+			title: "Refined materials"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F5DE6F127ED2C63"]
+			description: [
+				"&bRefined obsidian&r allows you to create the&e Atomic Disassembler&r, which is a definitive version of the &aPaxel&r."
+				""
+				"This tool will not break, as it uses &benergy&r instead of durability. At the same time, you can control how &aefficient&r is the tool, which in contrast will drain its energy faster (shift + mouse wheel)."
+				""
+				"Last but not least, its &adamage&r goes up based on how much energy it has stored, so it could also be a good weapon!"
+			]
+			icon: "mekanism:atomic_disassembler"
+			id: "6E1E538DEFB036AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E75132899EEE3D7"
+					table_id: 7158610489364629555L
+					type: "random"
+				}
+				{
+					id: "5E99A1939FC2DA45"
+					item: {
+						Count: 1
+						id: "mekanismtools:steel_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "All-in-one."
+			tasks: [{
+				id: "207C3794D66B93DB"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61A5E04A14485FB7"]
+			description: ["Combine &bbasic control circuits&r with &binfused alloy&r to make them &estronger&r!"]
+			id: "529DDF6E9ED0236C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60C0C475E3018D5B"
+					table_id: 7622151563563520068L
+					type: "random"
+				}
+				{
+					id: "78B4BC45F25A1BAD"
+					item: "mekanism:configurator"
+					type: "item"
+				}
+			]
+			subtitle: "We go even smarter"
+			tasks: [{
+				id: "188D6765FAD58006"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			title: "Advanced Circuits"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["529DDF6E9ED0236C"]
+			description: ["Further improve your &balloys&r and combine them with &badvanced circuits&r to make them even &ebetter&r!"]
+			id: "0AFB66C120DBF609"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60C742398584A0E0"
+				table_id: 278643888591955168L
+				type: "random"
+			}]
+			subtitle: "Maybe too smart now"
+			tasks: [{
+				id: "47605E988284B937"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			title: "Elite Circuits"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AFB66C120DBF609"]
+			description: ["The &estrongest circuits&r will require the &bstrongest alloys&r. Hope you have enough resources for what's to come!"]
+			id: "134615C92D8F877E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47C155BBD62F8B05"
+				table_id: 278643888591955168L
+				type: "random"
+			}]
+			subtitle: "Not stopping now"
+			tasks: [{
+				id: "37A487E403229D18"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			title: "Ultimate Circuits"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61A5E04A14485FB7"
+				"4F5DE6F127ED2C63"
+			]
+			description: [
+				"The &eTeleporter&r is a &amultiblock structure&r that allows you to place &eportals&r anywhere you need them, even between &adifferent dimensions&r!"
+				""
+				"In order to build the entry portal, you will need to place a &bframe&r similar to a nether portal, but with a 1x2 gap instead (it's smaller), with the core &aTeleporter Block&r at its base. This quest shows you the exact number of blocks needed."
+				""
+				"&oCheck the following page for instructions on how to activate it.&r"
+				"{@pagebreak}"
+				"Once your structure is ready, you will require the following:"
+				""
+				"- &bEnergy&r to power up the core Teleporter block."
+				""
+				"- A &bsecond&r core Teleporter that acts as a &edestination portal&r. This one doesn't need energy or Teleport Frames, unless you want it to work both ways."
+				""
+				"- Both Teleporters must have the same &bchannel&r set. "
+			]
+			icon: "mekanism:teleporter_frame"
+			icon_scale: 0.75d
+			id: "2B60ABC098966CD2"
+			min_width: 350
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A94906E9F1CA5F6"
+					table_id: 6274276854012935638L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "0B9A9D1BD86D42B6"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Non-euclidean traveling!"
+			tasks: [
+				{
+					id: "2F9B03C5D40DA80A"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0CA39BCBDC4CD3F1"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+			]
+			title: "&bMultiblock: Teleporter&r"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B60ABC098966CD2"]
+			description: [
+				"This gadget allows you to &einstantly travel&r to any Teleporter block that matches the &bchannel&r you set up, as long as it has enough &benergy&r to do so."
+				""
+				"This acts as an &aentry portal&r, so the target block doesn't need frames or energy."
+			]
+			id: "24F21C0A1DBE0106"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CF5897923A12FAA"
+					table_id: 3826760090156739310L
+					type: "random"
+				}
+				{
+					id: "70965806F1C6B26A"
+					item: "industrialforegoing:pink_slime"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Now you see me, now you don't"
+			tasks: [{
+				id: "20633BA323FF6C11"
+				item: "mekanism:portable_teleporter"
+				type: "item"
+			}]
+			title: "Remote Teleporting"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"43D786395B716DEB"
+				"529DDF6E9ED0236C"
+			]
+			description: [
+				"This machine uses &boxygen&r in order to &epurify materials&r, making them easier to process."
+				""
+				"At first you will require &bflint&r as a base source of oxygen, but other machines may help you get it at a much faster rate."
+			]
+			id: "640BCDACAF58C295"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79B396FE20BCF1C0"
+				table_id: 7622151563563520068L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Nothing like fresh air."
+			tasks: [{
+				id: "56AC114C948F5827"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			title: "Purifying"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"21904C44D432305D"
+				"0AFB66C120DBF609"
+				"24C0E08D6C527378"
+			]
+			description: [
+				"This machine is used to infuse either &bsteam&r or &bhydrogen chloride&r into a &bmaterial&r to create a &enew one&r."
+				""
+				"Oddly enough, it can also use &boxygen&r to speed up &ecopper&r's oxidation."
+			]
+			id: "18F677778FBFBD14"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "093F33D659B739A2"
+					table_id: 4214044880896280542L
+					type: "random"
+				}
+				{
+					id: "17DF24256AD82964"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Fast forward copper, and other stuff."
+			tasks: [{
+				id: "7BE4A6727D9ACBE5"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			title: "Chemical Injection"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"529DDF6E9ED0236C"
+				"49D54B3EC26CE137"
+			]
+			description: [
+				"This &amultiblock structure&r is used to convert&b water&r into &ebrine&r, and also can be used to further convert &bbrine&r into &elithium&r."
+				""
+				"To build it, first you need to make the edges of a 4x4x3 cube with &bThermal Evaporation Blocks&r. Fill the base of the structure with the same material. This will leave you with 2 block-wide windows in all 4 sides."
+				""
+				"In these windows, place the &bController&r and all 3 &bValves&r. Then fill the rest of the windows with the remaning blocks you have. This quest shows the minimal block requirements for the structure to work, so there should be no spare blocks after this is done."
+				""
+				"If you build it correctly, the whole structure will emit &ared particles&r and you will be able to access the &aController's GUI&r. "
+				""
+				"&oThe next page explains how to use the structure.&r"
+				"{@pagebreak}"
+				"In order to activate this structure you will require:"
+				""
+				"- A source &bliquid material&r, that will enter through the &efirst valve&r."
+				""
+				"- Lots of &bheat&r. This can be done by using a &bResistive Heater&r, which converts &benergy&r into heat. This goes into the &esecond valve&r. The optimal energy usage for this block is 1.25k FE/t."
+				""
+				"- An&b output&r to a &etank&r or other fluid storage. This will go out through the &ethird valve&r."
+			]
+			icon: "mekanism:thermal_evaporation_valve"
+			icon_scale: 0.75d
+			id: "24C0E08D6C527378"
+			min_width: 350
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "682A72BFC989327B"
+				table_id: 6274276854012935638L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Warning, this is not a hot tub."
+			tasks: [
+				{
+					id: "3467A24506C9E0CC"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3159977815391513"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "603D2F569614BC8A"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+			]
+			title: "&bMultiblock: Thermal Evaporation Plant&r"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"134615C92D8F877E"
+				"124537626185211F"
+			]
+			description: [
+				"This set of armor offers the same resistance as &anetherite gear&r, with the addition of it being &eupgradable&r in a lot of different ways through the &bModification Station&r."
+				""
+				"With the correct modules, it can also cover the&e radiation resistance&r of the hazmat gear. The true jack of all trades!"
+			]
+			icon: {
+				Count: 1
+				id: "mekanism:mekasuit_bodyarmor"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+					}
+				}
+			}
+			icon_scale: 0.75d
+			id: "683CA0C0423F1DAC"
+			rewards: [
+				{
+					count: 3
+					id: "35C480643A9031D8"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					id: "32184D66438C08A6"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "No, it's not a mech, stop asking."
+			tasks: [
+				{
+					id: "71233B26BD3B37B0"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "7B7048F479C5DBC0"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "2E13A6B55A4AAA8C"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "0213C6A782A685A8"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "Meka Suit"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49D54B3EC26CE137"]
+			description: [
+				"Polar opposite of the &aElectrolytic Separator,&r this machine &bfuses two gases&r into a &enew one&r."
+				""
+				"This will be very important in order to advance with this mod, as you will require some &avery complex materials&r."
+			]
+			id: "21904C44D432305D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63D79936FCBB222B"
+				table_id: 6122649026388511065L
+				type: "random"
+			}]
+			subtitle: "From two you get one."
+			tasks: [{
+				id: "21E9DB006A0EA9BE"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			title: "Gas Splittingn't"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"134615C92D8F877E"
+				"014B522849A79B5C"
+				"0FC32BF99FE3B0EA"
+			]
+			description: [
+				"The last important machines you will require for ore processing, used to create &ecrystals&r out of &braw ore materials&r."
+				""
+				"Once you get this ready, then your processing skills will be completed."
+			]
+			id: "5575D728989022A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3334EAFAD3D9688B"
+					table_id: 278643888591955168L
+					type: "random"
+				}
+				{
+					id: "5CF19C4BF4F58C10"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Breaking Bad, with blocks."
+			tasks: [
+				{
+					id: "64B9CE2205860794"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "2831A5032F3AC70E"
+					item: "mekanism:chemical_washer"
+					type: "item"
+				}
+				{
+					id: "37EA0DEC9D10D396"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+			]
+			title: "Advanced Chemistry"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["014B522849A79B5C"]
+			description: ["Now we're diving into some cool gadgets. This one, for example, is used to turn &bsolids&r into &egases&r."]
+			id: "72B0119E38471085"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3162B3F435771821"
+					table_id: 823180621238669431L
+					type: "random"
+				}
+				{
+					id: "455E382338D2D953"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
+			subtitle: "Sublimate!"
+			tasks: [{
+				id: "53721DF793AF566C"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			title: "Oxidizing"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"014B522849A79B5C"
+				"72B0119E38471085"
+			]
+			description: ["This machine allows you to turn &bliquids&r into &egases&r and also the other way around."]
+			id: "0FC32BF99FE3B0EA"
+			rewards: [
+				{
+					id: "04A56C0CA228DBBE"
+					item: "draconicevolution:nether_draconium_ore"
+					type: "item"
+				}
+				{
+					id: "70FB43EB02C0ECBB"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			subtitle: "You spin me right round...."
+			tasks: [{
+				id: "4E3B0715FC208559"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			title: "Cycling gas and liquid"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5575D728989022A9"]
+			description: [
+				"With this setup you can obtain &e500% ore efficiency&r from ores collected with Silk Touch:"
+				""
+				"- First you will need a separate line to create &bSulfuric Acid&r. At this point you should know how to use JEI and get the necessary machines to craft it."
+				""
+				"- &bSulfuric Acid&r is used in a &aChemical Dissolution Chamber&r to process &braw ore&r into &edirty slurry&r, that must be cleaned with &bwater&r in a &aChemical Washer&r."
+				""
+				"- After that, the &bclean slurry&r is sent into the &aChemical Crystallizer&r in order to obtain &eCrystals&r."
+				""
+				"- Once that's done, the &bcrystals&r can be turned into &eshards&r by following the steps in the previous Ore Processing quest."
+			]
+			icon_scale: 0.75d
+			id: "629728A7BA153EBB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59BE3BEC51C804A9"
+					table_id: 3826760090156739310L
+					type: "random"
+				}
+				{
+					id: "7828151ED7CD7C15"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Crystals"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "7F0FDAD8FE636B77"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:crystals"
+					}
+				}
+				title: "Any ore crystals"
+				type: "item"
+			}]
+			title: "&eOre Processing V&r"
+			x: 14.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43D786395B716DEB"]
+			description: [
+				"With this setup you can obtain &e200% ore efficiency&r from ores collected with Silk Touch:"
+				""
+				"- Process the raw ore through the&b Enrichment Chamber&r to obtain 2 units of &eore dust&r."
+				""
+				"- &bDust&r acts the same way as a raw ore, so you can smelt it into &eingots&r."
+				""
+				"Submit 8 units of iron dust to complete this quest."
+			]
+			icon: "mekanism:dust_iron"
+			icon_scale: 0.75d
+			id: "2D4B255785E8731F"
+			rewards: [
+				{
+					id: "0490DC91C863C5E0"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "4463AE9C4F958EB5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.5d
+			subtitle: "Dust"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "14E5EE4FB2843BD6"
+				item: "mekanism:dust_iron"
+				title: "Iron Dust"
+				type: "item"
+			}]
+			title: "&eOre Processing II&r"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"62EDC0EFFB4FD808"
+				"640BCDACAF58C295"
+			]
+			description: [
+				"With this setup you can obtain &e300% ore efficiency&r from ores collected with Silk Touch:"
+				""
+				"- First, you must process the &braw ore&r in a &aPurification Chamber&r to obtain 3 &eore clumps&r. This machine will require a source of &boxygen&r in order to advance."
+				""
+				"- These &bclumps&r must be broken inside a &aCrusher&r to produce &edirty dust&r."
+				""
+				"- &bDirty dust&r is cleaned using the &aEnrichment Chamber&r to produce clean &edust&r that can be smelted."
+			]
+			icon_scale: 0.75d
+			id: "49D54B3EC26CE137"
+			rewards: [
+				{
+					id: "68D8E0738A2F5E8E"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+				{
+					id: "39E717555BBE181C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			subtitle: "Clumps"
+			tasks: [{
+				count: 8L
+				id: "74172EA2096E20A1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:clumps"
+					}
+				}
+				title: "Any ore clump"
+				type: "item"
+			}]
+			title: "&eOre Processing III&r"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18F677778FBFBD14"]
+			description: [
+				"With this setup you can obtain &e400% ore efficiency&r from ores collected with Silk Touch:"
+				""
+				"- First, you will require a separate source of &eHyrdogen Chloride&r. This will require the &bThermal Evaporation Plant&r multiblock (for chlorine) and a &bChemical Infuser&r (to mix said chlorine with hydrogen)."
+				""
+				"- Using this new &bgas&r in a &aChemical Injection Chamber&r will turn a &braw ore&r into &e4 shards&r."
+				""
+				"- Once you get &bshards&r, you can purify them with &boxygen&r in a &aPurification Chamber&r to obtain &eclumps&r."
+				""
+				"- Those &bclumps&r will then follow the same route in the previous Ore Processing quest."
+			]
+			icon_scale: 0.75d
+			id: "014B522849A79B5C"
+			rewards: [
+				{
+					id: "18AA67973920AFCC"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+				{
+					id: "5C194FD181980AD1"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			size: 1.5d
+			subtitle: "Shards"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "3134148FDD8D378A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:shards"
+					}
+				}
+				title: "Any ore shards"
+				type: "item"
+			}]
+			title: "&eOre Processing IV&r"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["134615C92D8F877E"]
+			description: [
+				"The &aQuantum Entangloporter&r (&oyou have no idea how hard it was to write that without looking&r) is a block that can be used as a &ewireless tunnel&r to move different items, liquids, gases, energy, anything over &elong distances&r."
+				""
+				"All it needs is to be set into the correct channel, and it will work as both &ainput&r or &aoutput&r for any type of material."
+			]
+			id: "5080791BBBB8040C"
+			optional: true
+			rewards: [
+				{
+					id: "57A72C8206D5ED64"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "264C584E69066BC0"
+					table_id: 8274636759623401688L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "Everything, everywhere, all at once."
+			tasks: [{
+				id: "7C38547794095884"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			title: "Entangloportation"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0AFB66C120DBF609"
+				"24C0E08D6C527378"
+			]
+			description: [
+				"This &amultiblock structure&r acts as a &esupermassive energy storage&r that can be expanded to enormous sizes."
+				""
+				"In order to build this up, you will first need to create a cube whose edges are made of &bInduction Casing&r blocks. The blocks required for this quest are the minimal requirements for a 3x3x4 cube, as you will have to place at least one &bProvider&r and one &bCell&r block."
+				""
+				"The faces of the structure must have at least one Induction Port (2 is suggested for input/output), and the remaning can be covered with either more Induction Casing, or &bStructural Glass&r blocks (which are cheaper)."
+				""
+				"&oThe next page explains how to use the structure.&r"
+				"{@pagebreak}"
+				"In order to activate this structure you will require a &bconfigurator&r tool (check JEI), to set up one &ePort&r as input and the other one as output."
+				""
+				"&eInduction Cells&r will determine how much energy can you store in the matrix, and &eProviders&r determine how fast will the energy flow through the system."
+			]
+			icon: "mekanism:induction_port"
+			icon_scale: 0.75d
+			id: "07D14CE0268A2AC0"
+			min_width: 350
+			rewards: [
+				{
+					count: 16
+					id: "3E4E17419AA69E2D"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+				{
+					id: "45F60E8A7DC352E2"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "The last energy storage you will need."
+			tasks: [
+				{
+					count: 26L
+					id: "3D09EA32007D29AB"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20EE30A31B4E84F4"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					id: "09FC11AD227B4B02"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "634E3FAE3A218A17"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2BB7294E40846AAE"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "&bMultiblock: Induction Matrix&r"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61A5E04A14485FB7"]
+			description: ["Once you start diving into recipes that involve &bgases&r, you can use this machine for some crazy &ecombinations&r."]
+			id: "4DCB0035B74FB622"
+			rewards: [
+				{
+					count: 3
+					id: "3EA5C687AF85F383"
+					item: "mekanism:bio_fuel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "62D4137D60AF66B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Solid, liquid and gas, all together."
+			tasks: [{
+				id: "1F5A55F7D62C90A5"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			title: "Pressurized Reaction"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["127921639441748D"]
+			description: [
+				"If you followed the advice in the previous quest you should have &bEthylene&r stored."
+				""
+				"Find a way to turn it into a&b liquid&r and combine it with &bsubstrate&r pellets to create this &enew material&r."
+			]
+			id: "72DC999A4879E863"
+			rewards: [
+				{
+					count: 3
+					id: "4B9F247BB64A5F47"
+					item: "mekanism:dust_diamond"
+					type: "item"
+				}
+				{
+					id: "24B6C88D89453B57"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			subtitle: "Getting into the plastic era"
+			tasks: [{
+				id: "678F447F999BD231"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			title: "High Density Polyethylene"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65EE0B24F252A59D"]
+			description: [
+				"&bPolonium gas&r can be fused into &epellets&r, which is the main crafting material for end-game content in Mekanism."
+				""
+				"Again, remember that you will need to get rid of the &espent Nuclear Waste&r in the correct way to prevent a catastrophe."
+			]
+			id: "124537626185211F"
+			rewards: [
+				{
+					id: "7FE820A81E0EE6EB"
+					item: "mekanism:free_runners_armored"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "36F59180D828D1A6"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+			]
+			subtitle: "Gets rid of static... and living things."
+			tasks: [{
+				id: "6A7780A099123ED5"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			title: "Polonium"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["683CA0C0423F1DAC"]
+			description: [
+				"Now we are stepping into the last stretch of Mekanism."
+				""
+				"Craft an &bIsotopic Centrifuge&r to obtain &ePlutonium&r from &bNuclear Waste&r, and then pressurize it into &epellets&r. You will need a lot of them for what's to come..."
+			]
+			id: "1B0F543213CCAF15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "485BC746A48B2CD8"
+				table_id: 1512529279714846995L
+				type: "random"
+			}]
+			subtitle: "Finally at the \"nuclear\" part."
+			tasks: [{
+				id: "10963CC8A3939D3F"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			title: "Plutonium"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0AFB66C120DBF609"
+				"084EA563259696B6"
+				"72DC999A4879E863"
+			]
+			description: [
+				"Once you have taken the required measures against &cradiation&r, you can start working with &bNuclear Waste&r."
+				""
+				"This machine will slowly turn said material into &ePolonium gas&r, which is much more &cdangerous&r but can be used for a lot of cool end-game gadgets."
+			]
+			id: "65EE0B24F252A59D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E4B14F065FE454D"
+					table_id: 6274276854012935638L
+					type: "random"
+				}
+				{
+					id: "02490D2A15B33584"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+			]
+			subtitle: "Vitamin D, baby!"
+			tasks: [{
+				id: "14C160CE9D70AED9"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "Harnessing the Sun"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DCB0035B74FB622"]
+			description: [
+				"Start experimenting with the &aPressurized Reaction Chamber&r to obtain &enew materials&r."
+				""
+				"Make sure to store the &egas&r you obtain as a byproduct, as it may be useful later."
+			]
+			id: "127921639441748D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A8618EC186CF42D"
+					table_id: 8274636759623401688L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "45451CA5CD8B6AA1"
+					item: "mekanism:dust_bronze"
+					type: "item"
+				}
+			]
+			subtitle: "WinRAR has nothing to do with this."
+			tasks: [
+				{
+					count: 8L
+					id: "07BB6D31E902ED5B"
+					item: "mekanism:substrate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "05150458695C252E"
+					item: "mekanism:dust_sulfur"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "220746DB4F76893D"
+					item: "mekanism:dust_charcoal"
+					type: "item"
+				}
+			]
+			title: "Pressurized materials"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B0F543213CCAF15"]
+			description: [
+				"This is a &amultiblock structure&r that uses &babsurd amounts of energy&r in order to obtain &eantimatter&r."
+				""
+				"We will start from the &abase&r. Place the edges of an octogon with &bSPS Casing&r blocks. This should be 3 blocks line, then 3 diagonal, and repeat."
+				""
+				"Once you have that done, copy the same octogon for the &asides&r of the structure, matching the 3 block lines with the base and with each face. Then do the same with the &atop&r part."
+				""
+				"The &afaces&r of the structure should have at least 3 &bSPS Ports&r, and one of them should have the &bSupercharged Coil&r attached to the inner side. Fill the rest of the faces with &bStructural Glass&r. If you did it correctly, the structure should emit &cred particles&r."
+				""
+				"&oThe next page explains how to use the structure.&r"
+				"{@pagebreak}"
+				"As we said in the previous page, you will have 3 different ports."
+				""
+				"- The port that has the Supercharged Coil attached to it will be your &benergy input&r. You can have more than one if needed."
+				""
+				"- The second port will be your &bmaterial input&r. Here's when the &bPolonium gas&r comes in."
+				""
+				"- The last port will be your &ematerial output&r. Here's where you can take the &eantimatter gas&r out of the system."
+				""
+				"&oRemember that this structure will push your abilities to their limit, as you require a colossal amount of Nuclear Waste to craft the structure's blocks, then even more Nuclear Waste to get the Polonium gas needed, and on top of it all, an energy rate so big it will require you to master the rest of the mods in this modpack.&r"
+			]
+			icon: "mekanism:pellet_antimatter"
+			icon_scale: 0.75d
+			id: "6009C7353A483A76"
+			min_width: 350
+			rewards: [
+				{
+					id: "5D7E8BB83AA31A12"
+					item: "mekanism:ultimate_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "4A85CA7649802ABF"
+					item: "mekanism:ultimate_chemical_tank"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B398CD0968AA3C7"
+					table_id: 278643888591955168L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Going past the limits of our reality."
+			tasks: [
+				{
+					count: 60L
+					id: "35B8B25E7AD5B2BE"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 123L
+					id: "1FF5D0B1E880E816"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3296AD7AA93F2014"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "1A237690B44D2914"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "&bMultiblock: Supercritical Phase Shifter&r"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6009C7353A483A76"]
+			description: [
+				"It's well known that there's only one &eDragon Egg&r in a minecraft world..."
+				""
+				"However, &bantimatter&r allows you to push the boundaries of your world and do extremely weird things."
+				""
+				"Find a way to create &e12 dragon eggs&r by using the strongest machines from Mekanism!"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:dragon_egg"
+			icon_scale: 0.75d
+			id: "50F2B8B2F16F1A4C"
+			rewards: [
+				{
+					id: "73D259E513F15111"
+					item: {
+						Count: 1
+						id: "mekanism:creative_fluid_tank"
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										Amount: 2147483647
+										FluidName: "minecraft:lava"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67B035D32877BB12"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Wha-"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				icon: { Count: 12, id: "minecraft:dragon_egg" }
+				id: "00BA6EF19C03ED46"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "&dThey come in dozen&r"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6E1E538DEFB036AC"
+				"124537626185211F"
+			]
+			description: [
+				"&bPolonium pellets&r can be used to Evolve your &bAtomic Disassembler&r into the mighty &eMeka Tool&r."
+				""
+				"This one might not be good as a weapon, but in exchange you can &eimprove&r it in a lot of crazy ways by crafting &bmodules&r and applying them to your tool in a &bModification Station&r (check JEI)"
+			]
+			icon_scale: 0.75d
+			id: "2C8A1003FB683532"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D91EA8236E9EA79"
+					table_id: 4214044880896280542L
+					type: "random"
+				}
+				{
+					id: "0EAD98F295D33D88"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "All-in-one, but even stronger."
+			tasks: [{
+				id: "78CBC6B532D24353"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			title: "Meka Tool"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21904C44D432305D"]
+			description: [
+				"The &bChemical Infuser&r from the previous quest allows you to create &eNuclear Waste&r."
+				""
+				"This material is &cradioactive&r. If by any chance you break a block containing this material before dumping it into a tank, or dump it into the open world, you will be affected by it and start &closing health&r at an increasing rate."
+				""
+				"Radiation poisioning has &cno cure&r other than waiting for it to decay over time, and it can take a long time. This can render a part of your builds inhabitable unless you have the &ecorrect gear&r to prevent exposure to radiation."
+			]
+			icon: "mekanism:hazmat_mask"
+			id: "084EA563259696B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10E40D2C9D80ECBD"
+					table_id: 6122649026388511065L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6C182541F5D915A6"
+					item: "laserio:logic_chip"
+					type: "item"
+				}
+			]
+			subtitle: "Diamond armor won't protect you."
+			tasks: [
+				{
+					id: "3DEB70E0E601FEEC"
+					item: "mekanism:hazmat_mask"
+					type: "item"
+				}
+				{
+					id: "744E3B496EB75ECE"
+					item: "mekanism:hazmat_gown"
+					type: "item"
+				}
+				{
+					id: "342E51A4C710A089"
+					item: "mekanism:hazmat_pants"
+					type: "item"
+				}
+				{
+					id: "6CB70B39A390E93C"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+			]
+			title: "Dealing with Radiation"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["086983573E686CA4"]
+			description: [
+				"Using your brand new &aMetallurgic Infuser&r, you will use any &bcarbon source&r to enrich Iron ore, and then again to turn that &benriched iron&r into &esteel dust&r."
+				""
+				"Steel is used in almost &aall machines&r from this mod."
+			]
+			id: "54FE9A29E9BF7E42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DE123F66C319AA7"
+					table_id: 2972118517222002424L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "40F6B62DD61AA699"
+					item: "minecraft:glass"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Infusion 2: Electric Boogaloo"
+			tasks: [{
+				id: "5ADE768C6E7AFCCA"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			title: "Steel"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"54FE9A29E9BF7E42"
+				"61A5E04A14485FB7"
+			]
+			description: [
+				"&aPersonal chests&r and barrels can be used as a &eremote storage&r for exploration, as you can access them&a directly from your inventory&r, without needing to place them in your world."
+				""
+				"However, you &ocan&r place them by shift right clicking."
+			]
+			id: "26FAD0C772712AD8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F0FD2EEACECF546"
+					table_id: 823180621238669431L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "28B3AE25170DD963"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			subtitle: "This backpack looks weird."
+			tasks: [{
+				id: "104780BA67D59881"
+				item: "mekanism:personal_chest"
+				type: "item"
+			}]
+			title: "Remote Storage"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["084EA563259696B6"]
+			description: [
+				"When you start using &bNuclear Waste&r to create &enew materials&r, you will obtain &eSpent Nuclear Waste&r as a byproduct."
+				""
+				"This material is still &cradioactive &rand it has no other use, so you must contain it in these barrels until it slowly &edesintegrates over time&r. There is no other way to dispose of it as dumping it will pollute the atmosphere around you."
+			]
+			id: "04383F5BA04F66B0"
+			rewards: [
+				{
+					count: 3
+					id: "26299CB5779E8A2C"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1FB952515D1BC961"
+					item: "reliquary:rib_bone"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Time heals everything"
+			tasks: [{
+				count: 4L
+				id: "2D4877A0FA8BD541"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "Radioactive residues"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4F5DE6F127ED2C63"
+				"26FAD0C772712AD8"
+			]
+			description: [
+				"&bRobit &ris a personal robotic friend that can &efollow&r and &eassist&r you in a lot of different ways."
+				""
+				"In order to deploy this little guy into your world, you need to right click a &bchargepad&r with it in your main hand. This will link the Robit to the chargepad and let it get energy so it can move!"
+			]
+			icon: "mekanism:robit"
+			icon_scale: 0.75d
+			id: "0F0A027271426912"
+			rewards: [
+				{
+					id: "2F3E30B1EED8C51A"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2642C2F687229465"
+					table_id: 228129654905484368L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			subtitle: "Robit reporting for duty!"
+			tasks: [
+				{
+					id: "121375DD2FA9164F"
+					item: "mekanism:robit"
+					type: "item"
+				}
+				{
+					id: "1709225098B5CD41"
+					item: "mekanism:chargepad"
+					type: "item"
+				}
+			]
+			title: "Mechanical Companion"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["We are going nuclear."]
+	title: "&3Mekanism&r"
+}

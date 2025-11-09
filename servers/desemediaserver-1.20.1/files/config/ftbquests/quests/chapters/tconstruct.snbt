@@ -1,0 +1,1952 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tconstruct"
+	group: "3A4941EE06F63CCA"
+	icon: "tconstruct:smeltery_controller"
+	id: "1420FDD3CE43B3B2"
+	images: [
+		{
+			dependency: "0C1BAC4D7DBF5954"
+			height: 4.0d
+			image: "revelations:textures/gui/tconstruct/melter.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependency: "5FE0B8C5DD0662AC"
+			height: 4.0d
+			image: "revelations:textures/gui/tconstruct/alloyer.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			dependency: "62EA946288A75032"
+			height: 4.0d
+			image: "revelations:textures/gui/tconstruct/smeltery.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependency: "4E70591865386E72"
+			height: 4.0d
+			image: "revelations:textures/gui/tconstruct/foundry.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 24.5d
+			y: 6.0d
+		}
+		{
+			click: "."
+			dependency: "62EA946288A75032"
+			height: 1.5d
+			hover: ["Seared Fuel Tank"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 11.7d
+			y: 7.3d
+		}
+		{
+			click: "."
+			dependency: "62EA946288A75032"
+			height: 1.2d
+			hover: ["Seared Drain"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			click: "."
+			dependency: "62EA946288A75032"
+			height: 1.2d
+			hover: ["Seared Drain"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			click: "."
+			dependency: "62EA946288A75032"
+			height: 1.2d
+			hover: ["Seared Casting Basin"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			click: ". "
+			dependency: "62EA946288A75032"
+			height: 1.2d
+			hover: ["Seared Casting Table"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			click: "."
+			dependency: "62EA946288A75032"
+			height: 0.5d
+			hover: ["Seared Faucet"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.7d
+			y: 5.6d
+		}
+		{
+			dependency: "62EA946288A75032"
+			height: 0.5d
+			hover: ["Seared Faucet"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.3d
+			y: 5.6d
+		}
+		{
+			click: "."
+			dependency: "0C1BAC4D7DBF5954"
+			height: 0.5d
+			hover: ["Seared Faucet"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.3d
+			y: 5.0d
+		}
+		{
+			click: "."
+			dependency: "0C1BAC4D7DBF5954"
+			height: 0.5d
+			hover: ["Seared Faucet"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.7d
+			y: 5.0d
+		}
+		{
+			click: "."
+			dependency: "0C1BAC4D7DBF5954"
+			height: 1.3d
+			hover: ["Seared Casting Table"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 2.4d
+			y: 6.0d
+		}
+		{
+			click: "."
+			dependency: "0C1BAC4D7DBF5954"
+			height: 1.3d
+			hover: ["Seared Casting Basin"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 4.6d
+			y: 6.0d
+		}
+		{
+			click: "."
+			dependency: "0C1BAC4D7DBF5954"
+			height: 1.3d
+			hover: ["Seared Heater"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			click: "."
+			dependency: "0C1BAC4D7DBF5954"
+			height: 1.1d
+			hover: ["Seared Melter"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.5d
+			y: 4.9d
+		}
+		{
+			click: "."
+			dependency: "62EA946288A75032"
+			height: 1.5d
+			hover: ["Smeltery Controller"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.5d
+			y: 7.3d
+		}
+		{
+			click: "."
+			dependency: "5FE0B8C5DD0662AC"
+			height: 1.4d
+			hover: ["Seared Fuel Tank"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 17.5d
+			y: 6.7d
+		}
+		{
+			click: "."
+			dependency: "5FE0B8C5DD0662AC"
+			height: 1.4d
+			hover: ["Seared Casting Basin"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 18.7d
+			y: 6.7d
+		}
+		{
+			click: "."
+			dependency: "5FE0B8C5DD0662AC"
+			height: 1.4d
+			hover: ["Scorched Alloyer"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			click: "."
+			dependency: "5FE0B8C5DD0662AC"
+			height: 1.4d
+			hover: ["Seared Fuel Tank"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 16.3d
+			y: 5.5d
+		}
+		{
+			click: "."
+			dependency: "5FE0B8C5DD0662AC"
+			height: 1.4d
+			hover: ["Seared Fuel Tank"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 17.5d
+			y: 4.3d
+		}
+		{
+			click: "."
+			dependency: "5FE0B8C5DD0662AC"
+			height: 0.5d
+			hover: ["Seared Faucet"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 18.3d
+			y: 5.6d
+		}
+		{
+			click: "."
+			dependency: "62EA946288A75032"
+			height: 2.0d
+			hover: ["Seared Bricks"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: 5.3d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 1.4d
+			hover: ["Foundry Controller"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 24.5d
+			y: 5.7d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 1.4d
+			hover: ["Scorched Fuel Tank"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 25.6d
+			y: 5.7d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 1.4d
+			hover: ["Scorched Drain"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 22.5d
+			y: 5.7d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 1.4d
+			hover: ["Scorched Drain"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 26.7d
+			y: 5.7d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 1.2d
+			hover: ["Scorched Casting Table"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 21.6d
+			y: 6.6d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 1.2d
+			hover: ["Scorched Casting Basin"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.1d
+			x: 27.5d
+			y: 6.6d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 0.9d
+			hover: ["Scorched Bricks"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 24.5d
+			y: 4.7d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 0.5d
+			hover: ["Scorched Faucet"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 21.7d
+			y: 5.7d
+		}
+		{
+			click: "."
+			dependency: "4E70591865386E72"
+			height: 0.5d
+			hover: ["Scorched Faucet"]
+			image: "geckolib:textures/blank.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 27.4d
+			y: 5.8d
+		}
+		{
+			height: 3.0d
+			image: "revelations:textures/gui/tconstruct/tconstruct_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependency: "2AA0EE61B77CBF32"
+			height: 3.0d
+			image: "revelations:textures/gui/tconstruct/tconstruct_scorched_title.png"
+			order: 1
+			rotation: 0.0d
+			width: 20.0d
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependency: "2AA0EE61B77CBF32"
+			height: 3.0d
+			image: "revelations:textures/gui/tconstruct/tconstruct_finished_title.png"
+			order: 2
+			rotation: 0.0d
+			width: 20.0d
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			alpha: 120
+			height: 8.0d
+			image: "tconstruct:block/platform/cobalt_top"
+			order: -1
+			rotation: -35.0d
+			width: 8.0d
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			alpha: 120
+			height: 10.0d
+			image: "tconstruct:block/platform/cobalt_top"
+			order: -1
+			rotation: 10.0d
+			width: 10.0d
+			x: 23.5d
+			y: -0.5d
+		}
+		{
+			alpha: 120
+			height: 7.0d
+			image: "tconstruct:block/platform/cobalt_top"
+			order: -1
+			rotation: 15.0d
+			width: 7.0d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 500.0d
+			image: "revelations:textures/gui/backgrounds/colors/pink.png"
+			order: -10
+			rotation: 0.0d
+			width: 500.0d
+			x: 14.0d
+			y: -1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["45F69F5198D13B0A"]
+			description: ["&dPatterns&r are fundamental for crafting &etool parts&r and building &etinkering stations&r."]
+			hide_until_deps_complete: false
+			icon_scale: 0.9d
+			id: "54122EFB7985BA26"
+			rewards: [
+				{
+					count: 3
+					id: "4F2BB5A03AEF5984"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					id: "5A94C53CE20C92CA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Make sure to have enough of these handy for your creations"
+			tasks: [{
+				id: "58D81F651BD2DA54"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54122EFB7985BA26"]
+			description: ["Once you have created some patterns, create the &dPart Builder&r to get started with tool making."]
+			id: "117DA774725917C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63E085B8E637B9BD"
+				table_id: 5656974405785949538L
+				type: "random"
+			}]
+			tasks: [{
+				id: "520AE8BDC81D55CC"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["117DA774725917C3"]
+			description: [
+				"The &dTinker Station&r lets you craft and modify tools."
+				""
+				"Once you have all the &bparts&r, select a tool, put it together, and give it a name."
+				""
+				"Later, you can upgrade it with modifiers. "
+			]
+			id: "11E533F0F02A4F80"
+			rewards: [{
+				id: "2D204A9036C2C01A"
+				item: {
+					Count: 1
+					id: "tconstruct:tool_binding"
+					tag: {
+						Material: "tconstruct:leather"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A649F4AF96F7F70"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["117DA774725917C3"]
+			description: [
+				"Place a &bPattern&r into the &dPart Builder&r, then choose the &etool part&r you want to craft."
+				""
+				"Add a &bsoft material&r like wood or stone, then take your finished part."
+			]
+			id: "52E11AA00938EA45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E0306DDFA17166C"
+				table_id: 1581580464324821373L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tconstruct:pick_head"
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+				id: "34B75E0B177C8E35"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:parts"
+					}
+				}
+				title: "Make a Part"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11E533F0F02A4F80"]
+			description: ["Use the &dTinker Station&r to assemble &etools&r from &bcrafted parts&r."]
+			id: "6F426B5D970ED9D6"
+			rewards: [{
+				id: "522CB23D66BB56D7"
+				item: {
+					Count: 1
+					id: "tconstruct:puny_smelting"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "melter.meltergui"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:amethyst_bronze"
+							"tconstruct:blazing_bone"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:magnetic"
+							}
+							{
+								level: 1
+								name: "tconstruct:crumbling"
+							}
+							{
+								level: 1
+								name: "tconstruct:pierce"
+							}
+							{
+								level: 1
+								name: "tconstruct:conducting"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:attack_speed": 1.26f
+							"tconstruct:durability": 250.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 6.6000004f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				id: "147538D18FD5D4FC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:modifiable"
+					}
+				}
+				title: "Make a Tool"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["117DA774725917C3"]
+			description: [
+				"To craft a &eStone Pickaxe&r, you need three parts:"
+				""
+				"Tool Handle, Tool Binding, and Pick Head."
+				""
+				"Use the &dPart Builder&r with stone and patterns to craft each part, then assemble your tool!"
+			]
+			id: "285A6EAED9402299"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20B916B9CB35DE32"
+				table_id: 1581580464324821373L
+				type: "random"
+			}]
+			subtitle: "Pickaxe Example"
+			tasks: [
+				{
+					id: "65743CFE18AD9593"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:rock#stone"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D2BB160D125E22A"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_binding"
+						tag: {
+							Material: "tconstruct:rock#stone"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11A542009EF772EB"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:rock#stone"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pickaxe"
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F426B5D970ED9D6"]
+			description: [
+				"If you change your mind about a tool, disassemble it in the &dPart Builder&r to salvage one part."
+				""
+				"&bRepaired tools&r have a better chance of saving a &esecond part&r."
+				""
+				""
+				"{@pagebreak}"
+				"&dDaggers&r must be stacked &bin pairs&r to recycle them!"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/refresh"
+				}
+			}
+			icon_scale: 0.9d
+			id: "533F8D23702A0734"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C115684E1AC7805"
+				table_id: 1581580464324821373L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51122A5A85277609"
+				title: "Tool Recycling"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F426B5D970ED9D6"]
+			description: [
+				"&dModifiers&r allow you to customize your tools beyond basic crafting."
+				""
+				"They can enhance &espeed&r, &edurability&r, or &edamage&r, and some add special effects like &eauto-smelting&r, &eluck&r, or &elifesteal&r."
+				""
+				""
+				"{@pagebreak}"
+				"&dTools&r start with a few modifier slots, but more can be unlocked through upgrades."
+				""
+				"There are different types, including &bupgrades&r, &babilities&r, &bdefense&r, and &bslotless modifiers&r, each offering unique benefits."
+				""
+				""
+				"{@pagebreak}"
+				"Some can be &cremoved&r or &brearranged&r, but choose wisely to create the perfect tool for the job."
+			]
+			icon: "minecraft:redstone"
+			id: "70C74CAB4B6DB9D8"
+			rewards: [{
+				count: 3
+				id: "3CCB410DC4DB7727"
+				item: "minecraft:redstone"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "Redstone increases Speed"
+			tasks: [{
+				id: "0039A7D4330ABD5F"
+				title: "Modifiers"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11E533F0F02A4F80"]
+			description: ["&eGrout&r is the foundation of smeltery construction. Smelt it into &dSeared Bricks&r, which are used to build Smelteries and Melters."]
+			hide_dependency_lines: true
+			icon: "tconstruct:seared_brick"
+			id: "093704C7A2AF1CAB"
+			rewards: [{
+				count: 5
+				id: "75CC26C6A18701B2"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			subtitle: "Foundation of Smelteries"
+			tasks: [
+				{
+					id: "690B4353062E2EA3"
+					item: "tconstruct:grout"
+					type: "item"
+				}
+				{
+					id: "318F31C09439CB95"
+					item: "tconstruct:seared_brick"
+					type: "item"
+				}
+			]
+			title: "&dSeared Brick"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["093704C7A2AF1CAB"]
+			description: [
+				"The &dSeared Heater&r uses &bbasic fuels&r like &bcoal&r to power the Melter."
+				""
+				"It activates when the Melter operates. Place it &cunderneath&r to function properly."
+			]
+			id: "191E267B04220C13"
+			rewards: [{
+				count: 8
+				id: "130ABCB2D8F00482"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28303C6AD9B945BB"
+				item: "tconstruct:seared_heater"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["093704C7A2AF1CAB"]
+			description: [
+				"The &dMelter&r is a basic smelting device that melts ores and metals."
+				""
+				"It requires a &bSeared Heater&r, or &bSeared Fuel Tank&r beneath it for operation."
+				""
+				""
+				"{@pagebreak}"
+				"Use it to produce &eliquids&r for casting tools and parts before upgrading to a &dfull Smeltery&r."
+			]
+			id: "20830E76E259313B"
+			rewards: [{
+				count: 3
+				id: "225544832E7A85DB"
+				item: "minecraft:raw_gold"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "&eEntry Level Smelting"
+			tasks: [{
+				id: "6D7F84B10B85CBF0"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["093704C7A2AF1CAB"]
+			description: [
+				"The &dSeared Faucet&r is used to pour molten metal from a Melter or Smeltery."
+				""
+				"Place it on a &eMelter&r (or a Seared Drain for bigger Smelteries)."
+				""
+				"Interact with it to pour metal into &bCasting Basins&r or &bTables&r."
+			]
+			id: "4F1DFFAB0144FE34"
+			rewards: [{
+				count: 6
+				id: "72ACAD0120112D7A"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "504113284DE3A17D"
+				item: "tconstruct:seared_faucet"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["093704C7A2AF1CAB"]
+			description: [
+				"The &dCasting Table&r is used to shape molten metal into tool parts, ingots, and other items."
+				""
+				"Place it under a &dSeared Faucet&r, pour metal into a cast, and wait for it solidify."
+			]
+			id: "25B39142B74C51D7"
+			rewards: [{
+				count: 3
+				id: "0C64200F32F84C2B"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "149CB89720D6521A"
+				item: "tconstruct:seared_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["093704C7A2AF1CAB"]
+			description: [
+				"The &dCasting Basin&r is used to pour large amounts of molten metal into &esolid blocks&r."
+				""
+				"Place it below a &dSeared Faucet&r to cast full metal blocks for storage or crafting."
+			]
+			id: "28D423196E93FDA8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DC6D9F678B54032"
+				table_id: 6688230644084422802L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D31DF0AD1C7B5F1"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20830E76E259313B"]
+			description: [
+				"The &dCopper Can&r is a reusable container for storing and transporting small amounts of liquid."
+				""
+				"&bRight-click&r a Melter or Tank to add or extract molten metal or other liquids."
+			]
+			id: "16FA645406E31F0A"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "4B96657487A73B7D"
+					item: "tconstruct:grout"
+					type: "item"
+				}
+				{
+					id: "51A5C2704DB732A6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Carry molten Metals"
+			tasks: [{
+				id: "123ACF50D1936150"
+				item: "tconstruct:copper_can"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25B39142B74C51D7"]
+			description: [
+				"First, craft a &bBlank Sand Cast&r."
+				""
+				"Use the &dPart Builder&r to shape it into a specific Sand Cast for the part you want."
+				""
+				"Place it on a &dCasting table&r and pour &bmolten metal&r into the cast to form your &etool part&r."
+			]
+			icon_scale: 0.8d
+			id: "31996147F3092F80"
+			rewards: [{
+				count: 3
+				id: "4F128979F2626B0E"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			subtitle: "Tinker tool parts without permanent casts."
+			tasks: [{
+				id: "32AFBF57C0924BAF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:casts/single_use"
+					}
+				}
+				title: "Single Use Casts"
+				type: "item"
+			}]
+			title: "Sand Casting"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31996147F3092F80"]
+			description: [
+				"To create a &ereusable Gold Cast&r, place a &btool part&r on the &dCasting Table&r and pour &bMolten Gold&r over it."
+				""
+				"The tool part is &cconsumed&r in the process."
+			]
+			icon_scale: 0.8d
+			id: "5A1EBFB396536163"
+			rewards: [{
+				id: "1CF77D0830BB7E0F"
+				item: "minecraft:raw_copper_block"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0706487E538937DB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:casts/multi_use"
+					}
+				}
+				title: "Gold Cast"
+				type: "item"
+			}]
+			title: "Reusable Casts"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F1DFFAB0144FE34"]
+			description: [
+				"Use &bhoppers&r, &bdrains&r, and &bredstone&r signals to move items and liquids automatically."
+				""
+				"Set up &dSeared Faucets&r with &dCasting Tables&r or &dBasins&r to pour metal without needing to interact manually."
+			]
+			icon: "minecraft:comparator"
+			id: "1D11A4F50D4BD467"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "496F6F31C3EB4723"
+				table_id: 7202778996188257829L
+				type: "random"
+			}]
+			subtitle: "Automate your Smeltery to run efficiently without manual input."
+			tasks: [{
+				id: "77ED252FB621209A"
+				title: "Automation"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["362C3D6686BE1B3C"]
+			description: [
+				"The &dTinkers' Anvil&r is an upgraded crafting station that unlocks the ability to create broad tools like &ecleavers&r and &ehammers&r."
+				""
+				"It also provides &bmore modifier slots&r, allowing for greater customization of your tools."
+			]
+			icon: "tconstruct:tinkers_anvil"
+			id: "38AEEE49D02AAED1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22D4373AEF331062"
+				table_id: 3826760090156739310L
+				type: "random"
+			}]
+			subtitle: "Broad tool crafting and customization with more modifiers."
+			tasks: [
+				{
+					count: 3L
+					id: "33261BD686C5F0CD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:anvil_metal"
+						}
+					}
+					title: "Metals for Tinkers Anvil"
+					type: "item"
+				}
+				{
+					id: "1A78F06CA534B2F7"
+					item: "tconstruct:tinkers_anvil"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28D423196E93FDA8"]
+			description: [
+				"The &dSmeltery Controller&r is the core block of a Smeltery, providing the interface for your finished multi-block structure."
+				""
+				"It is created by pouring four ingots of &bmolten copper&r over &bSeared Bricks&r."
+			]
+			id: "3240AABCC16AB599"
+			rewards: [{
+				id: "4A4CC3F9C9274A3E"
+				item: "tconstruct:seared_fuel_tank"
+				type: "item"
+			}]
+			subtitle: "&eBrain of the Smeltery"
+			tasks: [{
+				id: "39AD6E0C87644943"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["589E52BF7D0C5D72"]
+			description: [
+				"The &dSeared Fuel Tank&r stores &blava&r or other liquid fuels to power the &eMelter&r or &eSmeltery&r."
+				""
+				"Fill it with a bucket or by &bright-clicking&r with a fluid container."
+			]
+			id: "5233E827A443629A"
+			rewards: [
+				{
+					count: 2
+					id: "67FF31D8E21D99F0"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2F40EDDC7E472725"
+					item: "tconstruct:seared_brick"
+					type: "item"
+				}
+			]
+			subtitle: "&eHeart of the Smeltery"
+			tasks: [{
+				id: "30F5709D3F5C8926"
+				item: "tconstruct:seared_fuel_tank"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3240AABCC16AB599"]
+			description: [
+				"Building a &dSmeltery&r requires a &bSmeltery Controller&r, at least one &bSeared Fuel Tank&r as heat source, and plenty of Seared Bricks for the floor and walls."
+				""
+				"Start by placing a 3x3 &bSeared Brick floor&r."
+				""
+				"Build the walls in a rectangular shape using &bSeared Bricks&r or &bSeared Glass&r, with a minimum height of 2 blocks above the floor."
+				""
+				"Place the Controller and Fuel Tank within the walls."
+				""
+				""
+				"{@pagebreak}"
+				"The &dSmeltery&r can store and melt &emultiple metals&r, allowing you to &ecreate alloys&r. Be mindful of its size, as an oversized Smeltery becomes fuel-inefficient."
+				""
+				"Fuel it with &blava&r, and your Smeltery is ready to process ores, alloys, and even melt mobs!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tconstruct:smeltery_controller"
+				tag: {
+					texture: "tconstruct:seared_stone"
+				}
+			}
+			id: "589E52BF7D0C5D72"
+			rewards: [{
+				id: "4656888C38D2CF66"
+				item: {
+					Count: 1
+					id: "tconstruct:mighty_smelting"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "smeltery.structure"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Instruction"
+			tasks: [{
+				id: "12C228E738842916"
+				title: "How to: Smeltery"
+				type: "checkmark"
+			}]
+			title: "&dBuilding a Smeltery"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["589E52BF7D0C5D72"]
+			description: ["&dSeared Bricks&r form the structure of a Smeltery, making up its floor and walls."]
+			id: "362C3D6686BE1B3C"
+			rewards: [{
+				count: 6
+				id: "04A4D7C114175315"
+				item: "tconstruct:seared_brick"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "&eFoundation of the Smeltery"
+			tasks: [{
+				count: 12L
+				id: "48F2A55B465C5886"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:seared_bricks"
+					}
+				}
+				title: "Seared Bricks"
+				type: "item"
+			}]
+			title: "Seared Blocks"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["362C3D6686BE1B3C"]
+			id: "4E7EFF945394BC92"
+			rewards: [{
+				count: 5
+				id: "6C10CA2599F27CB5"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			subtitle: "Can be used for walls."
+			tasks: [{
+				id: "192C1D23673248CC"
+				item: "tconstruct:seared_glass"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["362C3D6686BE1B3C"]
+			id: "435B6A1108D6737B"
+			optional: true
+			rewards: [
+				{
+					id: "192CA1BA56C7AAF8"
+					item: "tconstruct:seared_lantern"
+					type: "item"
+				}
+				{
+					id: "189EE279A8320020"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "33C49D7D2FE3BDCC"
+				item: "tconstruct:seared_ladder"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E7EFF945394BC92"]
+			id: "3608975734D28DB0"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "45AE7A9EAD8EC1D6"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			subtitle: "Use it for walls and walk through it."
+			tasks: [{
+				id: "5626188FD0693056"
+				item: "tconstruct:seared_soul_glass"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["589E52BF7D0C5D72"]
+			description: [
+				"The &dSeared Drain&r allows molten metal to flow in and out of the Smeltery."
+				""
+				"Place a &bSeared Faucet&r on it to pour metal into &bCasting Tables&r or &bBasins&r, or connect it to fluid pipes for automation."
+			]
+			id: "669C9B0B353B5E08"
+			rewards: [{
+				id: "39EDD8723B5E4B34"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			subtitle: "&eTransportation of Liquids"
+			tasks: [{
+				id: "354F5359928081AA"
+				item: "tconstruct:seared_drain"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["589E52BF7D0C5D72"]
+			description: [
+				"The &dSeared Duct&r functions like a Seared Drain but allows for &efiltered extraction&r of molten metal."
+				""
+				"Use it with a &bSeared Faucet&r or &bfluid pipes&r to control which metal is removed from the Smeltery."
+			]
+			id: "6C7DF04ABC2EE78D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A82B77DB326FB1D"
+				table_id: 8274636759623401688L
+				type: "random"
+			}]
+			subtitle: "Filtered Fluid Transportation"
+			tasks: [{
+				id: "55EBA23356655094"
+				item: "tconstruct:seared_duct"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F1DFFAB0144FE34"]
+			id: "67DBACCC9FE974C8"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "2DFDB528A4C6F62E"
+				item: "tconstruct:seared_faucet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D6CB0FEADC3E30"
+				item: "tconstruct:seared_channel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["117DA774725917C3"]
+			hide_dependency_lines: false
+			id: "3C44876FB70EE0B8"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49276F286BA102B2"
+				table_id: 5656974405785949538L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5765CA3A40FB3042"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11E533F0F02A4F80"]
+			hide_dependency_lines: false
+			id: "146AEED998C01BE0"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "254D1AEBAB2A4170"
+				table_id: 8390996531130722050L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E1DFC91D6F3B8C1"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A1EBFB396536163"]
+			id: "51124C4FC25F02B1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79C34BF8C0DC175A"
+				table_id: 7158610489364629555L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EF303B8F7272B36"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11E533F0F02A4F80"]
+			description: [
+				"&dScorched Bricks&r are the building blocks of Scorched Structures, including the &eAlloyer&r and &eFoundry&r."
+				""
+				"They are used to create a &ehigh-temperature&r melting system for processing metals and alloys &noutside&r of a traditional Smeltery."
+			]
+			hide_dependency_lines: true
+			icon: "tconstruct:scorched_brick"
+			id: "2AA0EE61B77CBF32"
+			rewards: [
+				{
+					id: "25025FF71D720567"
+					item: {
+						Count: 1
+						id: "tconstruct:fantastic_foundry"
+						tag: {
+							mantle: {
+								book: {
+									current_page: "intro.page0"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3BA83B23CCD60A88"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4DD32CCF7C4248F7"
+					item: "tconstruct:nether_grout"
+					type: "item"
+				}
+				{
+					id: "0CA4A100FAF125D1"
+					item: "tconstruct:scorched_brick"
+					type: "item"
+				}
+			]
+			title: "&dScorched Brick"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AA0EE61B77CBF32"]
+			description: [
+				"The &dAlloyer&r is used to combine molten metals into &estronger alloys&r."
+				""
+				"Takes input from &bTanks&r around it. "
+				""
+				"It requires a &bSeared Heater&r, or &bSeared Fuel Tank&r beneath it for operation."
+			]
+			id: "1F2C42217F6DBFBD"
+			rewards: [
+				{
+					count: 3
+					id: "290C6B038575B7BE"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					id: "2D624BFBF869CB53"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0AF1AD52B4A11FBA"
+				item: "tconstruct:scorched_alloyer"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AA0EE61B77CBF32"]
+			description: [
+				"The &dCasting Basin&r is used to pour large amounts of molten metal into &esolid blocks&r."
+				""
+				"Place it below a &dScorched Faucet&r to cast full metal blocks for storage or crafting."
+			]
+			id: "37A8B6FE72551941"
+			rewards: [
+				{
+					count: 3
+					id: "540CDE93D68E6492"
+					item: "minecraft:magma_cream"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6F194C87DE7DBF40"
+					item: "tconstruct:pig_iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Always requires a Cast"
+			tasks: [{
+				id: "424C1F9F08787C70"
+				item: "tconstruct:scorched_basin"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AA0EE61B77CBF32"]
+			description: [
+				"The &dCasting Table&r is used to shape molten metal into tool parts, ingots, and other items."
+				""
+				"Place it under a &dScorched Faucet&r, pour metal into a cast, and wait for it solidify."
+			]
+			id: "2E81AA07A4615505"
+			rewards: [{
+				count: 5
+				id: "5B961D6692405651"
+				item: "tconstruct:cobalt_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Always requires a Cast"
+			tasks: [{
+				id: "55DD75A776742CBE"
+				item: "tconstruct:scorched_table"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AA0EE61B77CBF32"]
+			description: ["The &dScorched Faucet&r is used to pour molten metal from am Alloyer or Foundry."]
+			id: "049B7FC8A1A58453"
+			rewards: [{
+				count: 2
+				id: "42C0FFEE06209AEB"
+				item: "tconstruct:scorched_brick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3838ABCB4107104E"
+				item: "tconstruct:scorched_faucet"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["049B7FC8A1A58453"]
+			id: "58012DE6AA79F5C6"
+			optional: true
+			rewards: [
+				{
+					id: "68ACB6B654540D35"
+					item: "tconstruct:scorched_faucet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "601C4D0AEA5E8EF8"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79E93FCAD2A9786E"
+				item: "tconstruct:scorched_channel"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C3F83B5E4011107"]
+			id: "7864052892633693"
+			rewards: [
+				{
+					count: 2
+					id: "58FE2528F564D9CB"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "5C11CFCD40B046A3"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "&eBrain of the Foundry"
+			tasks: [{
+				id: "70BF8EBF6F3BC92F"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20830E76E259313B"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:painting"
+			id: "0C1BAC4D7DBF5954"
+			optional: true
+			tasks: [{
+				id: "072787681CE3FE6F"
+				title: "Show Melter Structure"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["589E52BF7D0C5D72"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: { }
+				}
+			}
+			id: "62EA946288A75032"
+			optional: true
+			tasks: [{
+				id: "46BD0911AEAB7C33"
+				title: "Show Smeltery Structure"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F2C42217F6DBFBD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: { }
+				}
+			}
+			id: "5FE0B8C5DD0662AC"
+			optional: true
+			tasks: [{
+				id: "04631C676B83AECB"
+				title: "Show Alloyer Structure"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0CF5648106117E90"]
+			description: ["&dScorched Bricks&r form the foundation of a Foundry, making up its floor and walls."]
+			id: "7C3F83B5E4011107"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "445DE023F3311172"
+				table_id: 7158610489364629555L
+				type: "random"
+			}]
+			subtitle: "&eFoundation of the Foundry"
+			tasks: [{
+				id: "4FF6B524B6CD88DA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:foundry_bricks"
+					}
+				}
+				title: "Foundry Bricks"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0CF5648106117E90"]
+			description: [
+				"Stores hot liquids to heat the &dFoundry&r."
+				""
+				"Fill it with a bucket or by &bright-clicking&r with a fluid container."
+			]
+			id: "6F78373F3A4F1547"
+			rewards: [
+				{
+					count: 3
+					id: "53A445637E68C361"
+					item: "tconstruct:hepatizon_ingot"
+					type: "item"
+				}
+				{
+					id: "512A2F225488605E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&eHeart of the Foundry"
+			tasks: [{
+				id: "13C22454AE6D008C"
+				item: "tconstruct:scorched_fuel_tank"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CF5648106117E90"]
+			description: [
+				"The &dScorched Drain&r allows molten metal to flow in and out of the Foundry.  "
+				""
+				"Place a &bScorched Faucet&r on it to pour metal into &bCasting Tables&r or &bBasins&r, or connect it to fluid pipes for automation."
+			]
+			id: "4972600C842465A9"
+			rewards: [
+				{
+					count: 2
+					id: "00734FFD6B3F9D05"
+					item: "tconstruct:scorched_faucet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "796F61704538D3EC"
+					item: "tconstruct:slimesteel_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "&eTransportation of Liquids"
+			tasks: [{
+				id: "0DFD4CF6F72DBC1E"
+				item: "tconstruct:scorched_drain"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0CF5648106117E90"]
+			description: [
+				"The &dScorched Duct&r functions like a Scorched Drain but allows for &efiltered extraction&r of molten metal."
+				""
+				"Use it with a &bScorched Faucet&r or &bfluid pipes&r to control which metal is removed from the Foundry."
+			]
+			id: "30184D7F01F0D5B7"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "5647BE9667FD991E"
+					item: "tconstruct:scorched_soul_glass_pane"
+					type: "item"
+				}
+				{
+					id: "5D3ABE8BBE07145B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Filtered Fluid Transportation"
+			tasks: [{
+				id: "710DC08171084F51"
+				item: "tconstruct:scorched_duct"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AA0EE61B77CBF32"]
+			description: [
+				"Building a &dFoundry&r requires a &bFoundry Controller&r, at least one &bScorched Fuel Tank&r as a heat source, and plenty of &bScorched Bricks&r for the floor and walls."
+				"{@pagebreak}"
+				"Start by placing a 5x5 &bScorched Brick floor&r."
+				""
+				"Build the walls in a rectangular shape using &bScorched Bricks&r or &bScorched Glass&r, with a minimum height of 2 blocks above the floor."
+				"Place the Controller and Fuel Tank within the walls."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tconstruct:foundry_controller"
+				tag: {
+					texture: "tconstruct:chiseled_scorched_bricks"
+				}
+			}
+			id: "0CF5648106117E90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C634D5F8B50A707"
+					table_id: 5656974405785949538L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "727B11EC5A164EFD"
+					item: "tconstruct:raw_cobalt"
+					type: "item"
+				}
+			]
+			subtitle: "Instruction"
+			tasks: [{
+				id: "06C96C4D6361FF6D"
+				title: "How to: Foundry"
+				type: "checkmark"
+			}]
+			title: "&dBuilding a Foundry"
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C3F83B5E4011107"]
+			id: "49F463C8AAC0DE77"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "26DC6E01085C5084"
+					item: "tconstruct:scorched_brick"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "377A833616D2BFCE"
+					item: "tconstruct:amethyst_bronze_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0438F77F718F9FC4"
+				item: "tconstruct:scorched_ladder"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C3F83B5E4011107"]
+			id: "3667095C238EFFC1"
+			rewards: [{
+				count: 16
+				id: "785576406A635784"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			subtitle: "Can be used for walls."
+			tasks: [{
+				id: "2E049DB9D448723E"
+				item: "tconstruct:scorched_glass"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3667095C238EFFC1"]
+			id: "6C78B4C48ECFE8A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "760CF9D7F173F953"
+					table_id: 6274276854012935638L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3626BEB02551A5CF"
+					item: "tconstruct:cinderslime_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Use it for walls and walk through it."
+			tasks: [{
+				id: "1CED55A1229CEB66"
+				item: "tconstruct:scorched_soul_glass"
+				type: "item"
+			}]
+			x: 26.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0CF5648106117E90"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: { }
+				}
+			}
+			id: "4E70591865386E72"
+			optional: true
+			tasks: [{
+				id: "503B9B3A882EFD04"
+				title: "Show Foundry Structure"
+				type: "checkmark"
+			}]
+			x: 24.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&dTinkers' Construct&r allows you to create custom tools and weapons by combining different materials for unique stats and abilities."
+				"{@pagebreak}"
+				"It features the &eSmeltery&r for advanced metal processing, &eModifiers&r to enhance gear, and a variety of specialized tools and weapons for different tasks."
+			]
+			icon: "tconstruct:smeltery_controller"
+			icon_scale: 0.9d
+			id: "45F69F5198D13B0A"
+			rewards: [{
+				id: "135C1B0D578CF3D6"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39D514181FD13EA4"
+				title: "TConstruct"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Leon's favorite ;)"]
+	title: "&6TConstruct"
+}

@@ -1,0 +1,28 @@
+{
+	id: "63F56955C7721E25"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 32, item: "minecraft:redstone" }
+		{ count: 24, item: "enderio:redstone_conduit" }
+		{ count: 8, item: "minecraft:redstone_torch" }
+		{ count: 5, item: "minecraft:redstone_lamp" }
+		{ count: 5, item: "minecraft:lever" }
+		{ count: 3, item: "denseores:dense_deepslate_redstone_ore" }
+		{ count: 3, item: "minecraft:lightning_rod" }
+		{ count: 3, item: "minecraft:repeater" }
+		{ count: 2, item: "minecraft:tripwire_hook" }
+		{ count: 2, item: "minecraft:note_block" }
+		{ item: "minecraft:observer" }
+		{ item: "mekanism:industrial_alarm" }
+		{ item: "minecraft:daylight_detector" }
+		{ item: "minecraft:piston" }
+		{ item: "minecraft:sticky_piston" }
+		{ item: "minecraft:redstone_block" }
+		{ item: "minecraft:comparator" }
+		{ item: "minecraft:jukebox" }
+		{ item: "minecraft:hopper" }
+		{ item: "minecraft:trapped_chest" }
+	]
+	title: "Redstone stuff"
+}

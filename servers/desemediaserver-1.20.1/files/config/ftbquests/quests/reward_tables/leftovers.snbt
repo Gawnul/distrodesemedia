@@ -1,0 +1,16 @@
+{
+	id: "3B4218F094843CB0"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ item: "simplefarming:tuber_seed_packet" }
+		{ count: 2, item: "minecraft:rabbit_hide" }
+		{ count: 4, item: "minecraft:leather" }
+		{ count: 3, item: "minecraft:feather" }
+		{ item: "minecraft:emerald" }
+		{ count: 6, item: "minecraft:bone" }
+		{ count: 5, item: "minecraft:flint" }
+		{ item: "minecraft:skeleton_skull" }
+	]
+	title: "leftovers"
+}

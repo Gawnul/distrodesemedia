@@ -1,0 +1,14 @@
+{
+	id: "5CD15E55C488B892"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 6, item: "botania:mana_powder" }
+		{ count: 3, item: "botania:mana_string" }
+		{ count: 2, item: "botania:mana_pearl" }
+		{ item: "botania:quartz_mana" }
+		{ item: "botania:mana_diamond" }
+		{ item: "botania:manaweave_cloth" }
+	]
+	title: "Mana Infused"
+}

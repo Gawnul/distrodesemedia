@@ -1,0 +1,35 @@
+{
+	id: "703CD765CEA1FB0E"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ item: "botania:black_shiny_flower" }
+		{ item: "botania:lime_mystical_flower" }
+		{ item: "botania:orange_shiny_flower" }
+		{ item: "botania:brown_shiny_flower" }
+		{ item: "botania:red_mystical_flower" }
+		{ item: "botania:green_shiny_flower" }
+		{ item: "botania:magenta_shiny_flower" }
+		{ item: "botania:cyan_shiny_flower" }
+		{ item: "botania:red_shiny_flower" }
+		{ item: "botania:brown_mystical_flower" }
+		{ item: "botania:magenta_mystical_flower" }
+		{ item: "botania:yellow_mystical_flower" }
+		{ item: "botania:light_blue_mystical_flower" }
+		{ item: "botania:light_blue_shiny_flower" }
+		{ item: "botania:lime_shiny_flower" }
+		{ item: "botania:orange_mystical_flower" }
+		{ item: "botania:green_mystical_flower" }
+		{ item: "botania:blue_mystical_flower" }
+		{ item: "botania:purple_shiny_flower" }
+		{ item: "botania:gray_mystical_flower" }
+		{ item: "botania:cyan_mystical_flower" }
+		{ item: "botania:gray_shiny_flower" }
+		{ item: "botania:white_shiny_flower" }
+		{ item: "botania:black_mystical_flower" }
+		{ item: "botania:light_gray_shiny_flower" }
+		{ item: "botania:blue_shiny_flower" }
+		{ item: "botania:purple_mystical_flower" }
+	]
+	title: "Botania Flowers"
+}

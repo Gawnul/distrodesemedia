@@ -1,0 +1,1153 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "industrial_foregoing"
+	group: "54552C0A7E9456F7"
+	icon: "industrialforegoing:machine_frame_advanced"
+	id: "397C78B4308BB6F9"
+	images: [
+		{
+			alpha: 0
+			click: "https://bsky.app/profile/mastatokki.bsky.social"
+			height: 5.0d
+			hover: ["Quest line by MastaTokki"]
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: 2
+			rotation: 0.0d
+			width: 10.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			color: 5635925
+			height: 1.1d
+			image: "ftbquests:textures/shapes/hexagon/shape.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			color: 5636095
+			height: 1.1d
+			image: "ftbquests:textures/shapes/hexagon/shape.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			color: 16733695
+			height: 1.1d
+			image: "ftbquests:textures/shapes/hexagon/shape.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			color: 16777045
+			height: 1.1d
+			image: "ftbquests:textures/shapes/hexagon/shape.png"
+			rotation: 0.0d
+			width: 1.1d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			alpha: 120
+			height: 7.0d
+			image: "industrialforegoing:block/fluid_crafter_top"
+			order: -1
+			rotation: 15.0d
+			width: 7.0d
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			alpha: 120
+			height: 6.0d
+			image: "industrialforegoing:block/fluid_crafter_top"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			alpha: 120
+			height: 8.0d
+			image: "industrialforegoing:block/fluid_crafter_top"
+			order: -1
+			rotation: -45.0d
+			width: 8.0d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 5.0d
+			image: "revelations:textures/gui/industrial_foregoing_title.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependency: "411D8DCD4A5B76B5"
+			height: 5.0d
+			image: "revelations:textures/gui/industrial_foregoing_title_advanced.png"
+			order: 2
+			rotation: 0.0d
+			width: 12.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependency: "65356B479CEADD05"
+			height: 5.0d
+			image: "revelations:textures/gui/industrial_foregoing_title_finished.png"
+			order: 3
+			rotation: 0.0d
+			width: 12.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 500.0d
+			image: "revelations:textures/gui/backgrounds/colors/blue.png"
+			order: -10
+			rotation: 0.0d
+			width: 500.0d
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"All machinery from Industrial Foregoing will require you to create frames in order to craft them."
+				""
+				"This one is the first of four different tiers of &amachine frames&r, which you will use for basic contraptions. Make sure to get plenty of them!"
+			]
+			icon_scale: 0.75d
+			id: "223E33CD74F5DA6D"
+			rewards: [{
+				id: "1999D818636DD640"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Ohh... machines... this looks interesting."
+			tasks: [{
+				id: "5D69E31B32477DFE"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "&aGetting started&r"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["223E33CD74F5DA6D"]
+			description: [
+				"Now that you can build basic machines, let's begin by using a &aFluid Extractor&r to retrieve &elatex&r from trees. Just place any &blog&r in front of the machine and it will start consuming it to get the fluid out."
+				""
+				"The extraction will be a lot faster if you can supply energy to the machine."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "1DEA734F0798C10E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FA06A4FC51FD012"
+					table_id: 6099455167914394981L
+					type: "random"
+				}
+				{
+					id: "56B3AA8CA78154F4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Bet you didn't know this comes from trees, huh?"
+			tasks: [
+				{
+					id: "3F0B3F603518A0E3"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+				{
+					icon: "minecraft:oak_log"
+					id: "36C673853E206E07"
+					observe_type: 1
+					timer: 0L
+					to_observe: "minecraft:logs"
+					type: "observation"
+				}
+			]
+			title: "Latex"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["223E33CD74F5DA6D"]
+			description: ["Machines require Forge Energy (FE) in order to work. You may find better alternatives with different mods in this modpack, but for now a basic Generator like this one will do."]
+			hide_until_deps_visible: true
+			id: "0E66A22B64E0EAC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1680CF72BEB3D3A1"
+				table_id: 7622151563563520068L
+				type: "random"
+			}]
+			subtitle: "Why is this not moving?"
+			tasks: [{
+				id: "6799BBCA0833F729"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			title: "Energy!"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1DEA734F0798C10E"
+				"0E66A22B64E0EAC7"
+			]
+			description: [
+				"The next step will be to send the obtained &blatex&r into the &aProcessing Unit&r in order to create &edry rubber&r."
+				""
+				"Unlike the previous one, this machine will not start working until an &benergy source&r is provided."
+			]
+			id: "329C5E37748E57AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "223881456AAFDF47"
+				table_id: 5656974405785949538L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "You will need a lot of this."
+			tasks: [{
+				id: "474EE85F658CF3CA"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			title: "Rubber"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["329C5E37748E57AC"]
+			description: [
+				"Smelting &brubber&r in any furnace will result in &eplastic&r, which is a key component in this mod."
+				""
+				"Before advancing, make sure to get a good amount of it."
+			]
+			id: "2D592B99E368F12C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "549C14E9F69C3008"
+					table_id: 2972118517222002424L
+					type: "random"
+				}
+				{
+					id: "1B66F3981D0531AA"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "No pollution involved (probably)"
+			tasks: [{
+				count: 32L
+				id: "3D61F652BB5506C9"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			title: "Plastic"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D592B99E368F12C"]
+			description: ["The &aDissolution Chamber&r is a very important machine in this mod, which uses combinations of &bitems, fluids and energy&r to create stuff."]
+			id: "2310E5B605D51D1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75128FB59310AB9B"
+				table_id: 4214044880896280542L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Not your usual way of crafting."
+			tasks: [{
+				id: "3FCE084199961F3D"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2310E5B605D51D1B"]
+			description: [
+				"Now that you know the basics about &bmachines, fluids and power&r, it's time to make an upgrade."
+				""
+				"&eSimple machine frames&r can be used for more advanced tools and gadgets. Get ready!"
+			]
+			icon_scale: 0.75d
+			id: "79CB48D88FD66DD8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FFDB74C77469DE6"
+					table_id: 3826760090156739310L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CBCD379255A19A8"
+					table_id: 8390996531130722050L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "Unlocking a new tier of machinery."
+			tasks: [{
+				id: "517E2AC04874E1E7"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			title: "&bGear second!&r"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79CB48D88FD66DD8"]
+			description: [
+				"This one is the first step towards some &eadvanced resource gathering tools&r."
+				""
+				"You may need to unlock &abetter machinery&r to find where should you be pointing this laser."
+			]
+			id: "00AE3C5F20364BEA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "312FF28CBD243E31"
+					table_id: 6274276854012935638L
+					type: "random"
+				}
+				{
+					id: "508B98C88E394973"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "LAZORS!!"
+			tasks: [{
+				count: 4L
+				id: "07EAB3F97BB7B6BE"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			title: "Drilling"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2310E5B605D51D1B"]
+			description: ["&aAddons&r can be used to improve some machines, making them work &efaster&r and &ebetter&r. They can also increase the effective &erange&r of detection for other machines."]
+			id: "13EA585E77D37004"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A914E95CADCE963"
+					table_id: 4214044880896280542L
+					type: "random"
+				}
+				{
+					id: "3C554CED92947BA7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Let's make this move faster!"
+			tasks: [
+				{
+					id: "5713F55400D7D699"
+					item: {
+						Count: 1
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26E899C526FF0E16"
+					item: {
+						Count: 1
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "324FC860992D161E"
+					item: {
+						Count: 1
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Upgrades"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D41BBA275CBC3E1"]
+			description: [
+				"&bAdvanced Machine Frames&r will be required for a &enew tier&r of machinery. "
+				""
+				"Now we are stepping into &alate game&r tools, so get ready and make sure to have a ton of &bresources&r and &benergy&r available."
+			]
+			icon_scale: 0.75d
+			id: "411D8DCD4A5B76B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BFD2AA3590DB012"
+				table_id: 823180621238669431L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "We are getting into more complex stuff now."
+			tasks: [{
+				id: "26994F0CCF45255C"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			title: "&dGear third!&r"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79CB48D88FD66DD8"]
+			description: [
+				"You can use a &aMob Slaughter Factory&r to produce &enew materials&r by placing &bany mob&r within its range."
+				""
+				"It's best used with passive mobs, but be careful not to wipe your entire stock!"
+			]
+			id: "3471FF2CCA7FF8E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ADB569F33D9F82F"
+				table_id: 7158610489364629555L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Oh god, they dissapeared."
+			tasks: [{
+				id: "6B0846634CCD265D"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			title: "Mob processing!"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3471FF2CCA7FF8E5"]
+			description: [
+				"Once you get your &bMob Slaughter Factory&r working, you will start producing &ePink Slime&r."
+				""
+				"This fluid is required to advance into the &anext tier&r of machinery. Pick some of this material using a &bbucket&r to complete this task."
+			]
+			icon: "industrialforegoing:pink_slime_bucket"
+			id: "7D41BBA275CBC3E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C771DC24C65BEF8"
+					table_id: 4214044880896280542L
+					type: "random"
+				}
+				{
+					id: "65421A04148B6FF2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "gear"
+			subtitle: "Sticky situation we got here."
+			tasks: [{
+				id: "023A05D117268944"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
+			title: "Pink Slime"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2D592B99E368F12C"]
+			description: [
+				"You probably have animals in a fence by now."
+				""
+				"Animals can produce &bSewage&r when in range of a &aSewer&r, and this can be used in a &aComposter&r in order to produce &eFertilizer&r, which mimics the effects of bone meal."
+			]
+			icon: "industrialforegoing:fertilizer"
+			id: "5D841760B20B984D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19C95F4AA2CF25A9"
+					table_id: 8308400991118214263L
+					type: "random"
+				}
+				{
+					id: "255D73C1AA431E4A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Ew..."
+			tasks: [
+				{
+					id: "7B0B207994EB0028"
+					item: "industrialforegoing:sewer"
+					type: "item"
+				}
+				{
+					id: "30290664277389ED"
+					item: "industrialforegoing:sewage_composter"
+					type: "item"
+				}
+			]
+			title: "Fertilizer production"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5D841760B20B984D"
+				"79CB48D88FD66DD8"
+			]
+			description: [
+				"&aHydroponic Beds&r are a great way to enhance your farming, as it can &espeed up&r the growth of crops placed above it, as long as &bwater&r and &benergy&r is supplied."
+				""
+				"&oThese can get even better with certain material that you will unlock later.&r"
+			]
+			id: "4F3C7F253B1A3B26"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02ADEB996AE283DE"
+					table_id: 278643888591955168L
+					type: "random"
+				}
+				{
+					id: "5F21F25609813B95"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "Crops enhanced!"
+			tasks: [{
+				id: "564E0DDF1A273D3A"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			title: "Efficient Farming"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3471FF2CCA7FF8E5"]
+			description: [
+				"&eLiquid meat&r is the main product of your &bMob Slaughter Factory&r."
+				""
+				"This fluid has some interesting uses, and can also be consumed as food with a &acertain tool&r."
+				""
+				"Pick some liquid meat with a &bbucket&r to complete this quest."
+			]
+			icon: "industrialforegoing:meat_bucket"
+			id: "1641B4C4CBCCF180"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7739CF7BEE5EEE03"
+				table_id: 4214044880896280542L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Food? Maybe."
+			tasks: [{
+				id: "2D5F62F1BE0CD586"
+				item: "industrialforegoing:meat_bucket"
+				type: "item"
+			}]
+			title: "Liquid Meat"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1641B4C4CBCCF180"]
+			description: [
+				"This setup of machines will allow you to &amultiply&r the yield of raw ore materials."
+				""
+				"- First you will supply your &aWashing Factory&r with a &braw ore&r and&b liquid meat&r, to produce &eraw ore meat&r."
+				""
+				"- This must be sent into a &aFermentation station&r in order to be &efermented&r. This will take some time, but that can be cut with the use of &aaddons&r."
+				""
+				"- Once your &bfermented ore&r is ready, you can mix it with &bsand&r in a &aFluid Sieving Machine&r to produce &eore dust&r, which can be smelted the same way as raw ore."
+			]
+			id: "04BF96BD7F9B842C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "035C748CD4D76CB9"
+					table_id: 6122649026388511065L
+					type: "random"
+				}
+				{
+					id: "1A7686E59C62CE9B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			subtitle: "Multiplying ores? It's a miracle!"
+			tasks: [
+				{
+					id: "149A17A9E503CC5D"
+					item: "industrialforegoing:washing_factory"
+					type: "item"
+				}
+				{
+					id: "3DFDD4717351918C"
+					item: "industrialforegoing:fermentation_station"
+					type: "item"
+				}
+				{
+					id: "65476CAD7CC0B88E"
+					item: "industrialforegoing:fluid_sieving_machine"
+					type: "item"
+				}
+			]
+			title: "Optimizing ore production"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"411D8DCD4A5B76B5"
+				"00AE3C5F20364BEA"
+			]
+			description: [
+				"Pointing your &bLaser Drills&r at this machine will make it slowly generate &eores&r depending on how it is configured."
+				""
+				"Using a &bColored Lens&r will modify your chances of getting some ores instead of others."
+			]
+			id: "443688D0EF55AF9C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DDC3C055A89CE21"
+					table_id: 947170654226490758L
+					type: "random"
+				}
+				{
+					id: "0330C9E9339FB669"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.0d
+			subtitle: "No more strip mining for you."
+			tasks: [{
+				id: "3011539F208CAA0F"
+				item: "industrialforegoing:ore_laser_base"
+				type: "item"
+			}]
+			title: "Automatic Ores"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["223E33CD74F5DA6D"]
+			description: [
+				"Transporters are a great way to move items or fluids over short distances."
+				""
+				"Other mods may offer different alternatives, but it's always useful to know how to work with them just in case."
+			]
+			id: "272D0F09810DDC4C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "266CD14A9EEAA925"
+				table_id: 5656974405785949538L
+				type: "random"
+			}]
+			subtitle: "I need this somewhere else."
+			tasks: [
+				{
+					count: 2L
+					id: "7B9B0B4B8429415D"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4E01DDDFCAD7CE9B"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+			]
+			title: "Material management"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["411D8DCD4A5B76B5"]
+			description: [
+				"The &aMob Crusher&r is similar to the Mob Slaughter Factory, with the difference of it giving the &emob's drops&r as output."
+				""
+				"It will also award you with &eEssence&r, which is the equivalent of &aexperience&r. This can be used later for &eenchantments&r, or sent to a &aDissolution Chamber&r to deliver as &eBottles of Enchanting&r.  "
+				""
+				"You can also adjust your Mob Crusher for it not to give essence, which will result in a better yield of drops."
+			]
+			id: "07C4CE3E87D2766A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F04B363FA842FAC"
+					table_id: 6122649026388511065L
+					type: "random"
+				}
+				{
+					id: "2B79A50F62C5E945"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Want to see a magic trick?"
+			tasks: [{
+				id: "4CB468D9163E10FC"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			title: "Advanced Mob Farming"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07C4CE3E87D2766A"]
+			description: [
+				"&bEssence&r obtained from the &aMob Crusher&r can be used by an &aEnchantment Factory&r in order to &eenchant&r your items."
+				""
+				"If you don't like how your enchants turn out, you can always extract them into a &ebook&r by using the &aEnchantment Extractor&r, or directly convert them back into &eEssence&r."
+				""
+				"Finally, the &aEnchantment Applicator&r can be used to &eapply&r enchantments from a &bbook&r using &bEssence&r. It also works as an anvil."
+			]
+			id: "30754AD971FE81FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "775295A06AF195E9"
+				table_id: 6490254544786875224L
+				type: "random"
+			}]
+			subtitle: "You are a wizard now!"
+			tasks: [
+				{
+					id: "0E5ECB92CE45B45C"
+					item: "industrialforegoing:enchantment_factory"
+					type: "item"
+				}
+				{
+					id: "20BACC514F920875"
+					item: "industrialforegoing:enchantment_extractor"
+					type: "item"
+				}
+				{
+					id: "0175639CEE607C51"
+					item: "industrialforegoing:enchantment_applicator"
+					type: "item"
+				}
+			]
+			title: "Efficient Enchantment"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["411D8DCD4A5B76B5"]
+			description: ["When supplied with &benergy&r, this machine will &efreeze any entity&r in its range, which might not seem a lot until you look at the next quest..."]
+			id: "6235A39AA9FF87F9"
+			rewards: [
+				{
+					id: "35753DDB292121FB"
+					item: "industrialforegoing:pink_slime"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1882588657EBC555"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Freeze!"
+			tasks: [{
+				id: "2E64CFBF3DF41FAB"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6235A39AA9FF87F9"]
+			description: [
+				"It is said that this gas can be obtained from one of the &bscariest mobs from the Nether&r, but it must &bstand still&r in order to be extracted."
+				""
+				"How will you do this? Fill a &bbucket&r with ether gas to complete this quest."
+			]
+			icon: "industrialforegoing:ether_gas_bucket"
+			id: "40E68ADFDAA48A6A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "692E3714932511CD"
+					table_id: 7622151563563520068L
+					type: "random"
+				}
+				{
+					id: "1AD5FBAD495D22AC"
+					item: {
+						Count: 1
+						id: "immersive_armors:divine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Spooky..."
+			tasks: [{
+				id: "09C877A8DF51CB4B"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			title: "Ether Gas"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40E68ADFDAA48A6A"]
+			description: [
+				"Congratulations!"
+				""
+				"Now that you have obtained &bether gas&r, you can access &eSupreme Machine Frames&r, which unlock the strongest machines in this mod."
+			]
+			icon_scale: 0.75d
+			id: "724B35F0A907851E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15AE3CF2D4E1180B"
+					table_id: 1512529279714846995L
+					type: "random"
+				}
+				{
+					id: "260BCADFA2691431"
+					item: {
+						Count: 1
+						id: "immersive_armors:divine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "289ECFF528F9E886"
+					table_id: 8390996531130722050L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "End game tier machines now at your disposal!"
+			tasks: [{
+				id: "68A52731F66523E1"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			title: "&eGear fourth!&r"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E8908248EE001FA"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Infinity tools can be upgraded by charging them up with &benergy&r, and will use this energy up whenever you do stuff with them. There's a way to prevent them from using energy, but that's on you to find out!"
+				""
+				"This station will &estore energy&r and give it to any infinity tool placed on it. Be careful though, as this machine will absorb energy very quickly!"
+			]
+			id: "1B6AD745BD5B843B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36EEA8FB8F4CDFD7"
+				table_id: 7622151563563520068L
+				type: "random"
+			}]
+			subtitle: "Where's my energy? Oh."
+			tasks: [{
+				id: "30466923551A6E07"
+				item: "industrialforegoing:infinity_charger"
+				type: "item"
+			}]
+			title: "Charging up"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D41BBA275CBC3E1"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Now you can start crafting some really nice &etools&r using a big amount of &bPink Slime&r."
+				""
+				"Make sure to check the Industrial Foregoing manual to find out more about them!"
+			]
+			id: "3E8908248EE001FA"
+			progression_mode: "linear"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "305BE9E669F14918"
+				table_id: 7158610489364629555L
+				type: "random"
+			}]
+			subtitle: "Bringing out the big guns."
+			tasks: [{
+				id: "2540D5C4789DC2B0"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Infinity Tools"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["724B35F0A907851E"]
+			description: [
+				"This &amachine&r allows you to build &eWithers&r without a player's input."
+				""
+				"It's area of effect has a free space block in between so that you can place a&a safe spot&r that can withstand the Wither's explosion. Make sure to look for a &ablast resistant&r material for it."
+				""
+				"&7&oIf you are using this in a claimed chunk, make sure that \"Allow fake players\" is turned on, otherwise it might not work.&r&r"
+			]
+			id: "4916C06F7715F493"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EC73CF5E4AF1B11"
+					table_id: 1743965373651830138L
+					type: "random"
+				}
+				{
+					id: "30F1F433466020A2"
+					item: {
+						Count: 1
+						id: "immersive_armors:divine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Boss? Never heard of it."
+			tasks: [{
+				id: "19147D040C97DC81"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			title: "Wither Farming"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["724B35F0A907851E"]
+			description: [
+				"The &aMycelial Reactor&r can produce a colossal amount of &eenergy&r, but will only start working if all other &b16 Mycelial Generators&r are &bactive&r and &bclose enough&r."
+				""
+				"Obtaining and making the Generators work will be the ultimate test for this section, as it will require almost every other machine from this mod."
+			]
+			id: "65356B479CEADD05"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "033C327D4DCC4044"
+					table_id: 278643888591955168L
+					type: "random"
+				}
+				{
+					id: "2D46FF1C2354C5D9"
+					item: {
+						Count: 1
+						id: "immersive_armors:divine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "All the energy is mine now"
+			tasks: [{
+				id: "4490B79485ACC329"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
+			title: "Full power!"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40E68ADFDAA48A6A"]
+			description: ["&bEther Gas&r can be used to create a powerful tool, that allows you to &edestroy&r big areas in seconds."]
+			id: "434891713050FF07"
+			optional: true
+			rewards: [
+				{
+					id: "1CDC51CD000F73E0"
+					item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "6A6F512AEB23FACC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Chunk be gone!"
+			tasks: [{
+				id: "3818AC9328A96D7E"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Nukes!!"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1641B4C4CBCCF180"]
+			description: [
+				"Now you have access to &aMechanical Dirt&r."
+				""
+				"This special block, when supplied with &benergy&r and &bliquid meat&r, acts as a natural spawn for &ehostile mobs&r under the right conditions. It might be useful for &amob farms&r."
+			]
+			id: "573CA6CEC7835F8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6536E7800ED82F70"
+				table_id: 7202778996188257829L
+				type: "random"
+			}]
+			subtitle: "They just keep coming!"
+			tasks: [{
+				count: 9L
+				id: "37E58FE06F15EDBD"
+				item: "industrialforegoing:mechanical_dirt"
+				type: "item"
+			}]
+			title: "Efficient Spawning"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["79CB48D88FD66DD8"]
+			description: [
+				"If this machine is placed above a big enough source of &bwater&r, it will start &efishing&r automatically."
+				""
+				"Have in mind this one will consume a big amount of &benergy&r."
+			]
+			id: "262B4DF170A4A4AA"
+			rewards: [{
+				id: "5645ABA2FF972FC6"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			subtitle: "Fishing rods are a thing of the past."
+			tasks: [{
+				id: "198659A67CEA35B6"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			title: "Automatic Fishing"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Automate everything!"]
+	title: "&3Industrial Foregoing"
+}

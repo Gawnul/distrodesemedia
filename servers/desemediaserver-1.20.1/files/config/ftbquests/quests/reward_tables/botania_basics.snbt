@@ -1,0 +1,17 @@
+{
+	id: "48AD9CC3BE98F621"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ count: 8, item: "minecraft:oak_log" }
+		{ count: 5, item: "minecraft:copper_ingot" }
+		{ count: 4, item: "botania:livingwood_log" }
+		{ count: 4, item: "minecraft:stone" }
+		{ count: 3, item: "minecraft:iron_ingot" }
+		{ count: 2, item: "botania:livingrock" }
+		{ item: "botania:fertilizer" }
+		{ item: "botania:manasteel_ingot" }
+		{ item: "botania:livingwood_twig" }
+	]
+	title: "Botania Basics"
+}

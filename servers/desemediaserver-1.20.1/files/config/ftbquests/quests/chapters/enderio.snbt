@@ -1,0 +1,1611 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "enderio"
+	group: "54552C0A7E9456F7"
+	icon: "enderio:frank_n_zombie"
+	id: "3C072C0F15D72BD7"
+	images: [
+		{
+			alpha: 120
+			height: 10.0d
+			image: "enderio:item/stone_gear"
+			rotation: 0.0d
+			width: 10.0d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			alpha: 120
+			height: 7.0d
+			image: "enderio:item/wood_gear"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			alpha: 120
+			height: 6.0d
+			image: "enderio:item/energized_gear"
+			rotation: 0.0d
+			width: 6.0d
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "revelations:textures/gui/enderio/enderio_title.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependency: "77D4CB061D1132CC"
+			height: 3.0d
+			image: "revelations:textures/gui/enderio/enderio_title_finished.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			alpha: 0
+			click: "https://bsky.app/profile/mastatokki.bsky.social"
+			height: 4.0d
+			hover: [
+				"Quest line by MastaTokki"
+				"and Leonniclass"
+			]
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: 2
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 500.0d
+			image: "revelations:textures/gui/backgrounds/colors/blue_turquoise.png"
+			order: -10
+			rotation: 0.0d
+			width: 500.0d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&dEnderIO&r is a technology-focused mod that enhances &apower generation&r, &6automation&r, and &bresource processing&r. "
+				""
+				"It provides compact and flexible solutions for managing items, fluids, energy, and redstone."
+				"{@pagebreak}"
+				"Key elements include &eAlloy Smelters&r and &eSAG Mills&r for material processing, &dConduits&r for efficient transport, and &eCapacitors&r to boost machines."
+				""
+				"It also features &dteleportation and dimensional travel&r for advanced mobility."
+				"{@pagebreak}"
+				"Master these systems to build a fully automated and efficient tech network!"
+			]
+			icon: "enderio:frank_n_zombie"
+			id: "1860748C142654C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57FF955D868FBA7B"
+				table_id: 228129654905484368L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Tech, Transportation and Autmation"
+			tasks: [{
+				id: "740674FB2687C7E3"
+				title: "EnderIO"
+				type: "checkmark"
+			}]
+			title: "&bEnderIO"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1860748C142654C8"]
+			description: [
+				"The &dPrimitive Alloy Smelter&r allows you to combine metals into &ealloys&r using &bcombustible fuel&r. It functions similarly to a furnace but is designed specifically for alloy production."
+				"{@pagebreak}"
+				"While not the fastest, it is an essential tool for creating &bstronger materials&r needed for more &eadvanced machinery&r."
+			]
+			id: "26B6B7527DBE8F51"
+			rewards: [
+				{
+					count: 4
+					id: "43ECA9AA8C528844"
+					item: "minecraft:charcoal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "45F2E7D5005C1706"
+					item: "enderio:stone_gear"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "It Begins..."
+			tasks: [{
+				id: "191608EDFFBC872B"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26B6B7527DBE8F51"]
+			description: [
+				"Use your new &bAlloy Smelter&r to create your very first &eAlloys&r."
+				""
+				"If possible, focus especially in &eDark Steel&r as it will be required for a lot of machinery later on!"
+			]
+			id: "44DEBD1D9A5168DC"
+			rewards: [
+				{
+					id: "0A575C881A3FDF92"
+					item: "enderio:double_layer_capacitor"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7CAA2D1AA4BD9217"
+					item: "enderio:grains_of_infinity"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Now we can get started!"
+			tasks: [
+				{
+					count: 4L
+					id: "5255D60977498335"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4D306B2F18163ADB"
+					item: "enderio:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "532E049F61010FF6"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "&dBasic Alloys"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44DEBD1D9A5168DC"]
+			description: ["Once you get the basics, you can start looking at more &eadvanced alloys&r that will require you to obtain resources from the &bNether&r, or by killing &bendermen&r."]
+			id: "2BE1F1F364E8F15C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19ED0A4807A76F53"
+				table_id: 278643888591955168L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Better machines!"
+			tasks: [
+				{
+					count: 4L
+					id: "4E623C049969B595"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3F1D6A1D93153587"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "624AB1BE88831758"
+					item: "enderio:vibrant_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5A3193EF42F9B450"
+					item: "enderio:pulsating_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "&dAdvanced Alloys"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["75AD72FC4F81F13F"]
+			description: [
+				"The &eStirling Generator&r is your first power source in &dEnderIO&r. It runs on &bcombustible fuel&r like coal to generate &aForge Energy&r (FE)."
+				""
+				"Connect it to machines like the &eAlloy Smelter&r to power your automation."
+				""
+				"Upgrade it later for improved efficiency and output!"
+			]
+			id: "7E147B3AF403B30E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "187167081E262E78"
+				table_id: 7622151563563520068L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Forge Energy"
+			tasks: [{
+				id: "3B6A964B019ECC62"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			title: "Generating Power"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75AD72FC4F81F13F"]
+			description: [
+				"The &dAlloy Smelter&r combines metals and materials to create alloys essential for advanced crafting."
+				""
+				"It runs on &aForge Energy&r (FE) and can smelt multiple items at once."
+				""
+				"Make sure to set the proper smelting mode for your recipes."
+			]
+			id: "496EC3753286D05D"
+			rewards: [
+				{
+					count: 18
+					id: "7EDF1B80CA32C999"
+					item: "enderio:powdered_ender_pearl"
+					type: "item"
+				}
+				{
+					id: "010D04235F32FB3E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			subtitle: "Upgrades!"
+			tasks: [{
+				id: "1BD3B9D28DE05640"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			title: "Powered Alloy Smelter"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75AD72FC4F81F13F"]
+			description: [
+				"The &dSemi-Autogenous Grinding Mill&r (SAG Mill) is a powerful machine that grinds &bOres&r, &bIngots&r, and other materials into &ePowder&r or &ebonus outputs&r."
+				""
+				"It runs on &aForge Energy&r (FE) and can be upgraded for better efficiency."
+				"{@pagebreak}"
+				"You can create different types of &eGrinding Balls&r to increase the efficiency of this machine, making it yield more items or use &aless energy&r."
+			]
+			id: "52186B8B6A5B9479"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "534A395F85C61341"
+				table_id: 6339194822942860506L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Down to a fine powder"
+			tasks: [{
+				id: "78B8065FBA3429FE"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44DEBD1D9A5168DC"]
+			description: ["Using &bGrains of Infinity&r and &bIron&r can make the &eVoid Chassis&r that will be required for powered machines."]
+			id: "75AD72FC4F81F13F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34861E4582A15087"
+					table_id: 228129654905484368L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6AF7994EC40EFC90"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Empty so far"
+			tasks: [{
+				id: "31491901BC42F5D9"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44DEBD1D9A5168DC"]
+			description: [
+				"Create &dConduits&r to transfer items, liquids, and energy between machines for better automation control."
+				""
+				"A key advantage of &dEnderIO&r's Conduits is their ability to overlap in the same block, saving space and improving organization."
+				"{@pagebreak}"
+				"Gather &bClay, Gravel, and Sand&r to craft &eComposite&r, then smelt it into &eBinder&r to start making Conduits!"
+			]
+			id: "1418C5E4346D5527"
+			rewards: [
+				{
+					count: 3
+					id: "21F3B13948237057"
+					item: "enderio:conductive_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A206B103571B767"
+					item: "enderio:pulsating_alloy_nugget"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "265BE1609B4C2F88"
+					item: "enderio:clear_glass"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Sticky situation"
+			tasks: [{
+				count: 16L
+				id: "05C267449C85DFE7"
+				item: "enderio:conduit_binder"
+				type: "item"
+			}]
+			title: "Conduits!"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AC21531ED608A74"]
+			description: [
+				"&bCopper Alloy Ingots&r are used to craft a &dDrain&r, which picks up liquids from &awater&r source blocks and transfers them to machines that need it."
+				""
+				"Keep an &ninfinite water source&r underneath to ensure continuous operation."
+			]
+			id: "6288B85471ECBA78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A228095E63844EE"
+				table_id: 6274276854012935638L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Water supply!"
+			tasks: [{
+				id: "612B0566CCE6F7FC"
+				item: "enderio:drain"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["576CD59FB316D3E4"]
+			description: [
+				"The &dCapacitor Bank&r stores and distributes &aForge Energy&r (FE), acting as a buffer between &bpower sources&r and &emachines&r. It allows you to store excess energy and release it when needed."
+				"{@pagebreak}"
+				"Multiple banks can be connected to increase storage capacity, making it a scalable solution for power management and automation."
+			]
+			id: "741951ABB0E42814"
+			rewards: [
+				{
+					count: 16
+					id: "3FC11DDC4AE24817"
+					item: "enderio:energy_conduit"
+					type: "item"
+				}
+				{
+					id: "0686066E5A1752C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			subtitle: "Energy supply!"
+			tasks: [{
+				id: "547E00439231A2B8"
+				item: "enderio:basic_capacitor_bank"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2BE1F1F364E8F15C"]
+			description: ["&bEnergetic Alloy Ingots&r can be used as a material to create this&e giant torch&r that will block any hostile mob from spawning in a large area."]
+			id: "26F9145608F19529"
+			rewards: [{
+				id: "15732B8FF6F5EDDA"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "goodbye danger"
+			tasks: [{
+				id: "05462853A0EEF558"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BE1F1F364E8F15C"]
+			description: [
+				"&bEnergetic Alloy&r and &bSoularium Ingots&r are used to craft the &dExperience Rod&r, which allows you to store or retrieve &aexperience&r from blocks that can hold it.  "
+				""
+				"It is especially useful for the &dSoul Binder&r, which requires both experience and forge energy to function."
+			]
+			id: "27AB5CE378BC18F3"
+			rewards: [{
+				count: 7
+				id: "5599C78CEDA45357"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1B50F8FBC5B32CA3"
+				item: "enderio:experience_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27AB5CE378BC18F3"]
+			description: [
+				"&bExperience Rod&r can be used to craft an &dXP Vacuum&r, which &apicks up all experience orbs&r in a cube-shaped area around itself.  "
+				""
+				"Stored &aexperience&r can be retrieved by using an &bExperience Rod&r on the XP Vacuum."
+			]
+			icon: "enderio:xp_vacuum"
+			id: "42AE3C7834297D98"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2591278FDA2EB563"
+					table_id: 6688230644084422802L
+					type: "random"
+				}
+				{
+					id: "306907D801EC4010"
+					item: "enderio:experience_rod"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Orbs denied, mine now"
+			tasks: [{
+				id: "5C0F11E83DE5B7C8"
+				item: "enderio:xp_vacuum"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4D90E2231DD52221"]
+			description: [
+				"Once you get your hands on a &bZ-Logic controller&r, you can create the &dSoul Binder&r."
+				""
+				"This machine's most important task is to infuse &aSoul Vials&r into &aBroken Spawners&r to change the mob they have stored within."
+				"{@pagebreak}"
+				"Another very fun use of soul binders is creating&e Tokens&r, that can be combined with either &bclear glass&r or &bfused quartz&r, making said blocks &anon-solid&r to the target written in the token (players, mobs or animals)"
+			]
+			icon: "enderio:soul_binder"
+			id: "6E74479609F31F85"
+			rewards: [{
+				count: 2
+				id: "7D155BB08C70B664"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Spooky"
+			tasks: [{
+				id: "5F055CE02A79F96D"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			title: "Binding Souls"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3BB53CEAF450BC7A"]
+			description: [
+				"&dSlice'N'Spice&r is a machine used to craft &eadvanced mob heads&r and other components for automation.  "
+				""
+				"Powered by &aForge Energy&r, it requires &bShears&r and &bAxes&r as tools to process ingredients efficiently."
+				"{@pagebreak}"
+				"As of now, they yet don't have lots of different uses except for the &dZ-logic controller&r."
+			]
+			id: "4D90E2231DD52221"
+			rewards: [
+				{
+					id: "2E1D5D48D5613BCC"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B52B3866859E9B3"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Handyman at its best"
+			tasks: [{
+				id: "7EC1F52B091F1DF7"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6E74479609F31F85"]
+			description: [
+				"&dEnderIO&r modifies vanilla spawners, allowing them to drop &bBroken Spawners&r when broken, without requiring Silk Touch.  "
+				"{@pagebreak}"
+				"These can be used to craft a &dPowered Spawner&r, which consumes &aForge Energy&r (FE) to spawn entities based on the stored spawner type."
+				"The attached &bCapacitor&r affects both its energy capacity and spawn speed."
+			]
+			id: "77D4CB061D1132CC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "555F63541B0B4E5B"
+					table_id: 6339194822942860506L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "0E45CF46E35B9968"
+					item: "enderio:energized_gear"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Ore Creeper farming?"
+			tasks: [{
+				id: "42DB985C3300E77E"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Controlling the Spawner"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27AB5CE378BC18F3"]
+			description: [
+				"&bExperience Rod&r can be combined with &bSoularium&r to create a &dXP Obelisk&r, which serves as an &aexperience storage&r. It allows you to deposit your levels to prevent losing them on death.  "
+				""
+				"You can retrieve stored experience at any time without needing an &bExperience Rod&r to interact with it."
+			]
+			id: "48C2D524DA69B634"
+			rewards: [
+				{
+					count: 8
+					id: "566530E0C862A869"
+					item: "enderio:soul_chain"
+					type: "item"
+				}
+				{
+					id: "3F7408FE6ED610FC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			subtitle: "Green number storage"
+			tasks: [{
+				id: "591230F30DA11367"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BE1F1F364E8F15C"]
+			description: [
+				"&dElectromagnet&r pulls nearby items toward the player, making it useful for resource collection.  "
+				""
+				"It requires &aForge Energy&r to function and activates when held or worn in a baubles slot."
+			]
+			icon: {
+				Count: 1
+				id: "enderio:electromagnet"
+				tag: {
+					Energy: {
+						EnergyStored: 0
+						MaxEnergyStored: 100000
+						MaxEnergyUse: 100000
+					}
+				}
+			}
+			id: "415ACA3982235C25"
+			rewards: [
+				{
+					count: 3
+					id: "10C2438A91F60BB9"
+					item: "enderio:void_chassis"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01C019BC5190F361"
+					item: "enderio:end_steel_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "moving stuff around"
+			tasks: [{
+				id: "1C5527BE2D2C6918"
+				item: {
+					Count: 1
+					id: "enderio:electromagnet"
+					tag: {
+						Energy: {
+							EnergyStored: 0
+							MaxEnergyStored: 100000
+							MaxEnergyUse: 100000
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Energy Gadgets"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BE1F1F364E8F15C"]
+			description: ["The &dWeather Crystal&r is used to craft the &eInfinity Range Booster&r for your Refined Storage ME system."]
+			id: "26773BD4D3A2CC70"
+			rewards: [
+				{
+					count: 2
+					id: "06EE3F81CA8EF44E"
+					item: "refinedstorage:range_upgrade"
+					type: "item"
+				}
+				{
+					id: "6CC72E99EC7D31C5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.0d
+			subtitle: "Shimmers strangely"
+			tasks: [{
+				id: "630BAD933E74533D"
+				item: "enderio:weather_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1418C5E4346D5527"]
+			description: [
+				"The &dEnergy Conduit&r transfers &aForge Energy&r (FE) between &emachines&r and &bpower sources&r."
+				"It provides a compact and efficient way to manage energy distribution."
+			]
+			id: "576CD59FB316D3E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "669A835B434D68B1"
+				table_id: 5656974405785949538L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				count: 8L
+				id: "6BDC43276FCC8BBC"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			title: "Energy Conduits"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1418C5E4346D5527"]
+			description: [
+				"&eFluid Conduits&r are made with &bClear Glass&r, which is the result of further smelting&b Glass&r in the Alloy Smelter."
+				""
+				"They transport liquids between machines and tanks."
+				"{@pagebreak}"
+				"Upgrade it for &efaster transfer rates&r and &ebetter control&r over fluid movement!"
+			]
+			id: "4AC21531ED608A74"
+			rewards: [
+				{
+					count: 12
+					id: "06694B51D3116CB6"
+					item: "enderio:fused_quartz"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0651D3125E63B3EF"
+					item: "enderio:grains_of_infinity"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				count: 8L
+				id: "6498B4C65CCD3A82"
+				item: "enderio:fluid_conduit"
+				type: "item"
+			}]
+			title: "Fluid Conduits"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1418C5E4346D5527"]
+			description: ["&dItem Conduits&r transfer &bitems&r between &binventories&r with precise filtering and speed control.  "]
+			id: "25BFF4AB99376383"
+			rewards: [
+				{
+					count: 3
+					id: "7E8E02C6E374F1D3"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "09943B788F8897C1"
+					item: "enderio:powdered_ender_pearl"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0647046B3A4B29DD"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			title: "Item Conduits"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25BFF4AB99376383"]
+			description: [
+				"There's a possibility that while exploring the world, or creating mob farms, you end up with a lot of items you don't need."
+				""
+				"If that's the case, you can always use a &eTrash Can&r to dispose of any &bitems&r you don't need."
+				"{@pagebreak}"
+				"There are also other versions of this block that allow to dispose of fluids, or energy, or all at once."
+			]
+			id: "6F139D4FC4AF2FBB"
+			optional: true
+			rewards: [
+				{
+					id: "32AC93C25FB15379"
+					item: "trashcans:energy_trash_can"
+					type: "item"
+				}
+				{
+					id: "5733F42D0BBE8704"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			subtitle: "Uh... garbage supply?"
+			tasks: [{
+				id: "0C6A4B6AEBE30EEC"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			title: "Trash Cans"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77D4CB061D1132CC"]
+			description: [
+				"A common mistake is using the &cwrong Soul Vial&r when binding a &eBroken Spawner&r."
+				""
+				"This quest will allow you to &nretrieve the items&r used to create the spawner so that you can try again."
+			]
+			icon: "enderio:frank_n_zombie"
+			id: "0989047F760D4202"
+			optional: true
+			rewards: [
+				{
+					id: "518534F1959C26A1"
+					item: "enderio:z_logic_controller"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "57751757191BBAB3"
+					item: "enderio:vibrant_crystal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "15A16246724B7F6A"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+				{
+					id: "189A3E498C4FA234"
+					item: "enderio:ensouled_chassis"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Second chance"
+			tasks: [{
+				consume_items: true
+				id: "6585A5B3A1BF30EC"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				title: "Submit a Powered Spawner"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "It was the wrong one!"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["741951ABB0E42814"]
+			id: "136B8C700BD7161C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "543A76305A649C8B"
+					table_id: 1581580464324821373L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "1008CA3F1A8287A4"
+					item: "enderio:pulsating_alloy_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "668AE0C5B0866742"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["136B8C700BD7161C"]
+			id: "3A46F0E893DBA403"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EBF02E44E906952"
+				table_id: 6274276854012935638L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "11BAF16234A18706"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AC21531ED608A74"]
+			id: "7E4B13C61726C185"
+			rewards: [
+				{
+					count: 12
+					id: "11AA1E76CED23799"
+					item: "enderio:fluid_conduit"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "178BDFA7D368EC9D"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3D292C1CC0731829"
+				item: "enderio:pressurized_fluid_conduit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E4B13C61726C185"]
+			id: "00C065F36D201317"
+			rewards: [
+				{
+					count: 12
+					id: "3DBE811ACDB0F2C2"
+					item: "enderio:pressurized_fluid_conduit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6276859E29CC9D71"
+					table_id: 6274276854012935638L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4EFC1D97BF81AA9E"
+				item: "enderio:ender_fluid_conduit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1418C5E4346D5527"]
+			description: [
+				"&dRedstone Conduit&r transmits redstone signals between &bmachines&r and &bblocks&r, offering precise automation control.  "
+				""
+				"Multiple signals can overlap &ein the same block&r, allowing for compact and efficient circuit management."
+				""
+				"Configure channels for advanced redstone logic."
+			]
+			id: "4C7CBD85F6577820"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C7A240CECF7BE91"
+				table_id: 7202778996188257829L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FA09FB2D0F061FF"
+				item: "enderio:redstone_conduit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E74479609F31F85"]
+			description: [
+				"&dStaff of Traveling&r is a teleportation tool that allows instant movement between &bTravel Anchors&r and &bEnhanced Obelisks&r.  "
+				""
+				"Powered by &aForge Energy&r, it also enables short-distance teleportation by right-clicking in the air while sneaking."
+			]
+			id: "008E4D4C91B09276"
+			rewards: [
+				{
+					count: 19
+					id: "39891A69FDFE1813"
+					item: "enderio:powdered_ender_pearl"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0A519FD8D604AE25"
+					item: "endercrop:ender_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A926666B1DAF856"
+				item: {
+					Count: 1
+					id: "enderio:staff_of_travelling"
+					tag: {
+						Energy: {
+							EnergyStored: 0
+							MaxEnergyStored: 100000
+							MaxEnergyUse: 100000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["44DEBD1D9A5168DC"]
+			description: [
+				"&dReinforced Obsidian&r is an extremely hard block, making it one of the strongest defensive materials."
+				""
+				"Craft it using &bObsidian&r and &bDark Steel&r to create a secure &eWither-proof structure&r, perfect for mob farms or containment chambers."
+			]
+			id: "17BE85E4390E3ADF"
+			subtitle: "Wither proof!"
+			tasks: [{
+				id: "7CFA015A115F2D01"
+				item: "enderio:reinforced_obsidian_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["17BE85E4390E3ADF"]
+			description: [
+				"The &dDark Steel Ladder&r is a faster and sturdier alternative to regular ladders."
+				""
+				"Craft it using &bDark Steel Ingots&r."
+			]
+			icon_scale: 0.8d
+			id: "7D26C4D7D00A70DE"
+			size: 1.0d
+			tasks: [{
+				id: "1F81B21ABB684CBF"
+				item: "enderio:dark_steel_ladder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44DEBD1D9A5168DC"]
+			description: [
+				"The &dYeta Wrench&r is a versatile tool used to configure and adjust &dEnderIO&r machines and conduits. It allows you to rotate, disconnect, and filter connections with ease."
+				""
+				"Craft it using &bIron Ingots&r and &bEnergetic Alloy&r to create an &eessential automation tool&r!"
+			]
+			id: "6A48A1D81365B806"
+			rewards: [
+				{
+					count: 2
+					id: "7D3637FDC6BD4FD2"
+					item: "enderio:conduit_binder"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "69E262236B7FBE4F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "31AA2E705E3116B8"
+				item: "enderio:yeta_wrench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52186B8B6A5B9479"]
+			description: [
+				"The &dPhotovoltaic Composite&r is a key material for crafting solar-based energy solutions."
+				""
+				"It is used to create &ePhotovoltaic Plates&r for modules which generate &aForge Energy&r (FE) from sunlight."
+			]
+			icon: "enderio:photovoltaic_composite"
+			id: "11172AC72364C1B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "486D7A73D1EF47C2"
+				table_id: 6339194822942860506L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "709396A158A7F81A"
+					item: "enderio:powdered_lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1FE559C695B78D3F"
+					item: "enderio:powdered_coal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2AE3BC48A0EC5A73"
+					item: "enderio:photovoltaic_composite"
+					type: "item"
+				}
+			]
+			title: "First Composite"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"496EC3753286D05D"
+				"11172AC72364C1B2"
+			]
+			description: ["&dPhotovoltaic Plates&r are crafted from &bPhotovoltaic Composite&r and serve as a key component in building &ePhotovoltaic Modules&r."]
+			id: "0793E50DD8637A88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D72D46E6C19E4C7"
+				table_id: 8390996531130722050L
+				type: "random"
+			}]
+			tasks: [{
+				count: 3L
+				id: "54F87D135A38FAF6"
+				item: "enderio:photovoltaic_plate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0793E50DD8637A88"]
+			description: [
+				"&dPhotovoltaic Modules&r convert sunlight into &aForge Energy&r (FE), providing a passive and renewable power source."
+				""
+				"They generate power during daylight hours and must have a &cclear line of sight&r to the sky."
+			]
+			id: "5602CF8DA37D8AFC"
+			rewards: [
+				{
+					id: "2059F2CACCB7F897"
+					item: "enderio:double_layer_capacitor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "133A9DEFC77C7C5D"
+					item: "enderio:void_chassis"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A0342EE95206BF5"
+				item: "enderio:energetic_photovoltaic_module"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5602CF8DA37D8AFC"]
+			id: "407377BF863BC42A"
+			rewards: [
+				{
+					count: 5
+					id: "154BE4BC93F23B24"
+					item: "enderio:photovoltaic_plate"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "339C74E7BF621547"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C6D02779E5563DE"
+				item: "enderio:pulsating_photovoltaic_module"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["407377BF863BC42A"]
+			id: "56E105645FEADDB7"
+			rewards: [
+				{
+					count: 7
+					id: "2BD7205A8DC74F5E"
+					item: "enderio:vibrant_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "10996C52D7C420D8"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3915742C0A0B5087"
+				item: "enderio:vibrant_photovoltaic_module"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1860748C142654C8"]
+			description: [
+				"To begin with &dEnderIO&r, you need &eGrains of Infinity&r, which can be obtained in two ways:"
+				"{@pagebreak}"
+				"&lMethod 1&r"
+				"Shift-right-click Obsidian or a Grindstone while holding &bFlint&r in your off-hand and &bDeepslate&r in your main hand."
+				"{@pagebreak}"
+				"&lMethod 2&r"
+				"Smelt &bMagma Blocks&r in a Furnace to produce &eGrains of Infinity&r."
+			]
+			id: "4902A65C556CE35D"
+			rewards: [
+				{
+					count: 3
+					id: "7BA0EDE6448AFBD7"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					id: "5FE4F7E53814E20F"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			subtitle: "The Soul of EnderIO"
+			tasks: [{
+				id: "5D2462969A5F6F49"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1860748C142654C8"]
+			description: [
+				"The &dBasic Capacitor&r is essential for crafting machines and is also required for those that run on &aForge Energy&r (FE)."
+				""
+				"It increases energy capacity and efficiency, if upgraded into more &epowerful variants&r."
+				"{@pagebreak}"
+				"&dLoot Capacitors&r can be found in chests around the world and offer various stats and bonuses when placed in machines, making them valuable for optimizing performance."
+			]
+			id: "351C25A2DD0B54BA"
+			rewards: [{
+				count: 2
+				id: "23B249C9BEDB0865"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			subtitle: "Advanced Components"
+			tasks: [{
+				id: "27C14EA167DED507"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["351C25A2DD0B54BA"]
+			id: "13D6F25F17991FE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63D2F0750E3CE2B4"
+				table_id: 8390996531130722050L
+				type: "random"
+			}]
+			subtitle: "More layers, more efficiency"
+			tasks: [{
+				id: "72C243E03B8A95E6"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13D6F25F17991FE5"]
+			id: "4977EE7AAF78907F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F01A8B80B9B6472"
+				table_id: 7158610489364629555L
+				type: "random"
+			}]
+			subtitle: "Thats enough Layers!"
+			tasks: [{
+				id: "23261F8D06C19EFF"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26B6B7527DBE8F51"]
+			description: [
+				"&dSilicon&r is a refined material obtained by smelting &bQuartz&r in a furnace or &dAlloy Smelter&r."
+				"{@pagebreak}"
+				"It is a key component for advanced circuits and machine crafting, making it also essential for technology progression."
+			]
+			id: "46CCF6C4C60CC709"
+			rewards: [
+				{
+					count: 3
+					id: "62E8F49291FBFD78"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					id: "3BE808F26F9A262C"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Uses RS Silicon"
+			tasks: [{
+				id: "3B7175858020BB5F"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E147B3AF403B30E"]
+			description: ["The &dWired Charger&r is used to recharge tools and items that run on &aForge Energy&r (FE). Simply place the item inside, and it will restore its power over time."]
+			id: "2FC0FEB60F57044A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A95CB3E7589A893"
+				table_id: 5656974405785949538L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24F7210066129C53"
+				item: "enderio:wired_charger"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BE1F1F364E8F15C"]
+			description: [
+				"&dEnsouled Chassis&r is a high-tier machine frame used for crafting advanced technology.  "
+				""
+				"Made with &bSoularium&r and &bQuartz&r, it is essential for constructing more &epowerful machines&r with unique capabilities."
+			]
+			id: "3BB53CEAF450BC7A"
+			rewards: [
+				{
+					count: 12
+					id: "6435DBAFDBB67964"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB0FE4E68DB8788"
+					table_id: 8390996531130722050L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "37D2A7E58214C43E"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6010C0EC3BADEAD9"
+				"1418C5E4346D5527"
+			]
+			hide_until_deps_complete: true
+			id: "484F688241279F2E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03298AEED6E88191"
+				table_id: 823180621238669431L
+				type: "random"
+			}]
+			tasks: [{
+				id: "278124B8FA380ECA"
+				item: "enderio:refined_storage_conduit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44DEBD1D9A5168DC"]
+			id: "7D4A3FCDB911711A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A99F4EDD56DAADF"
+					table_id: 228129654905484368L
+					type: "random"
+				}
+				{
+					id: "356D772FA8894091"
+					item: "minecraft:gunpowder"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Grants you the chance to get mob heads"
+			tasks: [{
+				id: "30A479FDF53BD62D"
+				item: {
+					Count: 1
+					id: "enderio:dark_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E74479609F31F85"]
+			description: [
+				"&dSoul Vial&r is used to capture and store the souls of living creatures."
+				""
+				"Right-click on a mob to trap it inside, then release it wherever needed."
+			]
+			id: "282F720B59C10653"
+			rewards: [{
+				id: "68E03B08C234A829"
+				item: "enderio:enderios"
+				type: "item"
+			}]
+			subtitle: "Does it work on the Warden?"
+			tasks: [{
+				id: "49FB4A1374B64D4A"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2BE1F1F364E8F15C"]
+			description: [
+				"&dVacuum Chest&r automatically attracts nearby items, making it useful for automation and item collection."
+				""
+				"It has a configurable range and can be upgraded with filters to control which items it picks up."
+			]
+			id: "517377E1BDFADA0E"
+			rewards: [
+				{
+					id: "3EAE9DDA7A12D041"
+					item: "enderio:pulsating_crystal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A9377452B76BFF6"
+					table_id: 228129654905484368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7834D8C08035C807"
+				item: "enderio:vacuum_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44DEBD1D9A5168DC"]
+			description: [
+				"&dEnchanter&r allows you to create &ecustom enchantments&r using &bexperience&r and &bspecific materials&r.  "
+				""
+				"It provides more control over enchantments compared to traditional methods."
+			]
+			id: "4EB45F62D4352CFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B247F37168D6897"
+					table_id: 8274636759623401688L
+					type: "random"
+				}
+				{
+					id: "796F629F91EDA320"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Controlled Magic"
+			tasks: [{
+				id: "6AF1D6FCEF302317"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26B6B7527DBE8F51"]
+			description: [
+				"&dFused Quartz&r is a durable glass made by smelting &bNether Quartz&r in an &dAlloy Smelter&r.  "
+				""
+				"It is highly blast-resistant and is used in crafting &eReinforced Glass&r, &eQuite Clear Glass&r, and other advanced components."
+			]
+			id: "3297358481F3228B"
+			subtitle: "Blast resistant glass!"
+			tasks: [{
+				id: "23DDEFD842651B10"
+				item: "enderio:fused_quartz"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Connecting all tech through conduits!"]
+	title: "&3EnderIO"
+}

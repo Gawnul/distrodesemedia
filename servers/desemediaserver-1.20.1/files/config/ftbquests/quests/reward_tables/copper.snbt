@@ -1,0 +1,13 @@
+{
+	id: "4E819C4008591562"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{ item: "minecraft:copper_block" }
+		{ count: 2, item: "minecraft:copper_ingot" }
+		{ count: 5, item: "minecraft:raw_copper" }
+		{ item: "minecraft:raw_copper_block" }
+		{ count: 3, item: "enderio:powdered_copper" }
+	]
+	title: "Copper"
+}

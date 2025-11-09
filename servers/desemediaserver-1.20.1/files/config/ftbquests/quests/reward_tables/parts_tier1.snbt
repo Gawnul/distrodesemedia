@@ -1,0 +1,251 @@
+{
+	id: "15F2E70D7FC7417D"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:bow_grip"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tool_handle"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:bow_limb"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:bow_grip"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:hammer_head"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tough_handle"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:tough_binding"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:broad_blade"
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:adze_head"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:broad_axe_head"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:adze_head"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+		}
+	]
+	title: "Parts Tier 1"
+}

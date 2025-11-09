@@ -1,0 +1,13 @@
+{
+	id: "63587E4FE7F6C833"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:diamond_block" }
+		{ count: 3, item: "industrialforegoing:diamond_gear" }
+		{ item: "mekanism:enriched_diamond" }
+		{ count: 2, item: "mekanism:dust_diamond" }
+	]
+	title: "Diamond"
+}

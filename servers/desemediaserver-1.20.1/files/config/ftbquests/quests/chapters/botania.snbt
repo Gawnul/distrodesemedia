@@ -1,0 +1,3191 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "botania"
+	group: "54552C0A7E9456F7"
+	icon: "botania:magenta_mushroom"
+	id: "6627B7C11F72E1A9"
+	images: [
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -9.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -18.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -19.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -20.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -20.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -19.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -18.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 90.0d
+			width: 1.15d
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "ecologics:block/azalea_log"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			height: 1.15d
+			image: "beyondmines:block/flowering_azalea_leaves/6"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -18.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -19.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -18.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/flowering_azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -19.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -17.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: -15.0d
+		}
+		{
+			height: 4.0d
+			image: "revelations:textures/gui/botania_title.png"
+			rotation: 0.0d
+			width: 13.2d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependency: "537665D9CFBFDD13"
+			height: 4.0d
+			image: "revelations:textures/gui/botania_title_finished.png"
+			order: 1
+			rotation: 0.0d
+			width: 13.2d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			alpha: 0
+			click: "https://bsky.app/profile/mastatokki.bsky.social"
+			height: 4.0d
+			hover: ["Quest line by MastaTokki"]
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: 2
+			rotation: 0.0d
+			width: 13.0d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: -2.0d
+			y: -20.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: -5.0d
+			y: -18.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 180.0d
+			width: 1.15d
+			x: -3.0d
+			y: -20.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/azalea_leaves"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: -19.0d
+		}
+		{
+			height: 500.0d
+			image: "revelations:textures/gui/backgrounds/colors/green_olive.png"
+			order: -10
+			rotation: 0.0d
+			width: 500.0d
+			x: -1.0d
+			y: -7.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In order to begin with this mod, you will have to &bexplore the world&r, but there's no need for you to mine this time."
+				""
+				"Just travel through the surface, and you will find different types of &eflowers&r, that can be used for a lot of different stuff."
+				"{@pagebreak}"
+				"The &eLexica Botania&r you will obtain as a reward for this quest is a &avery important item&r, as you can discover everything Botania has to offer by reading it."
+				""
+				"There are certain tricks you won't learn in this quest line, so make sure to give it a look!"
+			]
+			icon_scale: 0.75d
+			id: "0699BD8B2805380B"
+			rewards: [{
+				id: "6793DBEF3122C034"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The forest is calling!"
+			tasks: [{
+				count: 8L
+				id: "4C275EEED1D63099"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any mystical flower"
+				type: "item"
+			}]
+			title: "Mystical flowers"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0699BD8B2805380B"]
+			description: [
+				"The very first thing you should prepare once you get some flowers is mash them into &bpetals&r and use one to create a &ePetal Apothecary&r."
+				""
+				"You will come back to this place a lot as it's required to create &aall other flowers&r from this mod."
+			]
+			id: "645CC2E62B3EFE17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C478C998FC487E1"
+				table_id: 8274636759623401688L
+				type: "random"
+			}]
+			subtitle: "Let's mash some petals"
+			tasks: [{
+				id: "041FF79C688FB5F0"
+				item: "botania:apothecary_default"
+				title: "Get a Petal Apothecary"
+				type: "item"
+			}]
+			title: "Botanic apprentice"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["645CC2E62B3EFE17"]
+			description: [
+				"Using your new &bPetal Apothecary&r, get some &bwhite petals&r to create the &ePure Daisy&r."
+				""
+				"This is one of the most basic and important flowers as it will allow you to get &anew materials&r used in a lot of places."
+			]
+			id: "02A675103B2C6FD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D7EF1DC2853B6EC"
+				table_id: 8087575863108958990L
+				type: "random"
+			}]
+			subtitle: "Life can be anywhere"
+			tasks: [{
+				id: "32C6A4B82FA1C92B"
+				item: "botania:pure_daisy"
+				title: "Create a Pure Daisy"
+				type: "item"
+			}]
+			title: "A pure white daisy"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0699BD8B2805380B"]
+			description: [
+				"Since there are a lot of different &bmystical flowers&r (both normal and tall), you may want to consider creating a &eflower pouch&r."
+				""
+				"This can &astore&r up to one stack of every type of flower, and later you can shift right-click a chest or other type of storage to dump everything inside."
+			]
+			id: "40AA419014A64FE6"
+			rewards: [{
+				id: "47BCB9E2F06BEE39"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			subtitle: "There are just too many plants"
+			tasks: [{
+				id: "3C572CE3F8C2F0E9"
+				item: "botania:flower_bag"
+				title: "Get a Flower Pouch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02A675103B2C6FD8"]
+			description: [
+				"&eLivingwood&r and &eLivingrock&r are materials that can be obtained just by placing&b Logs&r and &bStone&r, respectively, right near a &bPure Daisy&r."
+				""
+				"The process takes a little bit of time, so trying to &aautomate&r this through other mods might be an interesting idea."
+			]
+			id: "1C3B6A2EB2A248B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02291898FA000D6E"
+				table_id: 5237014306232006177L
+				type: "random"
+			}]
+			subtitle: "They won't move, don't worry"
+			tasks: [
+				{
+					count: 4L
+					id: "5730072B3C6DFF9A"
+					item: "botania:livingrock"
+					title: "Livingrock"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "214AD4E5B808E92C"
+					item: "botania:livingwood_log"
+					title: "Livingwood Logs"
+					type: "item"
+				}
+			]
+			title: "Living materials"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1C3B6A2EB2A248B3"]
+			description: [
+				"This tool will be the most important in your advancement through Botania, as it is required to &ainteract&r with almost all blocks from here."
+				""
+				"Make sure to always have it with you!"
+			]
+			icon_scale: 0.75d
+			id: "5D833107B1020FF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "329BDA115B7AC207"
+				table_id: 6688230644084422802L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "Tell me where to go"
+			tasks: [{
+				id: "71CE53E62F032C0C"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				title: "Get a Wand of the Forest"
+				type: "item"
+			}]
+			title: "The wand of the forest"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1C3B6A2EB2A248B3"
+				"221EED235F175120"
+			]
+			description: [
+				"Once you start generating mana with your flowers, you will require a way to move mana from them."
+				""
+				"The &eMana Spreader&r fills that purpose, &aredirecting mana&r created from flowers to a different point in the form of &emana bursts&r. Make sure to hold a &aWand of the Forest&r in order to select the target for this block."
+				""
+				"It might also be useful to read the Lexica Botania to find out about &aLens&r, which can modify the properties of mana bursts."
+			]
+			id: "5E0F6C77A5BBA303"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B46692167DF843A"
+				table_id: 6099455167914394981L
+				type: "random"
+			}]
+			subtitle: "Pew pew!"
+			tasks: [{
+				id: "5899AD543786FF8C"
+				item: "botania:mana_spreader"
+				title: "Get a Mana Spreader"
+				type: "item"
+			}]
+			title: "Shooting Mana"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5E0F6C77A5BBA303"]
+			description: [
+				"Using your &bWand of the Forest&r to direct a &bMana Spreader&r into a &eMana Pool&r will begin to &astore mana&r from your generating flowers into the pool."
+				""
+				"It's main use is to &ainfuse mana&r into certain materials in order to transform them, but it can also &astore mana&r that can later be requested by other blocks from this mod."
+			]
+			id: "42F720972B154E15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "385A007A8441D728"
+				table_id: 4270002818263563440L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Please don't wash your hands in this"
+			tasks: [{
+				id: "0A61871A72D054AE"
+				item: "botania:mana_pool"
+				title: "Get a Mana Pool"
+				type: "item"
+			}]
+			title: "Storing Mana"
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["645CC2E62B3EFE17"]
+			description: [
+				"To keep advancing in this mod, you will need to learn how to use &9mana&r."
+				""
+				"This is not the same as Forge Energy, it's a natural source of power used by living things and therefore, &acannot be quantified&r the same way FE does."
+				""
+				"In Botania, you can create &aspecial flowers&r of two different types: &bgenerating flowers&r that create mana, and &efunctional flowers&r that use mana to do other things. "
+				""
+				"Start by creating a &bHydroangea&r to create &emana&r from &bwater&r, and an &bEndoflame&r to create &emana&r from &bburning fuel&r. The second one is easier to use as it doesn't wither over time."
+			]
+			id: "221EED235F175120"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "134BE17E5B4B57BA"
+				table_id: 2424038534264527851L
+				type: "random"
+			}]
+			subtitle: "Energy from the flowers"
+			tasks: [
+				{
+					id: "5866142038E652B2"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+				{
+					id: "2263E8BD67ECE3D5"
+					item: "botania:endoflame"
+					type: "item"
+				}
+			]
+			title: "Generating Mana"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["42F720972B154E15"]
+			description: [
+				"The next big step in Botania is to create a &eRunic Altar&r with &bLivingrock&r and either a &bMana Diamond&r or a &bMana Pearl&r."
+				""
+				"The altar is used to craft &eRunes&r from different &bmaterials, petals, and mana&r (you will need a Mana Spreader pointing at this thing to work)."
+			]
+			icon_scale: 0.75d
+			id: "090D9118F165252E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AAA800C9EA69DCD"
+				table_id: 8274636759623401688L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "Funny drawings in that rock"
+			tasks: [{
+				id: "6A32BA9CF42B53CD"
+				item: "botania:runic_altar"
+				title: "Get a Runic Altar"
+				type: "item"
+			}]
+			title: "Rune crafting"
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["42F720972B154E15"]
+			description: [
+				"Mana pools are not the only way to store mana. "
+				""
+				"If you throw a &bMana tablet&r into it, it will &astore mana&r inside. This can be used later for some tools that require mana to work."
+			]
+			id: "3E4520ED25AC4004"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "316565DDED0A229A"
+				table_id: 6688230644084422802L
+				type: "random"
+			}]
+			subtitle: "Can't download games here"
+			tasks: [{
+				id: "3BC1F5A1E66FA4F0"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "Carrying some Mana around"
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["42F720972B154E15"]
+			description: ["Dropping &bIron Ingots&r into a &bMana Pool&r that has mana stored, will convert them into &eManasteel Ingots&r, which are a base component for a lot of equipment."]
+			id: "0E115EC745DCD217"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DD6060573828A44"
+				table_id: 2424038534264527851L
+				type: "random"
+			}]
+			subtitle: "You are blue now, nye he he"
+			tasks: [{
+				count: 4L
+				id: "2CA59AB080D51DD5"
+				item: "botania:manasteel_ingot"
+				title: "Get some Manasteel Ingots"
+				type: "item"
+			}]
+			title: "Manasteel"
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0E115EC745DCD217"]
+			description: [
+				"&bManasteel Ingots&r allow you to create the &eAssembly Halo&r, which is for starters a &aportable crafting table&r. But that's not its only use, it can also &astore recipes&r to allow quick access to them."
+				""
+				"If you want to go even further, you can upgrade this into a &eManufactory Halo&r, which will &aautomatically craft&r any recipe you have stored as soon as the available items are in your inventory."
+			]
+			id: "4EFB9333061A1A26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2431F88F114E2B12"
+				table_id: 7158610489364629555L
+				type: "random"
+			}]
+			subtitle: "Fancy shortcuts, huh?"
+			tasks: [{
+				id: "77DDF5CBBE5FCB5C"
+				item: "botania:crafting_halo"
+				title: "Get an Assembly Halo"
+				type: "item"
+			}]
+			title: "Portable crafting"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0E115EC745DCD217"]
+			description: ["A great use for &bManasteel Ingots&r is to apply them into &eMana Pylons&r, which are a massive source of power for your Enchanting Table, as you only require two of them to get the same power as &a15 bookshelves&r."]
+			id: "4D4B7F2D72B3AB4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65B0888F5F2822F1"
+				table_id: 6688230644084422802L
+				type: "random"
+			}]
+			subtitle: "Bookshelves? Nah"
+			tasks: [{
+				id: "2864693E5CF46891"
+				item: "botania:mana_pylon"
+				title: "Get a Mana Pylon"
+				type: "item"
+			}]
+			title: "Giving Mana a new form"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3E4520ED25AC4004"]
+			description: ["If you don't want your &bMana Tablet&r to take space in your inventory, you can always use it to craft a &eBand of Mana&r, which serves the same purpose and can be used in your&a ring slot&r."]
+			id: "69D1CD7952E859C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D7E939B78EC3D5C"
+					table_id: 823180621238669431L
+					type: "random"
+				}
+				{
+					id: "17437C0D33E1EF76"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			subtitle: "I don't want this in my inventory!"
+			tasks: [{
+				id: "41481D70C2136244"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			title: "Compressing the Tablet"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["090D9118F165252E"]
+			id: "5E1C27064E3CC18C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "754C62A7E4329964"
+				table_id: 4214044880896280542L
+				type: "random"
+			}]
+			subtitle: "The avatar! Ah, no, my bad."
+			tasks: [
+				{
+					id: "57F3C2160A1600AE"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "0B6F78AFEE8DF324"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "2FF3A9B265FCEDEB"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "279CCE4374473A27"
+					item: "botania:rune_air"
+					type: "item"
+				}
+			]
+			title: "Element Runes"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5E1C27064E3CC18C"]
+			id: "1576B856449560E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79A8A128CDBFA182"
+				table_id: 6688230644084422802L
+				type: "random"
+			}]
+			subtitle: "No battle pass required"
+			tasks: [
+				{
+					id: "17D7FCFC56C9112A"
+					item: "botania:rune_spring"
+					type: "item"
+				}
+				{
+					id: "63AEFA0929FBB351"
+					item: "botania:rune_summer"
+					type: "item"
+				}
+				{
+					id: "690A94A51B8B634F"
+					item: "botania:rune_autumn"
+					type: "item"
+				}
+				{
+					id: "3CCC6E3E9CC6E95A"
+					item: "botania:rune_winter"
+					type: "item"
+				}
+			]
+			title: "Season Runes"
+			x: -1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1576B856449560E3"]
+			id: "5EC7F7F6AE82FBB7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F61E362B104EE97"
+					table_id: 278643888591955168L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "5B23DCCAD80549DB"
+					item: "botania:dreamwood_log"
+					type: "item"
+				}
+			]
+			subtitle: "If you don't watch anime, you missed the reference"
+			tasks: [
+				{
+					id: "7438ED8D4E6EB073"
+					item: "botania:rune_lust"
+					type: "item"
+				}
+				{
+					id: "0F8B14BC6F28CD3A"
+					item: "botania:rune_gluttony"
+					type: "item"
+				}
+				{
+					id: "11776EA5A947CB24"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					id: "6F4C1D4748F2494D"
+					item: "botania:rune_sloth"
+					type: "item"
+				}
+				{
+					id: "0CDA0F8206D13354"
+					item: "botania:rune_wrath"
+					type: "item"
+				}
+				{
+					id: "6D44539A45B1A547"
+					item: "botania:rune_envy"
+					type: "item"
+				}
+				{
+					id: "2C0DFEC17FC16BE6"
+					item: "botania:rune_pride"
+					type: "item"
+				}
+			]
+			title: "Sin Runes"
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"5E1C27064E3CC18C"
+				"0E115EC745DCD217"
+			]
+			description: [
+				"&bManasteel&r can be further infused with &bmana-based materials&r in order to create&e Terrasteel&r."
+				""
+				"In order to proceed with the &ainfusion&r, you will need to set up a mutliblock structure that uses a &bTerrestrial Agglomeration Plate&r and send &bmana&r to it. The details on how to prepare the multiblock can be found in the &aLexica Botania&r."
+			]
+			id: "32ACC794134351AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7793140D72C9461C"
+					table_id: 7158610489364629555L
+					type: "random"
+				}
+				{
+					id: "0D62F152D4F570FC"
+					item: "botania:dreamwood_log"
+					type: "item"
+				}
+			]
+			subtitle: "The planet gives me strength."
+			tasks: [{
+				id: "69E986ADB07BE45A"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "Terrasteel"
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"3E4520ED25AC4004"
+				"5E1C27064E3CC18C"
+			]
+			description: [
+				"&bRunes&r can be used to create &emagic rods&r that can do a lot of crazy things!"
+				""
+				"These ones are the most basic rods you can create. Make sure to check the &aLexica Botania&r for more advanced recipes, and always have a &bMana Tablet&r or a &bBand of Mana&r with enough charge to use them."
+			]
+			id: "5A6F9399C4983959"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78FE437C1AB1E6C9"
+				table_id: 2424038534264527851L
+				type: "random"
+			}]
+			subtitle: "You are a wizard!"
+			tasks: [
+				{
+					id: "18C85718C1FCFB56"
+					item: {
+						Count: 1
+						id: "botania:tornado_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5F2A89EC7951CECE"
+					item: "botania:dirt_rod"
+					type: "item"
+				}
+				{
+					id: "4582D89F707C3FF3"
+					item: "botania:water_rod"
+					type: "item"
+				}
+				{
+					id: "4BC642C19CA573CC"
+					item: "botania:fire_rod"
+					type: "item"
+				}
+			]
+			title: "Magic Rods"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"32ACC794134351AF"
+				"1576B856449560E3"
+			]
+			description: [
+				"&bTerrasteel&r allows you to unlock a powerful &eset of armor&r, equivalent to Netherite."
+				""
+				"Equipping the full set will not only make you &ause less mana&r on your tools, but also allow mana tablets in your inventory to &aregenerate mana&r at a slow rate. It also allows you to &aregenerate health&r even if your hunger isn't full."
+				""
+				"To compensate, the durability of this equipment is &cvery low&r compared to actual Netherite."
+			]
+			id: "7194C51B83D3F802"
+			rewards: [
+				{
+					id: "543ACB1415B1A538"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BAF23420E9E66F9"
+					table_id: 2424038534264527851L
+					type: "random"
+				}
+			]
+			subtitle: "Protected by mother Earth"
+			tasks: [
+				{
+					id: "14ECD020E3209A5D"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A0EEEF6F0C4A7FF"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DD619AFF349E6BD"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CEF354407135622"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gearing up"
+			x: 0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"32ACC794134351AF"
+				"4D4B7F2D72B3AB4B"
+			]
+			description: [
+				"&bMana Pylons&r and &bLivingwood&r can be imbued with the power of &bnature&r to give them a &especial effect&r."
+				""
+				"Even though it is said to open a &aportal to a new world&r, it may not be strong enough to let us go through, but &osomething&r could go instead."
+				""
+				"Check the &aLexica Botania&r for more details. "
+				""
+				"&oThrowing the book into the portal may also be a good idea.&r"
+			]
+			icon: "botania:natura_pylon"
+			icon_scale: 0.75d
+			id: "3305A3AFB3F90E31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6816F559D24487A1"
+					table_id: 5237014306232006177L
+					type: "random"
+				}
+				{
+					id: "4C6336B0580D9845"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			subtitle: "Opening to another world... almost."
+			tasks: [
+				{
+					count: 2L
+					id: "25C5D74EA35F89D3"
+					item: "botania:natura_pylon"
+					title: "Get 2 Natura Pylons"
+					type: "item"
+				}
+				{
+					id: "2C8525EE61E06A6C"
+					item: "botania:alfheim_portal"
+					title: "Get an Elven Gateway Core"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2AFDCAD50D3F9422"
+					item: "botania:glimmering_livingwood"
+					title: "Get 3 Glimmering Livingwood"
+					type: "item"
+				}
+			]
+			title: "A portal to Alfheim"
+			x: 4.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["3305A3AFB3F90E31"]
+			id: "21A6A81486DB76A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C80DF94BC9075E6"
+					table_id: 278643888591955168L
+					type: "random"
+				}
+				{
+					id: "1051452B8826D7B9"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Powered up by elven magic"
+			tasks: [
+				{
+					id: "2E5FA396A42B6B35"
+					item: "botania:elementium_ingot"
+					title: "Get an Elementium Ingot"
+					type: "item"
+				}
+				{
+					id: "7B855BE32CF89857"
+					item: "botania:pixie_dust"
+					title: "Get Pixie Dust"
+					type: "item"
+				}
+				{
+					id: "110E2890D5F08ABA"
+					item: "botania:dragonstone"
+					title: "Get a Dragonstone"
+					type: "item"
+				}
+			]
+			title: "Elven Materials"
+			x: 3.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"21A6A81486DB76A4"
+				"7194C51B83D3F802"
+			]
+			description: [
+				"Using your recently discovered &bElven materials&r, you can now further develop your &bMana Pylons&r into &eGaia Pylons&r."
+				""
+				"These are required in order to access the &astrongest tools and objects&r from Botania, but you will be required to defeat a &cBoss&r first..."
+				""
+				"Read the &aLexica Botania&r very carefully, as it will instruct you on how to call the &cGuardian of Gaia&r and defeat it."
+				""
+				"&oDo not try to automate this boss, as it will not yield any drop if you do so.&r"
+			]
+			icon_scale: 0.75d
+			id: "51ACCB187C890FB6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E29D386346475EA"
+					table_id: 6688230644084422802L
+					type: "random"
+				}
+				{
+					id: "50F78774D7895F0C"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Your worst enemy is yourself"
+			tasks: [{
+				count: 4L
+				id: "4D4F224F3722F277"
+				item: "botania:gaia_pylon"
+				title: "Get 4 Gaia Pylons"
+				type: "item"
+			}]
+			title: "Gaia's Challenge"
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["5EC7F7F6AE82FBB7"]
+			description: [
+				"An expert botanist must know how to create and use any type of plant."
+				""
+				"This mission will require you to get at least one specimen of &ball the flowers&r Botania has to offer, both generating and functional ones."
+			]
+			icon: "botania:dandelifeon"
+			icon_scale: 0.75d
+			id: "3971E9F94487C987"
+			rewards: [{
+				id: "1F485D60D54A1363"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "My garden has everything!"
+			tasks: [
+				{
+					id: "4C65568754B90BB1"
+					item: "botania:dandelifeon"
+					type: "item"
+				}
+				{
+					id: "5112422E7CAF4580"
+					item: "botania:entropinnyum"
+					type: "item"
+				}
+				{
+					id: "0BF566BF174F2E4B"
+					item: "botania:gourmaryllis"
+					type: "item"
+				}
+				{
+					id: "5BB45CDD0AC75C23"
+					item: "botania:kekimurus"
+					type: "item"
+				}
+				{
+					id: "0747EE9B62DBD509"
+					item: "botania:munchdew"
+					type: "item"
+				}
+				{
+					id: "45FD4941A5C9ADEB"
+					item: "botania:narslimmus"
+					type: "item"
+				}
+				{
+					id: "0F78EF943BE94161"
+					item: "botania:rafflowsia"
+					type: "item"
+				}
+				{
+					id: "440B9FA4981F79C9"
+					item: "botania:rosa_arcana"
+					type: "item"
+				}
+				{
+					id: "441D7C7D96CCAC44"
+					item: "botania:shulk_me_not"
+					type: "item"
+				}
+				{
+					id: "47FE1E79F61517AE"
+					item: "botania:spectrolus"
+					type: "item"
+				}
+				{
+					id: "71894604C0043FF5"
+					item: "botania:thermalily"
+					type: "item"
+				}
+				{
+					id: "03ED0E828A5D5B80"
+					item: "botania:agricarnation"
+					type: "item"
+				}
+				{
+					id: "77829CE2C2524023"
+					item: "botania:bellethorn"
+					type: "item"
+				}
+				{
+					id: "0485B50424A4EA4B"
+					item: "botania:bergamute"
+					type: "item"
+				}
+				{
+					id: "04152DB15DE9FA52"
+					item: "botania:bubbell"
+					type: "item"
+				}
+				{
+					id: "1B5396BA6FC0A817"
+					item: "botania:clayconia"
+					type: "item"
+				}
+				{
+					id: "05C7B8C6A3A7F51B"
+					item: "botania:daffomill"
+					type: "item"
+				}
+				{
+					id: "300C1E5782913AD9"
+					item: "botania:dreadthorn"
+					type: "item"
+				}
+				{
+					id: "7BFCA09DB62AF198"
+					item: "botania:exoflame"
+					type: "item"
+				}
+				{
+					id: "3B6A86958695BD3F"
+					item: "botania:fallen_kanade"
+					type: "item"
+				}
+				{
+					id: "39BF2A0C7ABE7B16"
+					item: "botania:heisei_dream"
+					type: "item"
+				}
+				{
+					id: "4CF49B52BEEAA949"
+					item: "botania:hopperhock"
+					type: "item"
+				}
+				{
+					id: "44BE8EDAE5C3546A"
+					item: "botania:hyacidus"
+					type: "item"
+				}
+				{
+					id: "4B19AEF7882A86F1"
+					item: "botania:jaded_amaranthus"
+					type: "item"
+				}
+				{
+					id: "5AC7FED954EF5F74"
+					item: "botania:jiyuulia"
+					type: "item"
+				}
+				{
+					id: "70B66643D7CC2997"
+					item: "botania:labellia"
+					type: "item"
+				}
+				{
+					id: "4ED7863D6AE68441"
+					item: "botania:loonium"
+					type: "item"
+				}
+				{
+					id: "5A1D8A73888DF3A1"
+					item: "botania:marimorphosis"
+					type: "item"
+				}
+				{
+					id: "41A217A3568FB14B"
+					item: "botania:medumone"
+					type: "item"
+				}
+				{
+					id: "04BF19EA0EE9F5DA"
+					item: "botania:orechid"
+					type: "item"
+				}
+				{
+					id: "54DE0D18932037A7"
+					item: "botania:orechid_ignem"
+					type: "item"
+				}
+				{
+					id: "0A61616B02DB48B8"
+					item: "botania:pollidisiac"
+					type: "item"
+				}
+				{
+					id: "7334E509254CCEB3"
+					item: "botania:rannuncarpus"
+					type: "item"
+				}
+				{
+					id: "2DF6E478B5840A40"
+					item: "botania:solegnolia"
+					type: "item"
+				}
+				{
+					id: "4DE48C88C2510074"
+					item: "botania:spectranthemum"
+					type: "item"
+				}
+				{
+					id: "24C83036C57BBB46"
+					item: "botania:tangleberrie"
+					type: "item"
+				}
+				{
+					id: "72A0920BF9DFE4C6"
+					item: "botania:tigerseye"
+					type: "item"
+				}
+				{
+					id: "7AF5D60BE119A2BD"
+					item: "botania:vinculotus"
+					type: "item"
+				}
+				{
+					id: "0A154F229F50C291"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "49DAB1DD62423059"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+			]
+			title: "Flower professional"
+			x: -5.25d
+			y: -12.75d
+		}
+		{
+			dependencies: ["51ACCB187C890FB6"]
+			description: [
+				"After defeating the Guardian of Gaia you may have obtained &bGaia Spirits&r. These can be combined with a &bTerrasteel Ingot&r in order to create a &eGaia steel Ingot&r."
+				""
+				"The material you craft here is required to summon an&c even stronger&r version of this boss, which not only yields more Gaia Spirits but also may drop some &ahidden treasure&r..."
+			]
+			icon_scale: 0.75d
+			id: "7B73767EA4B62122"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63A1A2E2FE80910F"
+				table_id: 1512529279714846995L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "This wasn't even my final form"
+			tasks: [{
+				id: "0919A2012277E125"
+				item: "botania:gaia_ingot"
+				title: "Get a Gaia Spirit Ingot"
+				type: "item"
+			}]
+			title: "Gaia's challenge II"
+			x: -1.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"5EC7F7F6AE82FBB7"
+				"69D1CD7952E859C4"
+				"5A6F9399C4983959"
+			]
+			description: [
+				"After taking a good look at the &aLexica Botania&r and going through the advancements, you now have the mission to &bcreate every single trinket&r noted in it."
+				""
+				"&oThose that are materials for other trinkets are excluded. Cosmetics are also excluded for obvious reasons.&r"
+			]
+			icon: "botania:bauble_box"
+			icon_scale: 0.75d
+			id: "01EF71AECD9BD291"
+			rewards: [{
+				id: "778603C5D0AB9901"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "A tool for every job"
+			tasks: [
+				{
+					id: "5773CE22BA845E29"
+					item: "botania:bauble_box"
+					title: "Get the Trinket Case"
+					type: "item"
+				}
+				{
+					id: "527C003ED37DBE07"
+					item: "botania:aura_ring_greater"
+					type: "item"
+				}
+				{
+					id: "41BE29949376112A"
+					item: "botania:mana_ring_greater"
+					type: "item"
+				}
+				{
+					id: "1939DA0CBF7FB732"
+					item: "botania:goddess_charm"
+					type: "item"
+				}
+				{
+					id: "43F8812CF1C18A39"
+					item: "botania:diva_charm"
+					type: "item"
+				}
+				{
+					id: "751F0242096D0732"
+					item: "botania:super_cloud_pendant"
+					type: "item"
+				}
+				{
+					id: "48E88215C7271836"
+					item: "botania:holy_cloak"
+					type: "item"
+				}
+				{
+					id: "17A074787C7B13CC"
+					item: "botania:unholy_cloak"
+					type: "item"
+				}
+				{
+					id: "5D5B90742FC39230"
+					item: "botania:balance_cloak"
+					type: "item"
+				}
+				{
+					id: "379E19B1754D5E46"
+					item: "botania:super_lava_pendant"
+					type: "item"
+				}
+				{
+					id: "34CE168E98F0A160"
+					item: "botania:super_travel_belt"
+					type: "item"
+				}
+				{
+					id: "04668A08935AD912"
+					item: {
+						Count: 1
+						id: "botania:pixie_ring"
+						tag: {
+							baubleUUID: [I;
+								-145953096
+								689260251
+								-1773417336
+								500175344
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72FC3A0C49835957"
+					item: "botania:invisibility_cloak"
+					type: "item"
+				}
+				{
+					id: "60AA211BC2B75B8A"
+					item: "botania:speed_up_belt"
+					type: "item"
+				}
+				{
+					id: "73D8ACDC195E9493"
+					item: "botania:water_ring"
+					type: "item"
+				}
+				{
+					id: "69D054C645FAA900"
+					item: "botania:swap_ring"
+					type: "item"
+				}
+				{
+					id: "19899784B47B9EC3"
+					item: "botania:dodge_ring"
+					type: "item"
+				}
+				{
+					id: "282003A5347DBB14"
+					item: {
+						Count: 1
+						id: "botania:reach_ring"
+						tag: {
+							baubleUUID: [I;
+								2083236255
+								-461943049
+								-1640387492
+								1277489135
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7457FC09E08F26E6"
+					item: "botania:magnet_ring_greater"
+					type: "item"
+				}
+				{
+					id: "3F2A37DA03C244FD"
+					item: "botania:mining_ring"
+					type: "item"
+				}
+				{
+					id: "54C3EE98491BD52B"
+					item: "botania:ice_pendant"
+					type: "item"
+				}
+				{
+					id: "7F33739733E77F34"
+					item: "botania:blood_pendant"
+					type: "item"
+				}
+				{
+					id: "2528E915AAB31D4D"
+					item: {
+						Count: 1
+						id: "botania:knockback_belt"
+						tag: {
+							baubleUUID: [I;
+								1277216098
+								-1693105774
+								-1746532029
+								-1739979405
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28DCF802469E2E8F"
+					item: "botania:itemfinder"
+					type: "item"
+				}
+				{
+					id: "2F79C2BC74152CBB"
+					item: "botania:third_eye"
+					type: "item"
+				}
+				{
+					id: "67E1165E376D888E"
+					item: "botania:tiny_planet"
+					type: "item"
+				}
+				{
+					id: "197934D120EED9CE"
+					item: "botania:monocle"
+					type: "item"
+				}
+				{
+					id: "5D44450DB0308C9A"
+					item: "botania:cacophonium"
+					title: "(yes this is not a trinket but it's too funny)"
+					type: "item"
+				}
+			]
+			title: "Trinket Expert"
+			x: -5.25d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"5EC7F7F6AE82FBB7"
+				"7B73767EA4B62122"
+			]
+			description: [
+				"Here's where the &cREAL&r challenge begins."
+				""
+				"Now that you know how to defeat the &bGuardian of Gaia&r at its peak, it will be your task to &bretrieve all six Relics of the Aesir&r."
+			]
+			icon_scale: 0.75d
+			id: "2A4A6DE417FAC4DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55827F899BBEB28A"
+				table_id: 6490254544786875224L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "The dice rolls in my favor!"
+			tasks: [
+				{
+					id: "12146DE55A6DBC3F"
+					item: "botania:loki_ring"
+					title: "Obtain the Ring of Loki"
+					type: "item"
+				}
+				{
+					id: "30303E753E009652"
+					item: "botania:thor_ring"
+					match_nbt: false
+					title: "Obtain the Ring of Thor"
+					type: "item"
+				}
+				{
+					id: "3A2BE0B491737EF0"
+					item: {
+						Count: 1
+						id: "botania:odin_ring"
+						tag: {
+							baubleUUID: [I;
+								-654177700
+								-2058662394
+								-2063627215
+								-1938506982
+							]
+						}
+					}
+					title: "Obtain the Ring of Odin"
+					type: "item"
+				}
+				{
+					id: "64B76964F6B4BF11"
+					item: "botania:infinite_fruit"
+					title: "Obtain the Fruit of Grisaia"
+					type: "item"
+				}
+				{
+					id: "64C5B856049AF704"
+					item: "botania:king_key"
+					title: "Obtain the Key of the King's Law"
+					type: "item"
+				}
+				{
+					id: "5E9553D81E30F687"
+					item: "botania:flugel_eye"
+					title: "Obtain the Eye of the Flügel"
+					type: "item"
+				}
+			]
+			title: "Relic scavenger"
+			x: -4.5d
+			y: -15.75d
+		}
+		{
+			dependencies: [
+				"3971E9F94487C987"
+				"2A4A6DE417FAC4DD"
+				"01EF71AECD9BD291"
+			]
+			description: [
+				"Congratulations! You have completed this quest page and now have access to &eunlimited mana&r."
+				""
+				"Enjoy!"
+			]
+			hide_details_until_startable: true
+			icon: "botania:creative_pool"
+			icon_scale: 0.75d
+			id: "537665D9CFBFDD13"
+			rewards: [{
+				id: "57F8924D5273CD6C"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2AB9DF6EAF629C09"
+				title: "Botanic Master"
+				type: "checkmark"
+			}]
+			title: "&a&lBotanic Master&r&r"
+			x: -8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3305A3AFB3F90E31"]
+			description: [
+				"&bElven Magic&r allows you to access the &eLuminizers&r, which can be used as a way of &afast travelling&r between two points."
+				""
+				"These can be modified and even &aautomated&r in different ways."
+			]
+			id: "53400B1A8F58B7BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EA3F68AC88ADC86"
+				table_id: 8274636759623401688L
+				type: "random"
+			}]
+			subtitle: "Flash!"
+			tasks: [{
+				count: 2L
+				id: "2D39A03D290DA5ED"
+				item: "botania:light_relay"
+				title: "Get 2 Luminizers"
+				type: "item"
+			}]
+			title: "Luminous Transport"
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["51ACCB187C890FB6"]
+			description: [
+				"&bGaia Spirits&r can be used to unlock a ton of crazy tools, one of them being the &eFlügel Tiara&r."
+				""
+				"This crown allows to access &acreative flight&r for a short period of time before entering cooldown."
+			]
+			id: "75910C62B7E899AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "321F7D14A9E1664B"
+					table_id: 6122649026388511065L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "5342B5EFB6EBF03D"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Is it a plane?"
+			tasks: [{
+				id: "3F4041409B8900F3"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Free flight"
+			x: -2.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["3305A3AFB3F90E31"]
+			description: [
+				"Infusing &bSparks&r with &bElven power&r and a bit of influence from &bthe End&r will allow you to access the &eCorporea System&r, which acts as a way of &aunifying different storage blocks&r."
+				""
+				"To interact with this system, you will need other blocks related to Corporea Sparks."
+			]
+			id: "422B156F558A588F"
+			rewards: [{
+				id: "0E7895373AB3C9D6"
+				item: "botania:corporea_spark_master"
+				type: "item"
+			}]
+			subtitle: "Remote storage?"
+			tasks: [{
+				count: 4L
+				id: "178C05B4729EB6CF"
+				item: "botania:corporea_spark"
+				title: "Get Corporea Sparks"
+				type: "item"
+			}]
+			title: "The Corporea System"
+			x: 2.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["090D9118F165252E"]
+			description: [
+				"Using several Mana Spreaders to move mana around might be a bit tedious."
+				""
+				"Using &esparks&r you can link different blocks so that they can &arequest mana&r from others. For example you can place a spark above a Runic Altar and another one above a Mana Pool. This will make the first one request mana from the pool when needed."
+			]
+			id: "62ACA4DD9A9FCBD0"
+			subtitle: "This will spark your interest"
+			tasks: [{
+				id: "3567A9AF414B754B"
+				item: "botania:spark"
+				type: "item"
+			}]
+			title: "Distributing Mana"
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4D4B7F2D72B3AB4B"]
+			description: [
+				"&bMana Pylons&r not only are used for enchant power, but also will allow you to create a &emultiblock structure&r that can apply enchantments to your items&a without losing the books&r where those enchantments are stored."
+				""
+				"This of course requires &bmana&r in order to work."
+				""
+				"Check the &aLexica Botania&r in order to find out how to build this structure. The quest will be completed when you look at the resulting &eMana Enchanter&r block."
+			]
+			icon_scale: 0.75d
+			id: "1BFCE77484C61104"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13F02174F20412DE"
+				table_id: 228129654905484368L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "Books are not supposed to dissapear"
+			tasks: [{
+				icon: "botania:enchanter"
+				id: "5E8EDFF690DA2A0B"
+				observe_type: 0
+				timer: 0L
+				title: "Create a Mana Enchanter"
+				to_observe: "botania:enchanter"
+				type: "observation"
+			}]
+			title: "Enchantment with Mana"
+			x: 5.0d
+			y: -10.0d
+		}
+	]
+	subtitle: ["Now 100% natural."]
+	title: "&3Botania&r"
+}

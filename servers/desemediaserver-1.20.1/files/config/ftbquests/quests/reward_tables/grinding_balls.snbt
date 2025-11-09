@@ -1,0 +1,17 @@
+{
+	id: "57F9581ADF8124DA"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ count: 8, item: "enderio:soularium_grinding_ball" }
+		{ count: 8, item: "enderio:conductive_alloy_grinding_ball" }
+		{ count: 8, item: "enderio:pulsating_alloy_grinding_ball" }
+		{ count: 8, item: "enderio:redstone_alloy_grinding_ball" }
+		{ count: 8, item: "enderio:energetic_alloy_grinding_ball" }
+		{ count: 8, item: "enderio:vibrant_alloy_grinding_ball" }
+		{ count: 8, item: "enderio:copper_alloy_grinding_ball" }
+		{ count: 8, item: "enderio:dark_steel_grinding_ball" }
+		{ count: 8, item: "enderio:end_steel_grinding_ball" }
+	]
+	title: "Grinding Balls"
+}

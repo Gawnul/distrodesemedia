@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "629B3D65CB3CA8AF", title: "&aBeginning&r" }
+		{ id: "3A4941EE06F63CCA", title: "&eAdvance" }
+		{ id: "34C01282554945BC", title: "&dDimensions" }
+		{ id: "54552C0A7E9456F7", title: "&bTech&r" }
+	]
+}
